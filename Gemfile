@@ -12,4 +12,5 @@ group :development do
   gem 'rubypants'
   gem 'stringex'
   gem 'liquid'
+  gem 'font-awesome-sass-rails', '~> 3.0.2.2'
 end
