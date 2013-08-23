@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="columns large-3">
+        col 1
+      </div>
+      <div class="columns large-3">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </div>
+      <div class="columns large-3">
+        col 3
+      </div>
+      <div class="columns large-3">
+        col 4
+      </div>
+    </div>
+  </div>
+</footer>
