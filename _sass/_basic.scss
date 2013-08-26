@@ -1,0 +1,5 @@
+@mixin verb($fs:14px) {
+  font-family: 'verb_extraboldregular', sans-serif;
+  font-size: $fs;
+  font-weight: 900;
+}

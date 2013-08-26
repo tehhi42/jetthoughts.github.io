@@ -1,2 +1,9 @@
 $footer-height: 438px;
 @include sticky-footer($footer-height, ".wrapper", ".footer_push", ".footer");
+
+.footer {
+  .logo_wrap {
+    width: 100%;
+    height: $footer-height;
+  }
+}

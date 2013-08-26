@@ -12,10 +12,13 @@
 @import "foundation";
 
 @import "fonts/awesome/scss/font-awesome";
+@import "fonts/verb_extrabold/stylesheet.css";
 
 @import "compass";
 @import "compass/layout.scss";
 
+@import "sprite";
+@import "basic";
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
@@ -63,6 +66,7 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+@import "pages/home";
 @import "layout";
 @import "parts/nav";
 @import "parts/footer";

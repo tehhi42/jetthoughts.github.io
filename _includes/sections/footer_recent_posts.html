@@ -1,0 +1,21 @@
+<section class="recent_posts_section">
+  <header>
+    <h1>Recent posts</h1>
+  </header>
+
+  {% for post in site.posts limit:2 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+
+    <p>
+      {% if post.content contains '<!--more-->' %}
+      {{ post.content | split:'<!--more-->' | first }}
+      {% else %}
+      {{ post.categories }}
+      {% endif %}
+    </p>
+    <span>{{ post.date | date_to_string }}</span>
+  </li>
+  {% endfor %}
+
+</section>

@@ -8,6 +8,14 @@
 
   <link href="css/app.css" media="screen, projector, print" rel="stylesheet" type="text/css"/>
 
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+  <script>
+    document.write('<script src=js/vendor/'
+        + ('__proto__' in {} ? 'zepto' : 'jquery')
+        + '.js><\/script>');
+  </script>
 </head>
 <body>
 

@@ -1,0 +1,7 @@
+$partners-spacing:40px;
+@import "partners/*.png";
+@include all-partners-sprites;
+
+$icons-spacing: 20px;
+@import "icons/*.png";
+@include all-icons-sprites;

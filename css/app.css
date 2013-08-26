@@ -1,3 +1,4 @@
+@import url(fonts/verb_extrabold/stylesheet.css);
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -9512,15 +9513,194 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f18b";
 }
 
+/* line 114, partners/*.png */
+.partners-sprite, .partners-logo_authorize, .partners-logo_braintree, .partners-logo_paypal, .partners-logo_stripe, .partners-logo_visa {
+  background: url('../images/partners-s82682c8feb.png') no-repeat;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_authorize {
+  background-position: 0 -518px;
+}
+/* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_authorize:hover, .partners-logo_authorize.logo_authorize_hover, .partners-logo_authorize.logo_authorize-hover {
+  background-position: 0 -137px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_braintree {
+  background-position: 0 -366px;
+}
+/* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_braintree:hover, .partners-logo_braintree.logo_braintree_hover, .partners-logo_braintree.logo_braintree-hover {
+  background-position: 0 -208px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_paypal {
+  background-position: 0 -446px;
+}
+/* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_paypal:hover, .partners-logo_paypal.logo_paypal_hover, .partners-logo_paypal.logo_paypal-hover {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_stripe {
+  background-position: 0 -589px;
+}
+/* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_stripe:hover, .partners-logo_stripe.logo_stripe_hover, .partners-logo_stripe.logo_stripe-hover {
+  background-position: 0 -288px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_visa {
+  background-position: 0 -667px;
+}
+/* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.partners-logo_visa:hover, .partners-logo_visa.logo_visa_hover, .partners-logo_visa.logo_visa-hover {
+  background-position: 0 -72px;
+}
+
+/* line 162, icons/*.png */
+.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-gears, .icons-head_brain, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-warn, .icons-webapp {
+  background: url('../images/icons-sac0a64d89b.png') no-repeat;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-binder {
+  background-position: 0 -913px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-brain {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-cocktail {
+  background-position: 0 -527px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-gears {
+  background-position: 0 -250px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-head_brain {
+  background-position: 0 -311px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-location {
+  background-position: 0 -807px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mail {
+  background-position: 0 -957px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mic {
+  background-position: 0 -447px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mobile {
+  background-position: 0 -593px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-moneybag {
+  background-position: 0 -377px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-phone {
+  background-position: 0 -842px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-photo {
+  background-position: 0 -673px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-scales {
+  background-position: 0 -98px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tools {
+  background-position: 0 -179px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-warn {
+  background-position: 0 -878px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-webapp {
+  background-position: 0 -727px;
+}
+
 /* line 1, ../_sass/_layout.scss */
 .wrapper {
   background: #f3f3f3;
 }
 
-/* line 1, ../_sass/parts/_nav.scss */
-.logo {
-  color: #fff !important;
+/* line 3, ../_sass/parts/_nav.scss */
+.top_menu_wrap {
+  height: 110px;
+  background: #1b2b38;
+}
+/* line 6, ../_sass/parts/_nav.scss */
+.top_menu_wrap .menu {
+  height: 110px;
+  margin-bottom: 0;
+}
+/* line 10, ../_sass/parts/_nav.scss */
+.top_menu_wrap .menu_item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  height: 110px;
+}
+/* line 13, ../_sass/parts/_nav.scss */
+.top_menu_wrap .menu_item .menu_link {
+  text-transform: uppercase;
+  color: white;
+  height: 110px;
+  line-height: 110px;
   display: block;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+/* line 22, ../_sass/parts/_nav.scss */
+.top_menu_wrap .menu_item .menu_link:hover, .top_menu_wrap .menu_item .menu_link.active {
+  background: #ff8448;
+}
+
+/* line 28, ../_sass/parts/_nav.scss */
+.logo {
+  font-family: 'verb_extraboldregular', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff !important;
+  line-height: 110px;
+  display: block;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  vertical-align: middle;
 }
 
 /* line 10, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -9545,5 +9725,11 @@ html, body {
 .footer {
   clear: both;
   position: relative;
+  height: 438px;
+}
+
+/* line 5, ../_sass/parts/_footer.scss */
+.footer .logo_wrap {
+  width: 100%;
   height: 438px;
 }
