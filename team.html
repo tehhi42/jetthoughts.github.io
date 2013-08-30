@@ -1,16 +1,31 @@
 ---
-layout: default
-title: We are JetThoughts
+layout: inner
+title: Our Team
 menu_title: Our Team
+description: "Donec a velit blandit, aliquet quam et, commodo augue. Donec volutpat ornare suscipit. Sed nec malesuada nibh. Duis dapibus eros quam. Praesent porttitor purus augue, a tristique tortor lobortis id."
 group: "navigation"
 menu_position: 2
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="team_wrap">
+  <div class="row">
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+    <div class="columns large-6">
+      {% include sections/team/paul.html %}
+    </div>
+  </div>
 </div>

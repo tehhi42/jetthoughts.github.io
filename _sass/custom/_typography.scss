@@ -6,3 +6,19 @@
   }
   line-height: 24px;
 }
+
+.inner {
+  .article {
+    .heading_one {
+      @include proxima(48px);
+      line-height: 48px;
+      color: $dark_blue;
+    }
+    .message {
+      @include proxima(22px);
+      line-height: 30px;
+      text-align: center;
+      color: $dark_blue;
+    }
+  }
+}
