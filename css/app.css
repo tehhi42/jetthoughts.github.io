@@ -7833,20 +7833,36 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 21, ../_sass/_basic.scss */
-.smooth_shadow, .offer_section .panel, .offer_section .offer_block, .team_member {
+.smooth_shadow, .box, .career .job_section, .offer_section .panel, .offer_section .offer_block, .team_member {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
 }
 
 /* line 25, ../_sass/_basic.scss */
+.box, .career .job_section {
+  background: white;
+  border-radius: 9px;
+}
+
+/* line 31, ../_sass/_basic.scss */
 body {
   font-size: 1.25em;
 }
 
-/* line 28, ../_sass/_basic.scss */
+/* line 34, ../_sass/_basic.scss */
 .inner {
   background: url("../images/pat_isometric.png") repeat;
+}
+
+/* line 38, ../_sass/_basic.scss */
+.bg_gray, .job_section .header {
+  background: #f3f3f3;
+}
+
+/* line 42, ../_sass/_basic.scss */
+.bg_white {
+  background: white;
 }
 
 /* line 1, ../_sass/custom/_typography.scss */
@@ -7890,7 +7906,7 @@ body {
   background: #ff9561;
 }
 
-/* line 13, ../_sass/custom/_ui.scss */
+/* line 14, ../_sass/custom/_ui.scss */
 .icon_circle {
   width: 122px;
   height: 122px;
@@ -7900,8 +7916,23 @@ body {
   border: 1px solid white;
   border-radius: 61px;
 }
-/* line 21, ../_sass/custom/_ui.scss */
-.icon_circle > i {
+/* line 22, ../_sass/custom/_ui.scss */
+.icon_circle.green {
+  background: #2dcc70;
+}
+/* line 25, ../_sass/custom/_ui.scss */
+.icon_circle.mid {
+  width: 94px;
+  height: 94px;
+  line-height: 94px;
+  border-radius: 47px;
+}
+/* line 30, ../_sass/custom/_ui.scss */
+.icon_circle.mid > [class*="icon"] {
+  line-height: 94px;
+}
+/* line 34, ../_sass/custom/_ui.scss */
+.icon_circle > [class*="icon"] {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -7913,78 +7944,101 @@ body {
 }
 
 /* line 1, ../_sass/custom/_icons.scss */
+[class^="icons"] {
+  text-indent: -9999px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 6, ../_sass/custom/_icons.scss */
 .icons-webapp {
   width: 63px;
   height: 60px;
 }
 
-/* line 6, ../_sass/custom/_icons.scss */
+/* line 11, ../_sass/custom/_icons.scss */
 .icons-mobile {
   width: 37px;
   height: 60px;
 }
 
-/* line 11, ../_sass/custom/_icons.scss */
+/* line 16, ../_sass/custom/_icons.scss */
 .icons-scales {
   width: 61px;
   height: 61px;
 }
 
-/* line 16, ../_sass/custom/_icons.scss */
+/* line 21, ../_sass/custom/_icons.scss */
 .icons-brain {
   width: 71px;
   height: 78px;
 }
 
-/* line 21, ../_sass/custom/_icons.scss */
+/* line 26, ../_sass/custom/_icons.scss */
 .icons-binder {
   width: 11px;
   height: 24px;
 }
 
-/* line 26, ../_sass/custom/_icons.scss */
+/* line 31, ../_sass/custom/_icons.scss */
+.icons-moneybag {
+  width: 30px;
+  height: 50px;
+}
+
+/* line 36, ../_sass/custom/_icons.scss */
+.icons-tools {
+  width: 52px;
+  height: 51px;
+}
+
+/* line 41, ../_sass/custom/_icons.scss */
 .icons-phone {
   width: 16px;
   height: 16px;
 }
 
-/* line 31, ../_sass/custom/_icons.scss */
+/* line 46, ../_sass/custom/_icons.scss */
 .icons-mail {
   width: 14px;
   height: 12px;
 }
 
-/* line 36, ../_sass/custom/_icons.scss */
+/* line 51, ../_sass/custom/_icons.scss */
 .icons-location {
   width: 11px;
   height: 15px;
 }
 
-/* line 41, ../_sass/custom/_icons.scss */
+/* line 56, ../_sass/custom/_icons.scss */
 .partners-logo_authorize {
   width: 166px;
   height: 31px;
 }
 
-/* line 46, ../_sass/custom/_icons.scss */
+/* line 61, ../_sass/custom/_icons.scss */
 .partners-logo_braintree {
   width: 157px;
   height: 40px;
 }
 
-/* line 51, ../_sass/custom/_icons.scss */
+/* line 66, ../_sass/custom/_icons.scss */
 .partners-logo_paypal {
   width: 115px;
   height: 32px;
 }
 
-/* line 56, ../_sass/custom/_icons.scss */
+/* line 71, ../_sass/custom/_icons.scss */
 .partners-logo_stripe {
   width: 90px;
   height: 38px;
 }
 
-/* line 61, ../_sass/custom/_icons.scss */
+/* line 76, ../_sass/custom/_icons.scss */
 .partners-logo_visa {
   width: 75px;
   height: 25px;
@@ -8214,6 +8268,119 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #94846e;
+}
+
+/* line 3, ../_sass/pages/_career.scss */
+.career .header .heading_one {
+  font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
+  font-size: 36px;
+}
+/* line 6, ../_sass/pages/_career.scss */
+.career .header .message {
+  padding: 0 160px;
+}
+/* line 11, ../_sass/pages/_career.scss */
+.career .mid_slider_section .heading_one {
+  font-size: 36px;
+}
+/* line 15, ../_sass/pages/_career.scss */
+.career .job_section {
+  overflow: hidden;
+}
+/* line 18, ../_sass/pages/_career.scss */
+.career .job_section .header {
+  padding: 0;
+}
+
+/* line 24, ../_sass/pages/_career.scss */
+.job_application {
+  padding: 60px 0 46px;
+}
+/* line 26, ../_sass/pages/_career.scss */
+.job_application .heading_two {
+  font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #2c3d4f;
+}
+/* line 31, ../_sass/pages/_career.scss */
+.job_application .icon_wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 35, ../_sass/pages/_career.scss */
+.job_application .icon_circle {
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  margin-left: -37px;
+}
+
+/* line 44, ../_sass/pages/_career.scss */
+.job_section {
+  color: #615648;
+}
+/* line 46, ../_sass/pages/_career.scss */
+.job_section .header {
+  border-bottom: 1px solid #f3f3f3;
+}
+/* line 49, ../_sass/pages/_career.scss */
+.job_section .header:after {
+  display: none;
+}
+/* line 52, ../_sass/pages/_career.scss */
+.job_section .header .heading_one {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: #2dcc70;
+  margin-top: 25px;
+}
+/* line 58, ../_sass/pages/_career.scss */
+.job_section .header .description {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 20px;
+}
+/* line 64, ../_sass/pages/_career.scss */
+.job_section .detailed {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 66, ../_sass/pages/_career.scss */
+.job_section .detailed .col {
+  float: left;
+}
+
+/* line 72, ../_sass/pages/_career.scss */
+.similar_projects {
+  background: #ebebeb;
+  padding: 35px 0;
+}
+/* line 75, ../_sass/pages/_career.scss */
+.similar_projects .list {
+  text-align: center;
+}
+/* line 77, ../_sass/pages/_career.scss */
+.similar_projects .list .item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 190px;
+  height: 190px;
+  margin: 0 24px;
+}
+/* line 82, ../_sass/pages/_career.scss */
+.similar_projects .list .item .thumb {
+  display: block;
+  background: #2dcc70;
+  border-radius: 5px;
+  width: 190px;
+  height: 190px;
 }
 
 /* line 1, ../_sass/_layout.scss */

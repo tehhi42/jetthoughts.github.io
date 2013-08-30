@@ -5,11 +5,12 @@
   border-radius: 3px;
   @include box-shadow(0 4px 0 $orange_shadow);
   &:hover {
-    background: lighten($orange,5%);
+    background: lighten($orange, 5%);
   }
 }
 
 $circle_icon_diameter: 122px;
+$circle_mid_icon_diameter: 94px;
 .icon_circle {
   width: $circle_icon_diameter;
   height: $circle_icon_diameter;
@@ -18,7 +19,19 @@ $circle_icon_diameter: 122px;
   text-align: center;
   border: 1px solid $white;
   border-radius: ceil($circle_icon_diameter/2);
-  >i {
+  &.green {
+    background: $modern_green;
+  }
+  &.mid {
+    width: $circle_mid_icon_diameter;
+    height: $circle_mid_icon_diameter;
+    line-height: $circle_mid_icon_diameter;
+    border-radius: ceil($circle_mid_icon_diameter/2);
+    >[class*="icon"] {
+      line-height: $circle_mid_icon_diameter;
+    }
+  }
+  >[class*="icon"] {
     @include inline-block(middle);
     line-height: $circle_icon_diameter;
     vertical-align: middle;

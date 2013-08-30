@@ -1,3 +1,8 @@
+[class^="icons"] {
+  text-indent: -9999px;
+  @include inline-block(middle);
+}
+
 .icons-webapp {
   width: 63px;
   height: 60px;
@@ -21,6 +26,16 @@
 .icons-binder {
   width: 11px;
   height: 24px;
+}
+
+.icons-moneybag {
+  width: 30px;
+  height: 50px;
+}
+
+.icons-tools {
+  width: 52px;
+  height: 51px;
 }
 
 .icons-phone {

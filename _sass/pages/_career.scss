@@ -1,0 +1,91 @@
+.career {
+  .header {
+    .heading_one {
+      @include proxima(36px);
+    }
+    .message {
+      padding: 0 160px;
+    }
+  }
+  .mid_slider_section {
+    .heading_one {
+      font-size: 36px;
+    }
+  }
+  .job_section {
+    @extend .box;
+    overflow: hidden;
+    .header {
+      padding: 0;
+    }
+  }
+}
+
+.job_application {
+  padding: 60px 0 46px;
+  .heading_two {
+    @include proxima(48px);
+    text-align: center;
+    color: $dark_blue;
+  }
+  .icon_wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .icon_circle {
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    margin-left: -($circle_mid_icon_diameter/2 - 10);
+  }
+}
+
+$similar_project_thumb_size: 190px;
+.job_section {
+  color: $text_brown;
+  .header {
+    @extend .bg_gray;
+    border-bottom: 1px solid $light_gray;
+    &:after {
+      display: none;
+    }
+    .heading_one {
+      @include myriad(24px);
+      line-height: 24px;
+      color: $modern_green;
+      margin-top: 25px;
+    }
+    .description {
+      @include myriad(14px);
+      line-height: 24px;
+      padding-right: 20px;
+    }
+  }
+  .detailed {
+    @include clearfix;
+    .col {
+      float: left;
+    }
+  }
+}
+
+.similar_projects {
+  background: $explicit_gray;
+  padding: 35px 0;
+  .list {
+    text-align: center;
+    .item {
+      @include inline-block(middle);
+      width: $similar_project_thumb_size;
+      height: $similar_project_thumb_size;
+      margin: 0 24px;
+      .thumb {
+        display: block;
+        background: $modern_green;
+        border-radius: $radius;
+        width: $similar_project_thumb_size;
+        height: $similar_project_thumb_size;
+      }
+    }
+  }
+}
