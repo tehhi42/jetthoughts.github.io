@@ -1,0 +1,117 @@
+$offer_block_min_height: 492px;
+
+.offer_section {
+  background: url("../images/pat_isometric.png") repeat;
+  padding-bottom: 70px;
+  .s_header {
+    margin-top: 60px;
+    margin-bottom: 55px;
+    .heading_one {
+      @include proxima(2.5em);
+      line-height: 1em;
+      color: $dark_blue;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .message {
+    @include proxima(1em);
+    color: $dark_blue;
+    margin-bottom: 40px;
+  }
+  .panel {
+    border-radius: $radius;
+    margin: 0 emCalc(15) emCalc(20);
+    @extend .smooth_shadow;
+    .heading_two {
+      @include proxima(emCalc(36));
+      color: $modern_green;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .message {
+      @include myriad(emCalc(14));
+      font-weight: 400;
+      color: $text_brown;
+      margin: 0;
+    }
+    .button {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  }
+  .offer_block {
+    min-height: $offer_block_min_height;
+    background: $white;
+    border-radius: $mid_radius;
+    @extend .smooth_shadow;
+    .heading {
+      color: $white;
+      text-align: left;
+      padding: 20px;
+      background: $modern_green;
+      border-radius: $mid_radius $mid_radius 0 0;
+      .icon_circle {
+        margin-right: 20px;
+      }
+      .icon_circle,
+      .heading_wrap {
+        @include inline-block(middle);
+      }
+    }
+    .heading_wrap {
+      text-align: left;
+    }
+    .subheading {
+      @include myriad(0.75em);
+    }
+    .heading_three {
+      @include myriad(emCalc(26));
+      line-height: 0.9em;
+      color: $white;
+      font-weight: 400;
+      white-space: nowrap;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    .description {
+      @include myriad(0.9em);
+      color: $text_brown;
+      padding: 0 emCalc(20) 0;
+      margin: emCalc(10) 0;
+      &:last-child {
+        margin-bottom: emCalc(20);
+      }
+    }
+  }
+}
+
+.partners_section {
+  background: $light_gray;
+  @include box-shadow(0 -1px 7px transparentize($black, 0.9));
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 50px;
+  z-index: 10;
+  .partners {
+    @extend .row;
+    text-align: center;
+    .partner {
+      @include inline-block(bottom);
+      line-height: 60px;
+      margin: 0 20px;
+      .partners-logo_paypal {
+        margin-bottom: -8px;
+      }
+      .partners-logo_stripe {
+        margin-bottom: -6px;
+      }
+      >[class^="partners"] {
+        @include inline-block(bottom);
+        line-height: inherit;
+        text-align: left;
+        text-indent: -99999px;
+      }
+    }
+  }
+}

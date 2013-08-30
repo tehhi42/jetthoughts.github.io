@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="columns large-3">
+        <div class="logo_wrap">
+          <span class="logo">JetThoughts</span>
+          <span class="copyright">© 2013, All rights reserved</span>
+        </div>
+      </div>
+      <div class="columns large-3">
+        {% include sections/footer_recent_posts.html %}
+      </div>
+      <div class="columns large-3">
+        {% include sections/footer_text.html %}
+      </div>
+      <div class="columns large-3">
+        {% include sections/footer_contacts.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns large-12">
+        <div class="social_wrap">
+          <hr class="hr">
+          <span class="social_label">We are social:</span>
+          <a class="social_icon icons-facebook" href="#fb">facebook</a>
+          <a class="social_icon icons-twitter" href="#tw">twitter</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/foundation/foundation.js"></script>
+<script type="text/javascript" src="js/foundation/foundation.orbit.js"></script>
+<script type="text/javascript">
+  $(document).foundation(
+      'orbit', {
+        timer: false
+      }
+  );
+</script>
