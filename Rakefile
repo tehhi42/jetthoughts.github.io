@@ -1,7 +1,9 @@
 desc "compile and run the site"
 task :default do
   pids = [
-    spawn("coffee -b -w -o javascripts -c _assets/*.coffee")
+    spawn("compass watch"),
+    spawn("jekyll serve -w")
+    #spawn("coffee -b -w -o javascripts -c _assets/*.coffee")
   ]
 
   trap "INT" do

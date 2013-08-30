@@ -1,0 +1,26 @@
+.button {
+  @include verb(emCalc(20));
+  background: $orange;
+  border: none;
+  border-radius: 3px;
+  @include box-shadow(0 4px 0 $orange_shadow);
+  &:hover {
+    background: lighten($orange,5%);
+  }
+}
+
+$circle_icon_diameter: 122px;
+.icon_circle {
+  width: $circle_icon_diameter;
+  height: $circle_icon_diameter;
+  line-height: $circle_icon_diameter;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid $white;
+  border-radius: ceil($circle_icon_diameter/2);
+  >i {
+    @include inline-block(middle);
+    line-height: $circle_icon_diameter;
+    vertical-align: middle;
+  }
+}

@@ -1,6 +1,6 @@
-{% for weight in (1..5) %}
+{% for menu_position in (1..5) %}
   {% for node in pages_list %}
-    {% if node.weight == weight %}
+    {% if node.menu_position == menu_position %}
       {% if group == null or group == node.group %}
         {% if page.url == node.url %}
           ><li class="menu_item"><a href="{{node.url}}" class="active menu_link">{{node.menu_title}}</a></li
