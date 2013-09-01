@@ -18,6 +18,14 @@
   }
 }
 
+.blueprint_pat {
+  background: $blue url("../images/pat_blueprint.png") repeat;
+}
+
+.dark_bg {
+  background: transparentize($black, 0.4);
+}
+
 .smooth_shadow {
   @include box-shadow(0 2px 6px transparentize($black, 0.86));
 }

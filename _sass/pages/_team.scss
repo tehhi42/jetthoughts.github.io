@@ -1,5 +1,5 @@
 .team_wrap {
-  background: $blue url("../images/pat_blueprint.png") repeat;
+  @extend .blueprint_pat;
   padding-top: 70px;
   padding-bottom: 15px;
 }

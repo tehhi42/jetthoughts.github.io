@@ -5,7 +5,15 @@
   border-radius: 3px;
   @include box-shadow(0 4px 0 $orange_shadow);
   &:hover {
-    background: lighten($orange, 5%);
+    background: $orange_shadow;
+  }
+}
+
+.button_extraordinary {
+  background: $orange;
+  @include box-shadow(0 4px 0 $orange_shadow);
+  &:hover {
+    background: $orange_shadow;
   }
 }
 
@@ -13,7 +21,7 @@
   background: $modern_green;
   @include box-shadow(0 4px 0 $green_shadow);
   &:hover {
-    background: lighten($modern_green, 5%);
+    background: $green_shadow;
   }
 }
 
@@ -21,8 +29,20 @@
   background: $explicit_gray;
   @include box-shadow(0 4px 0 $light_gray_3);
   &:hover {
-    background: lighten($explicit_gray, 5%);
+    background: $light_gray_3;
   }
+}
+
+.button_gray {
+  background: $gray;
+  @include box-shadow(0 4px 0 $gray_shadow);
+  &:hover {
+    background: $gray_shadow;
+  }
+}
+
+.button_large {
+  @extend .large-8;
 }
 
 $circle_icon_diameter: 122px;
@@ -51,5 +71,38 @@ $circle_mid_icon_diameter: 94px;
     @include inline-block(middle);
     line-height: $circle_icon_diameter;
     vertical-align: middle;
+  }
+}
+
+.pagination {
+  text-align: center;
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  .page_item {
+    @include inline-block;
+    margin: 0 2px;
+    &.active {
+      .page_link {
+        background: lighten($modern_green,15%);
+        border-top: 3px solid lighten($green_shadow,10%);
+      }
+    }
+    .page_link {
+      @include myriad(16px);
+      font-weight: 400;
+      color: $white;
+      text-align: center;
+      display: block;
+      min-width: 40px;
+      background: $gray_shadow;
+      padding: 6px 4px 6px;
+      border-radius: $radius;
+      border-top: 3px solid lighten($dirt_blue,5%);
+      &:hover {
+        background: $orange;
+        border-top: 3px solid $orange_shadow;
+      }
+    }
   }
 }

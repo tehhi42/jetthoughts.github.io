@@ -123,7 +123,7 @@ $slider_laptop_overlay_height: 483px;
   .s_footer {
     padding-top: emCalc(36);
     margin-top: emCalc(20);
-    background: transparentize($black, 0.4);
+    @extend .dark_bg;
     .message {
       @include myriad(1.125em);
       line-height: 1.85em;
