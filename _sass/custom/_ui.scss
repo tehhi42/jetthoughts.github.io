@@ -9,6 +9,22 @@
   }
 }
 
+.button_primary {
+  background: $modern_green;
+  @include box-shadow(0 4px 0 $green_shadow);
+  &:hover {
+    background: lighten($modern_green, 5%);
+  }
+}
+
+.button_ordinary {
+  background: $explicit_gray;
+  @include box-shadow(0 4px 0 $light_gray_3);
+  &:hover {
+    background: lighten($explicit_gray, 5%);
+  }
+}
+
 $circle_icon_diameter: 122px;
 $circle_mid_icon_diameter: 94px;
 .icon_circle {

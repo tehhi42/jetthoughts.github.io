@@ -7700,7 +7700,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 194, icons/*.png */
-.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-facebook, .icons-gears, .icons-head_brain, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-warn, .icons-webapp {
+.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-facebook, .icons-gears, .icons-head_brain, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-warn, .validation_input .validate_text.error:after, .icons-webapp {
   background: url('../images/icons-s0e7d1eb5df.png') no-repeat;
 }
 
@@ -7793,7 +7793,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-warn {
+.icons-warn, .validation_input .validate_text.error:after {
   background-position: 0 -1138px;
 }
 
@@ -7865,6 +7865,12 @@ body {
   background: white;
 }
 
+/* line 46, ../_sass/_basic.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
 /* line 1, ../_sass/custom/_typography.scss */
 .basic_text {
   font-family: "PT Sans", "Myriad Pro", sans-serif;
@@ -7889,6 +7895,36 @@ body {
   color: #2c3d4f;
 }
 
+/* line 26, ../_sass/custom/_typography.scss */
+.table {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 12px;
+  border: none;
+  width: 100%;
+}
+/* line 30, ../_sass/custom/_typography.scss */
+.table .tr {
+  background: none;
+}
+/* line 33, ../_sass/custom/_typography.scss */
+.table .th {
+  font-weight: 700;
+  text-align: left;
+}
+/* line 38, ../_sass/custom/_typography.scss */
+.table .th,
+.table .td {
+  border-bottom: 1px solid #f3f3f3;
+  background: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+/* line 45, ../_sass/custom/_typography.scss */
+.table .td {
+  padding-right: 10px;
+}
+
 /* line 1, ../_sass/custom/_ui.scss */
 .button {
   font-family: 'verb_extraboldregular', sans-serif;
@@ -7906,7 +7942,31 @@ body {
   background: #ff9561;
 }
 
-/* line 14, ../_sass/custom/_ui.scss */
+/* line 12, ../_sass/custom/_ui.scss */
+.button_primary {
+  background: #2dcc70;
+  -webkit-box-shadow: 0 4px 0 #4fae76;
+  -moz-box-shadow: 0 4px 0 #4fae76;
+  box-shadow: 0 4px 0 #4fae76;
+}
+/* line 15, ../_sass/custom/_ui.scss */
+.button_primary:hover {
+  background: #3ed47d;
+}
+
+/* line 20, ../_sass/custom/_ui.scss */
+.button_ordinary {
+  background: #ebebeb;
+  -webkit-box-shadow: 0 4px 0 #d9d9d9;
+  -moz-box-shadow: 0 4px 0 #d9d9d9;
+  box-shadow: 0 4px 0 #d9d9d9;
+}
+/* line 23, ../_sass/custom/_ui.scss */
+.button_ordinary:hover {
+  background: #f8f8f8;
+}
+
+/* line 30, ../_sass/custom/_ui.scss */
 .icon_circle {
   width: 122px;
   height: 122px;
@@ -7916,22 +7976,22 @@ body {
   border: 1px solid white;
   border-radius: 61px;
 }
-/* line 22, ../_sass/custom/_ui.scss */
+/* line 38, ../_sass/custom/_ui.scss */
 .icon_circle.green {
   background: #2dcc70;
 }
-/* line 25, ../_sass/custom/_ui.scss */
+/* line 41, ../_sass/custom/_ui.scss */
 .icon_circle.mid {
   width: 94px;
   height: 94px;
   line-height: 94px;
   border-radius: 47px;
 }
-/* line 30, ../_sass/custom/_ui.scss */
+/* line 46, ../_sass/custom/_ui.scss */
 .icon_circle.mid > [class*="icon"] {
   line-height: 94px;
 }
-/* line 34, ../_sass/custom/_ui.scss */
+/* line 50, ../_sass/custom/_ui.scss */
 .icon_circle > [class*="icon"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8003,45 +8063,119 @@ body {
 }
 
 /* line 46, ../_sass/custom/_icons.scss */
+.icons-photo {
+  width: 48px;
+  height: 34px;
+}
+
+/* line 51, ../_sass/custom/_icons.scss */
 .icons-mail {
   width: 14px;
   height: 12px;
 }
 
-/* line 51, ../_sass/custom/_icons.scss */
+/* line 56, ../_sass/custom/_icons.scss */
+.icons-mic {
+  width: 37px;
+  height: 60px;
+}
+
+/* line 61, ../_sass/custom/_icons.scss */
 .icons-location {
   width: 11px;
   height: 15px;
 }
 
-/* line 56, ../_sass/custom/_icons.scss */
+/* line 66, ../_sass/custom/_icons.scss */
 .partners-logo_authorize {
   width: 166px;
   height: 31px;
 }
 
-/* line 61, ../_sass/custom/_icons.scss */
+/* line 71, ../_sass/custom/_icons.scss */
 .partners-logo_braintree {
   width: 157px;
   height: 40px;
 }
 
-/* line 66, ../_sass/custom/_icons.scss */
+/* line 76, ../_sass/custom/_icons.scss */
 .partners-logo_paypal {
   width: 115px;
   height: 32px;
 }
 
-/* line 71, ../_sass/custom/_icons.scss */
+/* line 81, ../_sass/custom/_icons.scss */
 .partners-logo_stripe {
   width: 90px;
   height: 38px;
 }
 
-/* line 76, ../_sass/custom/_icons.scss */
+/* line 86, ../_sass/custom/_icons.scss */
 .partners-logo_visa {
   width: 75px;
   height: 25px;
+}
+
+/* line 1, ../_sass/custom/_forms.scss */
+.form_input {
+  color: #2c3d4f;
+  border-color: #d9d9d9;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 6, ../_sass/custom/_forms.scss */
+.form_input.error {
+  color: white;
+  background: #eab9b9;
+  border-color: #eab9b9;
+}
+
+/* line 13, ../_sass/custom/_forms.scss */
+.validation_input {
+  position: relative;
+}
+/* line 16, ../_sass/custom/_forms.scss */
+.validation_input .validate_text.error {
+  color: #e66b64;
+  display: block;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding-left: 40px;
+  padding-right: 15px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  background: white;
+  border-radius: 5px;
+  margin: 0;
+}
+/* line 30, ../_sass/custom/_forms.scss */
+.validation_input .validate_text.error:after {
+  content: " ";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 16px;
+  height: 15px;
+}
+
+/* line 43, ../_sass/custom/_forms.scss */
+.textarea {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  color: #99a3a4;
+  border-color: #ebebeb;
+  background: #ebebeb;
+  border-radius: 5px;
+  min-height: 240px;
+  resize: vertical;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 /* line 3, ../_sass/pages/_home.scss */
@@ -8316,19 +8450,20 @@ body {
   margin-left: -37px;
 }
 
-/* line 44, ../_sass/pages/_career.scss */
+/* line 45, ../_sass/pages/_career.scss */
 .job_section {
   color: #615648;
+  margin-bottom: 37px;
 }
-/* line 46, ../_sass/pages/_career.scss */
+/* line 48, ../_sass/pages/_career.scss */
 .job_section .header {
   border-bottom: 1px solid #f3f3f3;
 }
-/* line 49, ../_sass/pages/_career.scss */
+/* line 51, ../_sass/pages/_career.scss */
 .job_section .header:after {
   display: none;
 }
-/* line 52, ../_sass/pages/_career.scss */
+/* line 54, ../_sass/pages/_career.scss */
 .job_section .header .heading_one {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 24px;
@@ -8336,33 +8471,77 @@ body {
   color: #2dcc70;
   margin-top: 25px;
 }
-/* line 58, ../_sass/pages/_career.scss */
+/* line 60, ../_sass/pages/_career.scss */
 .job_section .header .description {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 14px;
   line-height: 24px;
   padding-right: 20px;
 }
-/* line 64, ../_sass/pages/_career.scss */
+/* line 66, ../_sass/pages/_career.scss */
 .job_section .detailed {
   overflow: hidden;
   *zoom: 1;
+  padding-top: 30px;
 }
-/* line 66, ../_sass/pages/_career.scss */
+/* line 69, ../_sass/pages/_career.scss */
 .job_section .detailed .col {
   float: left;
 }
-
 /* line 72, ../_sass/pages/_career.scss */
+.job_section .detailed .heading_three {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2dcc70;
+}
+
+/* line 80, ../_sass/pages/_career.scss */
+.detailed_inner {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+/* line 83, ../_sass/pages/_career.scss */
+.detailed_inner .heading_two {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 21px;
+  line-height: 24px;
+  color: #2dcc70;
+  text-align: left;
+}
+/* line 89, ../_sass/pages/_career.scss */
+.detailed_inner .paragraph {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 96, ../_sass/pages/_career.scss */
+.job_summary {
+  min-height: 71px;
+}
+
+/* line 100, ../_sass/pages/_career.scss */
 .similar_projects {
   background: #ebebeb;
-  padding: 35px 0;
+  padding: 20px 0 35px;
 }
-/* line 75, ../_sass/pages/_career.scss */
+/* line 103, ../_sass/pages/_career.scss */
+.similar_projects .heading_five {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666f80;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 0;
+}
+/* line 111, ../_sass/pages/_career.scss */
 .similar_projects .list {
   text-align: center;
+  margin-bottom: 0;
 }
-/* line 77, ../_sass/pages/_career.scss */
+/* line 114, ../_sass/pages/_career.scss */
 .similar_projects .list .item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8374,13 +8553,33 @@ body {
   height: 190px;
   margin: 0 24px;
 }
-/* line 82, ../_sass/pages/_career.scss */
+/* line 119, ../_sass/pages/_career.scss */
 .similar_projects .list .item .thumb {
   display: block;
   background: #2dcc70;
   border-radius: 5px;
   width: 190px;
   height: 190px;
+}
+
+/* line 130, ../_sass/pages/_career.scss */
+.application_form {
+  padding: 20px 20px 20px 50px;
+}
+/* line 132, ../_sass/pages/_career.scss */
+.application_form .heading_two {
+  font-family: 'verb_extraboldregular', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  font-weight: 400;
+  text-align: left;
+  color: #2dcc70;
+}
+/* line 138, ../_sass/pages/_career.scss */
+.application_form .button {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 /* line 1, ../_sass/_layout.scss */

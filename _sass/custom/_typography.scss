@@ -22,3 +22,27 @@
     }
   }
 }
+
+.table {
+  @include myriad(12px);
+  border: none;
+  width: 100%;
+  .tr {
+    background: none;
+  }
+  .th {
+    font-weight: 700;
+    text-align: left;
+  }
+  .th,
+  .td {
+    border-bottom: 1px solid $light_gray;
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+  }
+  .td {
+    padding-right: 10px;
+  }
+}

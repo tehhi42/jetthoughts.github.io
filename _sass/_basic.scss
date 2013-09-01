@@ -42,3 +42,7 @@ body {
 .bg_white {
   background: $white;
 }
+
+.clearfix {
+  @include clearfix;
+}
