@@ -41,6 +41,14 @@
   }
 }
 
+.button_dark {
+  background: $dark_blue;
+  @include box-shadow(0 4px 0 $deep_ocean);
+  &:hover {
+    background: $deep_ocean;
+  }
+}
+
 .button_large {
   @extend .large-8;
 }

@@ -7804,9 +7804,9 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   background-position: 0 -927px;
 }
 
-/* line 74, ui/*.png */
-.ui-sprite, .ui-corner, .article .header:after, .ui-left_arrow, .slider_section .orbit-prev, .ui-left_small_arrow, .mid_slider_section .orbit-prev, .ui-right_arrow, .slider_section .orbit-next, .ui-right_small_arrow, .mid_slider_section .orbit-next {
-  background: url('../images/ui-s38303b9c53.png') no-repeat;
+/* line 98, ui/*.png */
+.ui-sprite, .ui-corner, .article .header:after, .ui-left_arrow, .slider_section .orbit-prev, .ui-left_lil_arrow, .portfolio .slider_section .orbit-prev > span, .ui-left_small_arrow, .mid_slider_section .orbit-prev, .ui-right_arrow, .slider_section .orbit-next, .ui-right_lil_arrow, .portfolio .slider_section .orbit-next > span, .ui-right_small_arrow, .mid_slider_section .orbit-next, .ui-tiny_left_arrow, .portfolio .back_button:after {
+  background: url('../images/ui-se37a209414.png') no-repeat;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7820,8 +7820,13 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-left_lil_arrow, .portfolio .slider_section .orbit-prev > span {
+  background-position: 0 -181px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-left_small_arrow, .mid_slider_section .orbit-prev {
-  background-position: 0 -186px;
+  background-position: 0 -258px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7830,12 +7835,22 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-right_small_arrow, .mid_slider_section .orbit-next {
+.ui-right_lil_arrow, .portfolio .slider_section .orbit-next > span {
   background-position: 0 -145px;
 }
 
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-right_small_arrow, .mid_slider_section .orbit-next {
+  background-position: 0 -217px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-tiny_left_arrow, .portfolio .back_button:after {
+  background-position: 0 -299px;
+}
+
 /* line 21, ../_sass/_basic.scss */
-.blueprint_pat, .team_wrap, .portfolio_wrap {
+.blueprint_pat, .team_wrap, .portfolio_wrap, .portfolio.inner {
   background: #2f87b9 url("../images/pat_blueprint.png") repeat;
 }
 
@@ -7845,14 +7860,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 29, ../_sass/_basic.scss */
-.smooth_shadow, .box, .career .job_section, .offer_section .panel, .offer_section .offer_block, .team_member {
+.smooth_shadow, .box, .career .job_section, .portfolio .portfolio_box, .offer_section .panel, .offer_section .offer_block, .team_member {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
 }
 
 /* line 33, ../_sass/_basic.scss */
-.box, .career .job_section {
+.box, .career .job_section, .portfolio .portfolio_box {
   background: white;
   border-radius: 9px;
 }
@@ -8002,7 +8017,19 @@ body {
   background: #808b8d;
 }
 
-/* line 50, ../_sass/custom/_ui.scss */
+/* line 44, ../_sass/custom/_ui.scss */
+.button_dark {
+  background: #2c3d4f;
+  -webkit-box-shadow: 0 4px 0 #102f44;
+  -moz-box-shadow: 0 4px 0 #102f44;
+  box-shadow: 0 4px 0 #102f44;
+}
+/* line 47, ../_sass/custom/_ui.scss */
+.button_dark:hover {
+  background: #102f44;
+}
+
+/* line 58, ../_sass/custom/_ui.scss */
 .icon_circle {
   width: 122px;
   height: 122px;
@@ -8012,22 +8039,22 @@ body {
   border: 1px solid white;
   border-radius: 61px;
 }
-/* line 58, ../_sass/custom/_ui.scss */
+/* line 66, ../_sass/custom/_ui.scss */
 .icon_circle.green {
   background: #2dcc70;
 }
-/* line 61, ../_sass/custom/_ui.scss */
+/* line 69, ../_sass/custom/_ui.scss */
 .icon_circle.mid {
   width: 94px;
   height: 94px;
   line-height: 94px;
   border-radius: 47px;
 }
-/* line 66, ../_sass/custom/_ui.scss */
+/* line 74, ../_sass/custom/_ui.scss */
 .icon_circle.mid > [class*="icon"] {
   line-height: 94px;
 }
-/* line 70, ../_sass/custom/_ui.scss */
+/* line 78, ../_sass/custom/_ui.scss */
 .icon_circle > [class*="icon"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8039,14 +8066,14 @@ body {
   vertical-align: middle;
 }
 
-/* line 77, ../_sass/custom/_ui.scss */
+/* line 85, ../_sass/custom/_ui.scss */
 .pagination {
   text-align: center;
   margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
 }
-/* line 82, ../_sass/custom/_ui.scss */
+/* line 90, ../_sass/custom/_ui.scss */
 .pagination .page_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8056,12 +8083,12 @@ body {
   *display: inline;
   margin: 0 2px;
 }
-/* line 86, ../_sass/custom/_ui.scss */
+/* line 94, ../_sass/custom/_ui.scss */
 .pagination .page_item.active .page_link {
   background: #68de99;
   border-top: 3px solid #71bf91;
 }
-/* line 91, ../_sass/custom/_ui.scss */
+/* line 99, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 16px;
@@ -8075,7 +8102,7 @@ body {
   border-radius: 5px;
   border-top: 3px solid #717b8e;
 }
-/* line 102, ../_sass/custom/_ui.scss */
+/* line 110, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link:hover {
   background: #ff8448;
   border-top: 3px solid #e67740;
@@ -8599,12 +8626,12 @@ body {
 }
 
 /* line 100, ../_sass/pages/_career.scss */
-.similar_projects {
+.similar_projects, .related_projects {
   background: #ebebeb;
   padding: 20px 0 35px;
 }
 /* line 103, ../_sass/pages/_career.scss */
-.similar_projects .heading_five {
+.similar_projects .heading_five, .related_projects .heading_five {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -8614,12 +8641,12 @@ body {
   margin-top: 0;
 }
 /* line 111, ../_sass/pages/_career.scss */
-.similar_projects .list {
+.similar_projects .list, .related_projects .list {
   text-align: center;
   margin-bottom: 0;
 }
 /* line 114, ../_sass/pages/_career.scss */
-.similar_projects .list .item {
+.similar_projects .list .item, .related_projects .list .item {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -8631,7 +8658,7 @@ body {
   margin: 0 24px;
 }
 /* line 119, ../_sass/pages/_career.scss */
-.similar_projects .list .item .thumb {
+.similar_projects .list .item .thumb, .related_projects .list .item .thumb {
   display: block;
   background: #2dcc70;
   border-radius: 5px;
@@ -8746,6 +8773,95 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: white;
+}
+
+/* line 75, ../_sass/pages/_portfolio.scss */
+.portfolio {
+  padding-bottom: 40px;
+}
+/* line 78, ../_sass/pages/_portfolio.scss */
+.portfolio .header:after {
+  display: none;
+}
+/* line 81, ../_sass/pages/_portfolio.scss */
+.portfolio .header .heading_one {
+  font-family: 'verb_extraboldregular', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #94846e;
+}
+/* line 86, ../_sass/pages/_portfolio.scss */
+.portfolio.inner {
+  padding-top: 1.5em;
+}
+/* line 89, ../_sass/pages/_portfolio.scss */
+.portfolio.inner .header {
+  padding: 60px 0 0;
+}
+/* line 93, ../_sass/pages/_portfolio.scss */
+.portfolio p {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 14px;
+  color: #94846e;
+}
+/* line 100, ../_sass/pages/_portfolio.scss */
+.portfolio .slider_section {
+  background: none;
+  margin: 50px 0 70px;
+}
+/* line 104, ../_sass/pages/_portfolio.scss */
+.portfolio .slider_section .orbit-prev,
+.portfolio .slider_section .orbit-next {
+  padding: 5px;
+  background: #ff8448;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+/* line 110, ../_sass/pages/_portfolio.scss */
+.portfolio .slider_section .orbit-prev > span,
+.portfolio .slider_section .orbit-next > span {
+  display: block;
+  margin-top: -8px;
+  left: 50%;
+  margin-left: -5px;
+  width: 11px;
+  height: 16px;
+  border: 0;
+}
+/* line 132, ../_sass/pages/_portfolio.scss */
+.portfolio .back_button {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 15px 12px 40px;
+  position: relative;
+}
+/* line 137, ../_sass/pages/_portfolio.scss */
+.portfolio .back_button:after {
+  content: " ";
+  width: 15px;
+  height: 12px;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+}
+
+/* line 150, ../_sass/pages/_portfolio.scss */
+.related_projects .heading_five {
+  padding: 0;
+}
+/* line 154, ../_sass/pages/_portfolio.scss */
+.related_projects .list .item {
+  margin: 0 2em 3em;
+}
+/* line 156, ../_sass/pages/_portfolio.scss */
+.related_projects .list .item.first {
+  margin-left: 0;
+}
+/* line 159, ../_sass/pages/_portfolio.scss */
+.related_projects .list .item.last {
+  margin-right: 0;
 }
 
 /* line 1, ../_sass/_layout.scss */

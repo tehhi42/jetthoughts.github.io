@@ -71,3 +71,94 @@ $portfolio_item_height: 282px;
     }
   }
 }
+
+.portfolio {
+  padding-bottom: 40px;
+  .header {
+    &:after {
+      display: none;
+    }
+    .heading_one {
+      @include verb(21px);
+      color: $light_brown;
+    }
+  }
+  &.inner {
+    @extend .blueprint_pat;
+    padding-top: 1.5em;
+    .header {
+      padding: 60px 0 0;
+    }
+  }
+  p {
+    @include myriad(14px);
+    color: $light_brown;
+  }
+  .portfolio_box {
+    @extend .box;
+  }
+  .slider_section {
+    background: none;
+    margin: 50px 0 70px;
+    .orbit-prev,
+    .orbit-next {
+      padding: 5px;
+      background: $orange;
+      width: 40px;
+      height: 40px;
+      border-radius: $radius;
+      >span {
+        display: block;
+        margin-top: -8px;
+        left: 50%;
+        margin-left: -5px;
+        width: 11px;
+        height: 16px;
+        border: 0;
+      }
+    }
+    .orbit-prev {
+      >span {
+        @extend .ui-left_lil_arrow;
+      }
+    }
+    .orbit-next {
+      >span {
+        @extend .ui-right_lil_arrow;
+
+      }
+    }
+  }
+  .back_button {
+    @include myriad(16px);
+    font-weight: 400;
+    padding: 13px 15px 12px 40px;
+    position: relative;
+    &:after {
+      content: " ";
+      width: 15px;
+      height: 12px;
+      @extend .ui-tiny_left_arrow;
+      position: absolute;
+      left: 14px;
+      top: 14px;
+    }
+  }
+}
+.related_projects {
+  @extend .similar_projects;
+  .heading_five {
+    padding: 0;
+  }
+  .list {
+    .item {
+      margin: 0 2em 3em;
+      &.first {
+        margin-left: 0;
+      }
+      &.last {
+        margin-right: 0;
+      }
+    }
+  }
+}
