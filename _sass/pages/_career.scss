@@ -1,0 +1,142 @@
+.career {
+  .header {
+    .heading_one {
+      @include proxima(36px);
+    }
+    .message {
+      padding: 0 160px;
+    }
+  }
+  .mid_slider_section {
+    .heading_one {
+      font-size: 36px;
+    }
+  }
+  .job_section {
+    @extend .box;
+    overflow: hidden;
+    .header {
+      padding: 0;
+    }
+  }
+}
+
+.job_application {
+  padding: 60px 0 46px;
+  .heading_two {
+    @include proxima(48px);
+    text-align: center;
+    color: $dark_blue;
+  }
+  .icon_wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .icon_circle {
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    margin-left: -($circle_mid_icon_diameter/2 - 10);
+  }
+}
+
+$similar_project_thumb_size: 190px;
+$job_section_inner_padding_left: 38px;
+.job_section {
+  color: $text_brown;
+  margin-bottom: 37px;
+  .header {
+    @extend .bg_gray;
+    border-bottom: 1px solid $light_gray;
+    &:after {
+      display: none;
+    }
+    .heading_one {
+      @include myriad(24px);
+      line-height: 24px;
+      color: $modern_green;
+      margin-top: 25px;
+    }
+    .description {
+      @include myriad(14px);
+      line-height: 24px;
+      padding-right: 20px;
+    }
+  }
+  .detailed {
+    @include clearfix;
+    padding-top: 30px;
+    .col {
+      float: left;
+    }
+    .heading_three {
+      @include myriad(18px);
+      line-height: 24px;
+      color: $modern_green;
+    }
+  }
+}
+
+.detailed_inner {
+  padding-left: $job_section_inner_padding_left;
+  padding-right: $job_section_inner_padding_left;
+  .heading_two {
+    @include myriad(21px);
+    line-height: 24px;
+    color: $modern_green;
+    text-align: left;
+  }
+  .paragraph {
+    @include myriad(14px);
+    line-height: 24px;
+  }
+}
+
+
+.job_summary {
+  min-height: 71px;
+}
+
+.similar_projects {
+  background: $explicit_gray;
+  padding: 20px 0 35px;
+  .heading_five {
+    @include myriad(18px);
+    font-weight: 400;
+    color: $dirt_blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 0;
+  }
+  .list {
+    text-align: center;
+    margin-bottom: 0;
+    .item {
+      @include inline-block(middle);
+      width: $similar_project_thumb_size;
+      height: $similar_project_thumb_size;
+      margin: 0 24px;
+      .thumb {
+        display: block;
+        background: $modern_green;
+        border-radius: $radius;
+        width: $similar_project_thumb_size;
+        height: $similar_project_thumb_size;
+      }
+    }
+  }
+}
+
+.application_form {
+  padding: 20px 20px 20px 50px;
+  .heading_two {
+    @include verb(30px);
+    font-weight: 400;
+    text-align: left;
+    color: $modern_green;
+  }
+  .button {
+    @include myriad(20px);
+    margin-bottom: 0;
+  }
+}

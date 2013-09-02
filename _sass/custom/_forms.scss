@@ -1,0 +1,53 @@
+.form_input {
+  color: $dark_blue;
+  border-color: $light_gray_3;
+  border-radius: $radius;
+  @include box-shadow(none);
+  &.error {
+    color: $white;
+    background: $red_error;
+    border-color: $red_error;
+  }
+}
+
+.validation_input {
+  position: relative;
+  .validate_text {
+    &.error {
+      color: $red;
+      display: block;
+      line-height: 1.5em;
+      vertical-align: middle;
+      padding-left: 40px;
+      padding-right: 15px;
+      position: absolute;
+      right: 3px;
+      top: 3px;
+      bottom: 3px;
+      background: $white;
+      border-radius: $radius;
+      margin: 0;
+      &:after {
+        content: " ";
+        @extend .icons-warn;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 16px;
+        height: 15px;
+      }
+    }
+  }
+}
+
+.textarea {
+  @include myriad(14px);
+  padding: 20px;
+  color: $gray;
+  border-color: $explicit_gray;
+  background: $explicit_gray;
+  border-radius: $radius;
+  min-height: 240px;
+  resize: vertical;
+  @include box-shadow(none);
+}

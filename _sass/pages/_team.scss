@@ -1,0 +1,54 @@
+.team_wrap {
+  @extend .blueprint_pat;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+$team_card_inner_pad: 25px;
+$team_card_height: 270px;
+$ava_diameter: 126px;
+.team_member {
+  @include clearfix;
+  margin-bottom: 40px;
+  height: $team_card_height;
+  background: $white;
+  border-radius: $mid_radius;
+  @extend .smooth_shadow;
+  .ava_wrap {
+    height: $team_card_height;
+    padding: $team_card_inner_pad;
+    position: relative;
+  }
+  .ava {
+    display: block;
+    width: $ava_diameter;
+    border-radius: $ava_diameter/2;
+  }
+  .position {
+    @include myriad(20px);
+    line-height: 40px;
+    vertical-align: middle;
+    color: $white;
+    text-align: center;
+    background: $orange;
+    display: block;
+    height: 40px;
+    position: absolute;
+    @include stretch-x($team_card_inner_pad,$team_card_inner_pad);
+    bottom: $team_card_inner_pad;
+    border-radius: $radius;
+  }
+  .bio_wrap {
+    padding: $team_card_inner_pad;
+    .name {
+      @include myriad(36px);
+      font-weight: 500;
+      line-height: 24px;
+      color: $light_brown;
+    }
+    .bio {
+      @include myriad(18px);
+      line-height: 24px;
+      color: $light_brown;
+    }
+  }
+}

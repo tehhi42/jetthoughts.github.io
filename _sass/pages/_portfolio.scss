@@ -1,0 +1,164 @@
+.portfolio_wrap {
+  padding-top: 55px;
+  @extend .blueprint_pat;
+}
+
+$portfolio_item_height: 282px;
+
+.portfolio_sort {
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: $radius;
+  .sorter {
+    @extend .button;
+    @extend .button_gray;
+    @include myriad(14px);
+    line-height: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    @include inline-block(middle);
+    &.active {
+      @extend .button_extraordinary;
+    }
+  }
+}
+
+.protfolio_thumb {
+  border-radius: $radius;
+  border-bottom: 3px solid $dark_sand;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.portfolio_item {
+  margin-bottom: 35px - 10;
+  .details {
+    padding: 20px;
+    border-radius: $radius;
+    min-height: $portfolio_item_height;
+    .button {
+      @include myriad(14px);
+      font-weight: 400;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 14px;
+      padding-bottom: 10px;
+      margin: 40px auto 0;
+    }
+    .header {
+      padding: 0;
+      .heading_one {
+        @include verb(24px);
+        font-weight: 400;
+        line-height: 24px;
+        color: $white;
+      }
+    }
+    .project_link {
+      color: $white;
+      @include myriad(16px);
+      margin-top: 10px;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .summary {
+      @include myriad(14px);
+      line-height: 20px;
+      color: $white;
+    }
+  }
+}
+
+.portfolio {
+  padding-bottom: 40px;
+  .header {
+    &:after {
+      display: none;
+    }
+    .heading_one {
+      @include verb(21px);
+      color: $light_brown;
+    }
+  }
+  &.inner {
+    @extend .blueprint_pat;
+    padding-top: 1.5em;
+    .header {
+      padding: 60px 0 0;
+    }
+  }
+  p {
+    @include myriad(14px);
+    color: $light_brown;
+  }
+  .portfolio_box {
+    @extend .box;
+  }
+  .slider_section {
+    background: none;
+    margin: 50px 0 70px;
+    .orbit-prev,
+    .orbit-next {
+      padding: 5px;
+      background: $orange;
+      width: 40px;
+      height: 40px;
+      border-radius: $radius;
+      >span {
+        display: block;
+        margin-top: -8px;
+        left: 50%;
+        margin-left: -5px;
+        width: 11px;
+        height: 16px;
+        border: 0;
+      }
+    }
+    .orbit-prev {
+      >span {
+        @extend .ui-left_lil_arrow;
+      }
+    }
+    .orbit-next {
+      >span {
+        @extend .ui-right_lil_arrow;
+
+      }
+    }
+  }
+  .back_button {
+    @include myriad(16px);
+    font-weight: 400;
+    padding: 13px 15px 12px 40px;
+    position: relative;
+    &:after {
+      content: " ";
+      width: 15px;
+      height: 12px;
+      @extend .ui-tiny_left_arrow;
+      position: absolute;
+      left: 14px;
+      top: 14px;
+    }
+  }
+}
+.related_projects {
+  @extend .similar_projects;
+  .heading_five {
+    padding: 0;
+  }
+  .list {
+    .item {
+      margin: 0 2em 3em;
+      &.first {
+        margin-left: 0;
+      }
+      &.last {
+        margin-right: 0;
+      }
+    }
+  }
+}

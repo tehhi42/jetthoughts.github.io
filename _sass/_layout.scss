@@ -1,3 +1,23 @@
 .wrapper {
   background: $body-bg;
 }
+
+
+$corner_width: 48px;
+$corner_height: 19px;
+.article {
+  .header {
+    padding: 70px 0 50px;
+    position: relative;
+    &:after {
+      content: " ";
+      width: $corner_width;
+      height: $corner_height;
+      @extend .ui-corner;
+      position: absolute;
+      bottom: -($corner_height);
+      left: 50%;
+      margin-left: -($corner_width/2);
+    }
+  }
+}

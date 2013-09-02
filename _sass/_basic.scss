@@ -18,10 +18,39 @@
   }
 }
 
+.blueprint_pat {
+  background: $blue url("../images/pat_blueprint.png") repeat;
+}
+
+.dark_bg {
+  background: transparentize($black, 0.4);
+}
+
 .smooth_shadow {
   @include box-shadow(0 2px 6px transparentize($black, 0.86));
 }
 
+.box {
+  background: $white;
+  border-radius: $mid_radius;
+  @extend .smooth_shadow;
+}
+
 body {
   font-size: emCalc(20);
+}
+.inner {
+  background: url("../images/pat_isometric.png") repeat;
+}
+
+.bg_gray {
+  background: $light_gray;
+}
+
+.bg_white {
+  background: $white;
+}
+
+.clearfix {
+  @include clearfix;
 }
