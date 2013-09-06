@@ -1,0 +1,32 @@
+.work_wrap {
+}
+
+.flexible_approach {
+  color: $white;
+  text-align: center;
+  @extend .blueprint_pat_light;
+  .heading_two {
+    color: $white;
+    margin-top: 60px;
+  }
+}
+
+.bordered_message {
+  @include myriad(22px);
+  font-weight: 400;
+  position: relative;
+  padding: 35px 50px;
+  border: 5px solid $white;
+}
+
+.or {
+  content: 'OR';
+  @include proxima(48px);
+  height: 48px;
+  display: inline-block;
+  margin-top: 280px;
+}
+
+.work_detailed {
+  @extend .isometric_bg;
+}

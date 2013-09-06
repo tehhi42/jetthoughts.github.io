@@ -1,0 +1,33 @@
+$map_height: 400px;
+.contacts_wrap {
+  @extend .box;
+  padding: 40px 3% 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  .map {
+    height: $map_height;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: $radius;
+    border-bottom: 2px solid $explicit_gray;
+  }
+  .heading_three {
+    @include myriad(20px);
+    font-weight: 400;
+    color: $dirt_blue;
+    text-transform: uppercase;
+  }
+  .contacts_section {
+    color: $gray_lucky;
+    .tel_link {
+      color: $gray_lucky;
+    }
+    .link {
+      color: $red_juicy;
+      text-decoration: underline;
+    }
+    .heading_one {
+      @extend .heading_three;
+    }
+  }
+}

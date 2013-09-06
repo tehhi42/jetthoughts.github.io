@@ -7855,44 +7855,49 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 25, ../_sass/_basic.scss */
+.blueprint_pat_light, .flexible_approach {
+  background: #2f87b9 url("../images/pat_blueprint_light.png") repeat;
+}
+
+/* line 29, ../_sass/_basic.scss */
+.isometric_bg, .inner, .work_detailed {
+  background: url("../images/pat_isometric.png") repeat;
+}
+
+/* line 33, ../_sass/_basic.scss */
 .dark_bg, .slider_section .s_footer {
   background: rgba(0, 0, 0, 0.6);
 }
 
-/* line 29, ../_sass/_basic.scss */
-.smooth_shadow, .box, .career .job_section, .portfolio .portfolio_box, .offer_section .panel, .offer_section .offer_block, .team_member {
+/* line 37, ../_sass/_basic.scss */
+.smooth_shadow, .box, .career .job_section, .portfolio .portfolio_box, .contacts_wrap, .offer_section .panel, .offer_section .offer_block, .team_member {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
 }
 
-/* line 33, ../_sass/_basic.scss */
-.box, .career .job_section, .portfolio .portfolio_box {
+/* line 41, ../_sass/_basic.scss */
+.box, .career .job_section, .portfolio .portfolio_box, .contacts_wrap {
   background: white;
   border-radius: 9px;
 }
 
-/* line 39, ../_sass/_basic.scss */
+/* line 47, ../_sass/_basic.scss */
 body {
   font-size: 1.25em;
 }
 
-/* line 42, ../_sass/_basic.scss */
-.inner {
-  background: url("../images/pat_isometric.png") repeat;
-}
-
-/* line 46, ../_sass/_basic.scss */
+/* line 55, ../_sass/_basic.scss */
 .bg_gray, .job_section .header {
   background: #f3f3f3;
 }
 
-/* line 50, ../_sass/_basic.scss */
+/* line 59, ../_sass/_basic.scss */
 .bg_white {
   background: white;
 }
 
-/* line 54, ../_sass/_basic.scss */
+/* line 63, ../_sass/_basic.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
@@ -7950,6 +7955,15 @@ body {
 /* line 45, ../_sass/custom/_typography.scss */
 .table .td {
   padding-right: 10px;
+}
+
+/* line 50, ../_sass/custom/_typography.scss */
+.notice {
+  font-size: 13px;
+  color: #666f80;
+  background: #ebebeb;
+  padding: 20px 10px;
+  border-radius: 5px;
 }
 
 /* line 1, ../_sass/custom/_ui.scss */
@@ -8373,7 +8387,7 @@ body {
   font-size: 0.75em;
 }
 /* line 68, ../_sass/pages/_home.scss */
-.offer_section .offer_block .heading_three {
+.offer_section .offer_block .heading_three, .offer_section .offer_block .contacts_wrap .contacts_section .heading_one, .contacts_wrap .contacts_section .offer_section .offer_block .heading_one {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 1.625em;
   line-height: 0.9em;
@@ -8508,6 +8522,37 @@ body {
   color: #94846e;
 }
 
+/* line 4, ../_sass/pages/_work.scss */
+.flexible_approach {
+  color: white;
+  text-align: center;
+}
+/* line 8, ../_sass/pages/_work.scss */
+.flexible_approach .heading_two {
+  color: white;
+  margin-top: 60px;
+}
+
+/* line 14, ../_sass/pages/_work.scss */
+.bordered_message {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  padding: 35px 50px;
+  border: 5px solid white;
+}
+
+/* line 22, ../_sass/pages/_work.scss */
+.or {
+  content: 'OR';
+  font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
+  font-size: 48px;
+  height: 48px;
+  display: inline-block;
+  margin-top: 280px;
+}
+
 /* line 3, ../_sass/pages/_career.scss */
 .career .header .heading_one {
   font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
@@ -8593,7 +8638,7 @@ body {
   float: left;
 }
 /* line 72, ../_sass/pages/_career.scss */
-.job_section .detailed .heading_three {
+.job_section .detailed .heading_three, .job_section .detailed .contacts_wrap .contacts_section .heading_one, .contacts_wrap .contacts_section .job_section .detailed .heading_one {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -8864,6 +8909,42 @@ body {
   margin-right: 0;
 }
 
+/* line 2, ../_sass/pages/_contacts.scss */
+.contacts_wrap {
+  padding: 40px 3% 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 7, ../_sass/pages/_contacts.scss */
+.contacts_wrap .map {
+  height: 400px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+  border-bottom: 2px solid #ebebeb;
+}
+/* line 14, ../_sass/pages/_contacts.scss */
+.contacts_wrap .heading_three, .contacts_wrap .contacts_section .heading_one {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #666f80;
+  text-transform: uppercase;
+}
+/* line 20, ../_sass/pages/_contacts.scss */
+.contacts_wrap .contacts_section {
+  color: #777777;
+}
+/* line 22, ../_sass/pages/_contacts.scss */
+.contacts_wrap .contacts_section .tel_link {
+  color: #777777;
+}
+/* line 25, ../_sass/pages/_contacts.scss */
+.contacts_wrap .contacts_section .link {
+  color: #e2534b;
+  text-decoration: underline;
+}
+
 /* line 1, ../_sass/_layout.scss */
 .wrapper {
   background: #f3f3f3;
@@ -9041,7 +9122,7 @@ body {
   text-shadow: 0 1px 0 black;
 }
 /* line 95, ../_sass/parts/_sliders.scss */
-.slider_section .slider_list .orbit-caption .heading_three {
+.slider_section .slider_list .orbit-caption .heading_three, .slider_section .slider_list .orbit-caption .contacts_wrap .contacts_section .heading_one, .contacts_wrap .contacts_section .slider_section .slider_list .orbit-caption .heading_one {
   color: white;
 }
 /* line 98, ../_sass/parts/_sliders.scss */

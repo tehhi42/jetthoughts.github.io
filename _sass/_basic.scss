@@ -22,6 +22,14 @@
   background: $blue url("../images/pat_blueprint.png") repeat;
 }
 
+.blueprint_pat_light {
+  background: $blue url("../images/pat_blueprint_light.png") repeat;
+}
+
+.isometric_bg {
+  background: url("../images/pat_isometric.png") repeat;
+}
+
 .dark_bg {
   background: transparentize($black, 0.4);
 }
@@ -39,8 +47,9 @@
 body {
   font-size: emCalc(20);
 }
+
 .inner {
-  background: url("../images/pat_isometric.png") repeat;
+  @extend .isometric_bg;
 }
 
 .bg_gray {
