@@ -2,7 +2,7 @@
 layout: post
 title:  "Dummy text!"
 author: Paul Nikitochkin
-date:   2013-08-13 11:43:33
+date:   2013-08-29 11:43:33
 categories:
 - sample
 description: "vimeo: This will ensure that we don't add extra padding since Vimeo <a href='/team.html' >Team page</a> has controls within the player, itself."

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Hello World!"
-date:   2013-08-08 17:43:33
+title:  "Welcome to Jekyll!"
+author: Miroslav Martynov
+date:   2012-09-08 17:28:33
 categories:
-- hello
-- welcome
-- new
+- jekyll
+- update
+description: "You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!"
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

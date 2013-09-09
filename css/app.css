@@ -7701,14 +7701,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   background-position: 0 -72px;
 }
 
-/* line 194, icons/*.png */
-.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-facebook, .icons-gears, .icons-head_brain, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-warn, .validation_input .validate_text.error:after, .icons-webapp {
-  background: url('../images/icons-s0e7d1eb5df.png') no-repeat;
+/* line 226, icons/*.png */
+.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-comment, .icons-facebook, .icons-facebook_small, .icons-gears, .icons-head_brain, .icons-linkedin, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-twitter_small, .icons-warn, .validation_input .validate_text.error:after, .icons-webapp {
+  background: url('../images/icons-s8101870f29.png') no-repeat;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-binder {
-  background-position: 0 -1193px;
+  background-position: 0 -1247px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7722,12 +7722,22 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-comment {
+  background-position: 0 -1367px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook {
-  background-position: 0 -1425px;
+  background-position: 0 -1590px;
 }
 /* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook:hover, .icons-facebook.facebook_hover, .icons-facebook.facebook-hover {
-  background-position: 0 -1483px;
+  background-position: 0 -1648px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-facebook_small {
+  background-position: 0 -1311px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7741,13 +7751,18 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedin {
+  background-position: 0 -1706px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-location {
-  background-position: 0 -1027px;
+  background-position: 0 -1081px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-mail {
-  background-position: 0 -1373px;
+  background-position: 0 -1538px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7767,12 +7782,12 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-phone {
-  background-position: 0 -1082px;
+  background-position: 0 -1136px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-photo {
-  background-position: 0 -853px;
+  background-position: 0 -907px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -7787,21 +7802,26 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-twitter {
-  background-position: 0 -1257px;
+  background-position: 0 -1422px;
 }
 /* line 43, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-twitter:hover, .icons-twitter.twitter_hover, .icons-twitter.twitter-hover {
-  background-position: 0 -1315px;
+  background-position: 0 -1480px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-twitter_small {
+  background-position: 0 -853px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-warn, .validation_input .validate_text.error:after {
-  background-position: 0 -1138px;
+  background-position: 0 -1192px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-webapp {
-  background-position: 0 -927px;
+  background-position: 0 -981px;
 }
 
 /* line 98, ui/*.png */
@@ -7860,7 +7880,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 29, ../_sass/_basic.scss */
-.isometric_bg, .inner, .work_detailed {
+.isometric_bg, .inner, .work_detailed, .blog_section {
   background: url("../images/pat_isometric.png") repeat;
 }
 
@@ -7967,83 +7987,93 @@ body {
 }
 
 /* line 1, ../_sass/custom/_ui.scss */
+.link_underline {
+  text-decoration: underline;
+}
+/* line 3, ../_sass/custom/_ui.scss */
+.link_underline:hover {
+  text-decoration: none;
+}
+
+/* line 8, ../_sass/custom/_ui.scss */
 .button, .portfolio_sort .sorter {
-  font-family: 'verb_extraboldregular', sans-serif;
-  font-size: 1.25em;
-  font-weight: 900;
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
   background: #ff8448;
   border: none;
   border-radius: 3px;
+  padding-bottom: 0.7em;
   -webkit-box-shadow: 0 4px 0 #e67740;
   -moz-box-shadow: 0 4px 0 #e67740;
   box-shadow: 0 4px 0 #e67740;
 }
-/* line 7, ../_sass/custom/_ui.scss */
+/* line 17, ../_sass/custom/_ui.scss */
 .button:hover, .portfolio_sort .sorter:hover {
   background: #e67740;
 }
 
-/* line 12, ../_sass/custom/_ui.scss */
+/* line 22, ../_sass/custom/_ui.scss */
 .button_extraordinary, .portfolio_sort .sorter.active {
   background: #ff8448;
   -webkit-box-shadow: 0 4px 0 #e67740;
   -moz-box-shadow: 0 4px 0 #e67740;
   box-shadow: 0 4px 0 #e67740;
 }
-/* line 15, ../_sass/custom/_ui.scss */
+/* line 25, ../_sass/custom/_ui.scss */
 .button_extraordinary:hover, .portfolio_sort .sorter.active:hover {
   background: #e67740;
 }
 
-/* line 20, ../_sass/custom/_ui.scss */
+/* line 30, ../_sass/custom/_ui.scss */
 .button_primary {
   background: #2dcc70;
   -webkit-box-shadow: 0 4px 0 #4fae76;
   -moz-box-shadow: 0 4px 0 #4fae76;
   box-shadow: 0 4px 0 #4fae76;
 }
-/* line 23, ../_sass/custom/_ui.scss */
+/* line 33, ../_sass/custom/_ui.scss */
 .button_primary:hover {
   background: #4fae76;
 }
 
-/* line 28, ../_sass/custom/_ui.scss */
+/* line 38, ../_sass/custom/_ui.scss */
 .button_ordinary {
   background: #ebebeb;
   -webkit-box-shadow: 0 4px 0 #d9d9d9;
   -moz-box-shadow: 0 4px 0 #d9d9d9;
   box-shadow: 0 4px 0 #d9d9d9;
 }
-/* line 31, ../_sass/custom/_ui.scss */
+/* line 41, ../_sass/custom/_ui.scss */
 .button_ordinary:hover {
   background: #d9d9d9;
 }
 
-/* line 36, ../_sass/custom/_ui.scss */
+/* line 46, ../_sass/custom/_ui.scss */
 .button_gray, .portfolio_sort .sorter {
   background: #99a3a4;
   -webkit-box-shadow: 0 4px 0 #808b8d;
   -moz-box-shadow: 0 4px 0 #808b8d;
   box-shadow: 0 4px 0 #808b8d;
 }
-/* line 39, ../_sass/custom/_ui.scss */
+/* line 49, ../_sass/custom/_ui.scss */
 .button_gray:hover, .portfolio_sort .sorter:hover {
   background: #808b8d;
 }
 
-/* line 44, ../_sass/custom/_ui.scss */
+/* line 54, ../_sass/custom/_ui.scss */
 .button_dark {
   background: #2c3d4f;
   -webkit-box-shadow: 0 4px 0 #102f44;
   -moz-box-shadow: 0 4px 0 #102f44;
   box-shadow: 0 4px 0 #102f44;
 }
-/* line 47, ../_sass/custom/_ui.scss */
+/* line 57, ../_sass/custom/_ui.scss */
 .button_dark:hover {
   background: #102f44;
 }
 
-/* line 58, ../_sass/custom/_ui.scss */
+/* line 68, ../_sass/custom/_ui.scss */
 .icon_circle {
   width: 122px;
   height: 122px;
@@ -8053,22 +8083,22 @@ body {
   border: 1px solid white;
   border-radius: 61px;
 }
-/* line 66, ../_sass/custom/_ui.scss */
+/* line 76, ../_sass/custom/_ui.scss */
 .icon_circle.green {
   background: #2dcc70;
 }
-/* line 69, ../_sass/custom/_ui.scss */
+/* line 79, ../_sass/custom/_ui.scss */
 .icon_circle.mid {
   width: 94px;
   height: 94px;
   line-height: 94px;
   border-radius: 47px;
 }
-/* line 74, ../_sass/custom/_ui.scss */
+/* line 84, ../_sass/custom/_ui.scss */
 .icon_circle.mid > [class*="icon"] {
   line-height: 94px;
 }
-/* line 78, ../_sass/custom/_ui.scss */
+/* line 88, ../_sass/custom/_ui.scss */
 .icon_circle > [class*="icon"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8080,14 +8110,14 @@ body {
   vertical-align: middle;
 }
 
-/* line 85, ../_sass/custom/_ui.scss */
+/* line 95, ../_sass/custom/_ui.scss */
 .pagination {
   text-align: center;
   margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
 }
-/* line 90, ../_sass/custom/_ui.scss */
+/* line 100, ../_sass/custom/_ui.scss */
 .pagination .page_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8097,12 +8127,12 @@ body {
   *display: inline;
   margin: 0 2px;
 }
-/* line 94, ../_sass/custom/_ui.scss */
+/* line 104, ../_sass/custom/_ui.scss */
 .pagination .page_item.active .page_link {
   background: #68de99;
   border-top: 3px solid #71bf91;
 }
-/* line 99, ../_sass/custom/_ui.scss */
+/* line 109, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 16px;
@@ -8116,7 +8146,7 @@ body {
   border-radius: 5px;
   border-top: 3px solid #717b8e;
 }
-/* line 110, ../_sass/custom/_ui.scss */
+/* line 120, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link:hover {
   background: #ff8448;
   border-top: 3px solid #e67740;
@@ -8233,6 +8263,30 @@ body {
 .partners-logo_visa {
   width: 75px;
   height: 25px;
+}
+
+/* line 91, ../_sass/custom/_icons.scss */
+.icons-facebook_small {
+  width: 17px;
+  height: 16px;
+}
+
+/* line 96, ../_sass/custom/_icons.scss */
+.icons-twitter_small {
+  width: 18px;
+  height: 14px;
+}
+
+/* line 101, ../_sass/custom/_icons.scss */
+.icons-linkedin {
+  width: 14px;
+  height: 12px;
+}
+
+/* line 106, ../_sass/custom/_icons.scss */
+.icons-comment {
+  width: 16px;
+  height: 15px;
 }
 
 /* line 1, ../_sass/custom/_forms.scss */
@@ -8522,18 +8576,25 @@ body {
   color: #94846e;
 }
 
-/* line 4, ../_sass/pages/_work.scss */
+/* line 5, ../_sass/pages/_work.scss */
+.work_wrap .work_detailed .message {
+  font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+/* line 11, ../_sass/pages/_work.scss */
 .flexible_approach {
   color: white;
   text-align: center;
+  padding-bottom: 30px;
 }
-/* line 8, ../_sass/pages/_work.scss */
+/* line 16, ../_sass/pages/_work.scss */
 .flexible_approach .heading_two {
   color: white;
   margin-top: 60px;
 }
 
-/* line 14, ../_sass/pages/_work.scss */
+/* line 22, ../_sass/pages/_work.scss */
 .bordered_message {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 22px;
@@ -8543,7 +8604,7 @@ body {
   border: 5px solid white;
 }
 
-/* line 22, ../_sass/pages/_work.scss */
+/* line 30, ../_sass/pages/_work.scss */
 .or {
   content: 'OR';
   font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
@@ -8551,6 +8612,33 @@ body {
   height: 48px;
   display: inline-block;
   margin-top: 280px;
+}
+
+/* line 38, ../_sass/pages/_work.scss */
+.work_detailed {
+  padding: 5px 0 120px;
+}
+/* line 41, ../_sass/pages/_work.scss */
+.work_detailed .heading_two {
+  color: #2c3d4f;
+  margin-top: 40px;
+}
+/* line 45, ../_sass/pages/_work.scss */
+.work_detailed .rounded_number {
+  font-style: normal;
+  text-align: center;
+  line-height: 96px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: baseline;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border: 4px solid #2c3d4f;
+  border-radius: 50px;
 }
 
 /* line 3, ../_sass/pages/_career.scss */
@@ -8726,8 +8814,6 @@ body {
 }
 /* line 138, ../_sass/pages/_career.scss */
 .application_form .button, .application_form .portfolio_sort .sorter, .portfolio_sort .application_form .sorter {
-  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
-  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -8749,6 +8835,7 @@ body {
   line-height: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  padding-bottom: 0.5em;
   margin-bottom: 0;
   display: -moz-inline-stack;
   display: inline-block;
@@ -8758,7 +8845,7 @@ body {
   *display: inline;
 }
 
-/* line 27, ../_sass/pages/_portfolio.scss */
+/* line 28, ../_sass/pages/_portfolio.scss */
 .protfolio_thumb {
   border-radius: 5px;
   border-bottom: 3px solid #e1e1d9;
@@ -8766,17 +8853,17 @@ body {
   width: 100%;
 }
 
-/* line 34, ../_sass/pages/_portfolio.scss */
+/* line 35, ../_sass/pages/_portfolio.scss */
 .portfolio_item {
   margin-bottom: 25px;
 }
-/* line 36, ../_sass/pages/_portfolio.scss */
+/* line 37, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details {
   padding: 20px;
   border-radius: 5px;
   min-height: 282px;
 }
-/* line 40, ../_sass/pages/_portfolio.scss */
+/* line 41, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .button, .portfolio_item .details .portfolio_sort .sorter, .portfolio_sort .portfolio_item .details .sorter {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 14px;
@@ -8787,11 +8874,11 @@ body {
   padding-bottom: 10px;
   margin: 40px auto 0;
 }
-/* line 49, ../_sass/pages/_portfolio.scss */
+/* line 50, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .header {
   padding: 0;
 }
-/* line 51, ../_sass/pages/_portfolio.scss */
+/* line 52, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .header .heading_one {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 24px;
@@ -8800,7 +8887,7 @@ body {
   line-height: 24px;
   color: white;
 }
-/* line 58, ../_sass/pages/_portfolio.scss */
+/* line 59, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .project_link {
   color: white;
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
@@ -8808,11 +8895,11 @@ body {
   margin-top: 10px;
   text-decoration: underline;
 }
-/* line 63, ../_sass/pages/_portfolio.scss */
+/* line 64, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .project_link:hover {
   text-decoration: none;
 }
-/* line 67, ../_sass/pages/_portfolio.scss */
+/* line 68, ../_sass/pages/_portfolio.scss */
 .portfolio_item .details .summary {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 14px;
@@ -8820,41 +8907,41 @@ body {
   color: white;
 }
 
-/* line 75, ../_sass/pages/_portfolio.scss */
+/* line 76, ../_sass/pages/_portfolio.scss */
 .portfolio {
   padding-bottom: 40px;
 }
-/* line 78, ../_sass/pages/_portfolio.scss */
+/* line 79, ../_sass/pages/_portfolio.scss */
 .portfolio .header:after {
   display: none;
 }
-/* line 81, ../_sass/pages/_portfolio.scss */
+/* line 82, ../_sass/pages/_portfolio.scss */
 .portfolio .header .heading_one {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 21px;
   font-weight: 900;
   color: #94846e;
 }
-/* line 86, ../_sass/pages/_portfolio.scss */
+/* line 87, ../_sass/pages/_portfolio.scss */
 .portfolio.inner {
   padding-top: 1.5em;
 }
-/* line 89, ../_sass/pages/_portfolio.scss */
+/* line 90, ../_sass/pages/_portfolio.scss */
 .portfolio.inner .header {
   padding: 60px 0 0;
 }
-/* line 93, ../_sass/pages/_portfolio.scss */
+/* line 94, ../_sass/pages/_portfolio.scss */
 .portfolio p {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 14px;
   color: #94846e;
 }
-/* line 100, ../_sass/pages/_portfolio.scss */
+/* line 101, ../_sass/pages/_portfolio.scss */
 .portfolio .slider_section {
   background: none;
   margin: 50px 0 70px;
 }
-/* line 104, ../_sass/pages/_portfolio.scss */
+/* line 105, ../_sass/pages/_portfolio.scss */
 .portfolio .slider_section .orbit-prev,
 .portfolio .slider_section .orbit-next {
   padding: 5px;
@@ -8863,7 +8950,7 @@ body {
   height: 40px;
   border-radius: 5px;
 }
-/* line 110, ../_sass/pages/_portfolio.scss */
+/* line 111, ../_sass/pages/_portfolio.scss */
 .portfolio .slider_section .orbit-prev > span,
 .portfolio .slider_section .orbit-next > span {
   display: block;
@@ -8874,7 +8961,7 @@ body {
   height: 16px;
   border: 0;
 }
-/* line 132, ../_sass/pages/_portfolio.scss */
+/* line 133, ../_sass/pages/_portfolio.scss */
 .portfolio .back_button {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 16px;
@@ -8882,7 +8969,7 @@ body {
   padding: 13px 15px 12px 40px;
   position: relative;
 }
-/* line 137, ../_sass/pages/_portfolio.scss */
+/* line 138, ../_sass/pages/_portfolio.scss */
 .portfolio .back_button:after {
   content: " ";
   width: 15px;
@@ -8892,19 +8979,19 @@ body {
   top: 14px;
 }
 
-/* line 150, ../_sass/pages/_portfolio.scss */
+/* line 151, ../_sass/pages/_portfolio.scss */
 .related_projects .heading_five {
   padding: 0;
 }
-/* line 154, ../_sass/pages/_portfolio.scss */
+/* line 155, ../_sass/pages/_portfolio.scss */
 .related_projects .list .item {
   margin: 0 2em 3em;
 }
-/* line 156, ../_sass/pages/_portfolio.scss */
+/* line 157, ../_sass/pages/_portfolio.scss */
 .related_projects .list .item.first {
   margin-left: 0;
 }
-/* line 159, ../_sass/pages/_portfolio.scss */
+/* line 160, ../_sass/pages/_portfolio.scss */
 .related_projects .list .item.last {
   margin-right: 0;
 }
@@ -8943,6 +9030,125 @@ body {
 .contacts_wrap .contacts_section .link {
   color: #e2534b;
   text-decoration: underline;
+}
+
+/* line 1, ../_sass/pages/_blog.scss */
+.blog_section {
+  padding: 52px 0;
+}
+/* line 4, ../_sass/pages/_blog.scss */
+.blog_section .heading_one {
+  text-align: center;
+}
+/* line 7, ../_sass/pages/_blog.scss */
+.blog_section .post_date {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  color: #7f8c8c;
+  padding: 15px 0;
+  display: block;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+/* line 16, ../_sass/pages/_blog.scss */
+.blog_section .post_date .month {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 20, ../_sass/pages/_blog.scss */
+.blog_section .post_date .day {
+  display: block;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 700;
+}
+/* line 28, ../_sass/pages/_blog.scss */
+.blog_section .b_footer .share {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 6px 15px;
+  background: #7f8c8c;
+  border-radius: 9px;
+}
+/* line 29, ../_sass/pages/_blog.scss */
+.blog_section .b_footer .share .comments_num {
+  line-height: 12px;
+  vertical-align: text-bottom;
+}
+/* line 38, ../_sass/pages/_blog.scss */
+.blog_section .b_footer .share .share_link {
+  color: white;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 46, ../_sass/pages/_blog.scss */
+.post_item {
+  margin-bottom: 50px;
+}
+/* line 48, ../_sass/pages/_blog.scss */
+.post_item .hr {
+  border-bottom: 4px solid #cbd6d6;
+}
+/* line 52, ../_sass/pages/_blog.scss */
+.post_item .header .heading_one {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 41px;
+  font-weight: 300;
+  line-height: 41px;
+  color: #2c3d4f;
+  text-align: left;
+  vertical-align: text-top;
+  margin-top: 0;
+}
+/* line 62, ../_sass/pages/_blog.scss */
+.post_item .post_meta {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 19px;
+  color: #7f8c8c;
+}
+/* line 65, ../_sass/pages/_blog.scss */
+.post_item .post_meta .author {
+  color: #e67740;
+}
+/* line 68, ../_sass/pages/_blog.scss */
+.post_item .post_meta .category {
+  color: #3296d9;
+}
+/* line 70, ../_sass/pages/_blog.scss */
+.post_item .post_meta .category:after {
+  content: ",";
+}
+/* line 74, ../_sass/pages/_blog.scss */
+.post_item .post_meta .category:last-child:after {
+  content: none;
+}
+
+/* line 82, ../_sass/pages/_blog.scss */
+.post_content {
+  font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+}
+/* line 85, ../_sass/pages/_blog.scss */
+.post_content .description {
+  color: #525656;
+}
+/* line 88, ../_sass/pages/_blog.scss */
+.post_content .post_thumb {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* line 92, ../_sass/pages/_blog.scss */
+.post_content .continue_link {
+  color: #3296d9;
 }
 
 /* line 1, ../_sass/_layout.scss */
@@ -9230,56 +9436,32 @@ body {
   margin: 0 auto;
 }
 
-/* line 10, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-.wrapper {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -438px;
-}
-/* line 18, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-.wrapper .footer_push {
-  height: 438px;
-}
-
-/* line 20, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-.footer {
-  clear: both;
-  position: relative;
-  height: 438px;
-}
-
 /* line 4, ../_sass/parts/_footer.scss */
 .footer {
   color: white;
   background: #1b2b38;
   padding-top: 56px;
+  padding-bottom: 26px;
 }
-/* line 8, ../_sass/parts/_footer.scss */
+/* line 9, ../_sass/parts/_footer.scss */
 .footer .logo_wrap {
   width: 100%;
   min-height: 100px;
 }
-/* line 11, ../_sass/parts/_footer.scss */
+/* line 12, ../_sass/parts/_footer.scss */
 .footer .logo_wrap .logo {
   font-size: 30px;
   line-height: 2em;
   height: auto;
   position: relative;
 }
-/* line 17, ../_sass/parts/_footer.scss */
+/* line 18, ../_sass/parts/_footer.scss */
 .footer .logo_wrap .copyright {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 13px;
   color: #c4c4c4;
 }
-/* line 23, ../_sass/parts/_footer.scss */
+/* line 24, ../_sass/parts/_footer.scss */
 .footer .s_header .heading_one {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 20px;
@@ -9291,57 +9473,57 @@ html, body {
   border-bottom: 1px solid white;
 }
 
-/* line 36, ../_sass/parts/_footer.scss */
+/* line 37, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_heading {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 16px;
   color: white;
 }
-/* line 39, ../_sass/parts/_footer.scss */
+/* line 40, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_heading:hover {
   color: #ff8448;
 }
-/* line 43, ../_sass/parts/_footer.scss */
+/* line 44, ../_sass/parts/_footer.scss */
 .recent_posts_section p {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 13px;
   margin-bottom: 0;
 }
-/* line 47, ../_sass/parts/_footer.scss */
+/* line 48, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_date {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 12px;
   color: #c4c4c4;
   display: block;
 }
-/* line 52, ../_sass/parts/_footer.scss */
+/* line 53, ../_sass/parts/_footer.scss */
 .recent_posts_section .posts_list {
   list-style: none;
 }
-/* line 55, ../_sass/parts/_footer.scss */
+/* line 56, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_item {
   margin-bottom: 10px;
 }
 
-/* line 61, ../_sass/parts/_footer.scss */
+/* line 62, ../_sass/parts/_footer.scss */
 .some_text_section .message {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 13px;
 }
 
-/* line 68, ../_sass/parts/_footer.scss */
+/* line 69, ../_sass/parts/_footer.scss */
 .contacts_section .address_item {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 72, ../_sass/parts/_footer.scss */
+/* line 73, ../_sass/parts/_footer.scss */
 .contacts_section .address_wrap {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 13px;
   line-height: 20px;
   padding-left: 60px;
 }
-/* line 77, ../_sass/parts/_footer.scss */
+/* line 78, ../_sass/parts/_footer.scss */
 .contacts_section .icon_wrap {
   text-align: center;
   position: absolute;
@@ -9349,7 +9531,7 @@ html, body {
   top: 0;
   width: 60px;
 }
-/* line 83, ../_sass/parts/_footer.scss */
+/* line 84, ../_sass/parts/_footer.scss */
 .contacts_section .icon_wrap > [class^="icons"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9358,20 +9540,20 @@ html, body {
   zoom: 1;
   *display: inline;
 }
-/* line 88, ../_sass/parts/_footer.scss */
+/* line 89, ../_sass/parts/_footer.scss */
 .contacts_section .link {
   color: white;
 }
-/* line 91, ../_sass/parts/_footer.scss */
+/* line 92, ../_sass/parts/_footer.scss */
 .contacts_section .tel_link {
   color: white;
 }
 
-/* line 97, ../_sass/parts/_footer.scss */
+/* line 98, ../_sass/parts/_footer.scss */
 .social_wrap .hr {
   position: relative;
 }
-/* line 99, ../_sass/parts/_footer.scss */
+/* line 100, ../_sass/parts/_footer.scss */
 .social_wrap .hr:after {
   content: ' ';
   display: block;
@@ -9382,13 +9564,13 @@ html, body {
   top: -4px;
   background: #ebebeb;
 }
-/* line 110, ../_sass/parts/_footer.scss */
+/* line 111, ../_sass/parts/_footer.scss */
 .social_wrap .social_label {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 20px;
   margin-right: 80px;
 }
-/* line 114, ../_sass/parts/_footer.scss */
+/* line 115, ../_sass/parts/_footer.scss */
 .social_wrap .social_icon {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9401,7 +9583,7 @@ html, body {
   height: 18px;
   background-color: #102f44;
 }
-/* line 120, ../_sass/parts/_footer.scss */
+/* line 121, ../_sass/parts/_footer.scss */
 .social_wrap .social_icon:hover {
   background-color: #efefe7;
 }

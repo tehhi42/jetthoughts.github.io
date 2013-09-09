@@ -1,10 +1,11 @@
 $footer-height: 438px;
-@include sticky-footer($footer-height, ".wrapper", ".footer_push", ".footer");
+//@include sticky-footer($footer-height, ".wrapper", ".footer_push", ".footer");
 
 .footer {
   color: $white;
   background: $deep_blue;
   padding-top: 56px;
+  padding-bottom: 26px;
   .logo_wrap {
     width: 100%;
     min-height: 100px;

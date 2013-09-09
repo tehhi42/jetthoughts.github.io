@@ -16,6 +16,7 @@ $portfolio_item_height: 282px;
     line-height: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    padding-bottom: 0.5em;
     margin-bottom: 0;
     @include inline-block(middle);
     &.active {

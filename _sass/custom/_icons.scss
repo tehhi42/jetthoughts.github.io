@@ -87,3 +87,23 @@
   width: 75px;
   height: 25px;
 }
+
+.icons-facebook_small {
+  width: icons-sprite-width(facebook_small);
+  height: icons-sprite-height(facebook_small);
+}
+
+.icons-twitter_small {
+  width: icons-sprite-width(twitter_small);
+  height: icons-sprite-height(twitter_small);
+}
+
+.icons-linkedin {
+  width: icons-sprite-width(linkedin);
+  height: icons-sprite-height(linkedin);
+}
+
+.icons-comment {
+  width: icons-sprite-width(comment);
+  height: icons-sprite-height(comment);
+}

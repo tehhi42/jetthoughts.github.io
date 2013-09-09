@@ -1,8 +1,14 @@
 ---
 layout: post
 title:  "Foundation grid. part 1"
+author: Zurb's Foundation
 date:   2013-08-13 10:00:00
-categories: hello welcome new
+categories:
+- hello
+- welcome
+- new
+description: "Create powerful multi-device layouts quickly and easily with the 12-column, nestable Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly."
+thumb: "/images/post_thumb/01.jpg"
 ---
 
 # Grid

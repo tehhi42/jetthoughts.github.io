@@ -1,8 +1,18 @@
+.link_underline {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .button {
-  @include verb(emCalc(20));
+  //@include verb(emCalc(20));
+  @include myriad(20px);
+  font-weight: 400;
   background: $orange;
   border: none;
   border-radius: 3px;
+  padding-bottom: 0.7em;
   @include box-shadow(0 4px 0 $orange_shadow);
   &:hover {
     background: $orange_shadow;
