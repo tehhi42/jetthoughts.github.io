@@ -54,3 +54,12 @@
   padding: 20px 10px;
   border-radius: $radius;
 }
+
+code {
+  font-weight: 400;
+}
+
+.highlight {
+  padding: 20px;
+  @extend .box;
+}

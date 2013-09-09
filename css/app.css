@@ -7890,14 +7890,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 37, ../_sass/_basic.scss */
-.smooth_shadow, .box, .career .job_section, .portfolio .portfolio_box, .contacts_wrap, .offer_section .panel, .offer_section .offer_block, .team_member {
+.smooth_shadow, .box, .highlight, .career .job_section, .portfolio .portfolio_box, .contacts_wrap, .offer_section .panel, .offer_section .offer_block, .team_member {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
 }
 
 /* line 41, ../_sass/_basic.scss */
-.box, .career .job_section, .portfolio .portfolio_box, .contacts_wrap {
+.box, .highlight, .career .job_section, .portfolio .portfolio_box, .contacts_wrap {
   background: white;
   border-radius: 9px;
 }
@@ -7984,6 +7984,16 @@ body {
   background: #ebebeb;
   padding: 20px 10px;
   border-radius: 5px;
+}
+
+/* line 58, ../_sass/custom/_typography.scss */
+code {
+  font-weight: 400;
+}
+
+/* line 62, ../_sass/custom/_typography.scss */
+.highlight {
+  padding: 20px;
 }
 
 /* line 1, ../_sass/custom/_ui.scss */

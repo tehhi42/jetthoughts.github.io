@@ -12,6 +12,8 @@ source "https://rubygems.org"
 #  gem 'liquid'
 #end
 
+gem 'pygments.rb'
+gem 'redcarpet'
 gem 'github-pages'
 gem 'font-awesome-sass-rails', '~> 3.0.2.2'
 gem 'compass', '>= 0.12'

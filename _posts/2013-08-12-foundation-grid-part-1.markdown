@@ -18,7 +18,8 @@ Create powerful multi-device layouts quickly and easily with the 12-column, nest
 ## Using our Predefined HTML Classes
 
 These are examples of different ways to use the Foundation Grid. Foundation uses box-sizing: border-box so that borders and padding do not affect the overall width of the columns, making the math dead-simple. Since Foundation is mobile-first, we'll stack content by default. You do have access to an entirely separate small grid to use up to the 768px breakpoint. This means you can create some pretty complex layouts and even drop columns if you want.
-{% highlight html %}
+
+{% highlight html linenos %}
 <div class="row">
   <div class="small-2 large-4 columns">...</div>
   <div class="small-4 large-4 columns">...</div>

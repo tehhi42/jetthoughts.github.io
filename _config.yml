@@ -1,10 +1,10 @@
 name: Your New Jekyll Site
 markdown: redcarpet
+pygments: true
 safe: true
 lsi: false
 paginate: 3
 paginate_path: "blog/page:num"
-pygments: true
 
 asset_pipeline:
   bundle: true            # Default = true
