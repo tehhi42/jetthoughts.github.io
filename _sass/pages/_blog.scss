@@ -31,7 +31,7 @@
         vertical-align: text-bottom;
       }
       @include myriad(16px);
-      margin-top: 10px;
+      margin-top: 20px;
       padding: 6px 15px;
       background: $dirt_blue_lighter;
       border-radius: $mid_radius;
@@ -91,5 +91,42 @@
   }
   .continue_link {
     color: $blue_lighter;
+  }
+}
+
+.inside_post {
+  color: $mid_gray;
+  p {
+    line-height: 2em;
+  }
+  .b_footer {
+    .share {
+      background: $light_gray_3;
+      .share_link {
+        margin: 10px 5px;
+        border-radius: $radius;
+      }
+    }
+  }
+}
+
+.share {
+  .icons-facebook_large {
+    background-color: $facebook_color;
+    &:hover {
+      background-color: transparentize($facebook_color, 0.3);
+    }
+  }
+  .icons-linkedin_large {
+    background-color: $linkedin_color;
+    &:hover {
+      background-color: transparentize($linkedin_color, 0.3);
+    }
+  }
+  .icons-twitter_large {
+    background-color: $twitter_color;
+    &:hover {
+      background-color: transparentize($twitter_color, 0.3);
+    }
   }
 }

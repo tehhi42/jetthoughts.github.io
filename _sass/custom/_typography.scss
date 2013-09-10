@@ -23,6 +23,50 @@
   }
 }
 
+// Headings
+
+.h1 {
+  @include proxima(2.5em);
+  line-height: 1em;
+  color: $dark_blue;
+  margin: emCalc(20px) 0 emCalc(10px);
+}
+
+.heading_one, h1 {
+  @extend .h1;
+}
+
+h2,
+.heading_two {
+  @extend .h1;
+  font-size: emCalc(20px);
+}
+
+h3,
+.heading_three {
+  @extend .h1;
+  font-size: emCalc(18px);
+}
+
+h4,
+.heading_four {
+  @extend .h1;
+  font-size: emCalc(16px);
+}
+
+h5,
+.heading_five {
+  @extend .h1;
+  font-size: emCalc(14px);
+}
+
+h6,
+.heading_six {
+  @extend .h1;
+  font-size: emCalc(13px);
+  font-weight: 700;
+}
+
 .table {
   @include myriad(12px);
   border: none;
@@ -61,5 +105,6 @@ code {
 
 .highlight {
   padding: 20px;
+  margin-bottom: 1.25em;
   @extend .box;
 }
