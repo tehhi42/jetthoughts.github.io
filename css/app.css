@@ -7939,21 +7939,26 @@ body {
 }
 
 /* line 1, ../_sass/custom/_typography.scss */
-.basic_text {
+.basic_text, .list {
   font-family: "PT Sans", "Myriad Pro", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
-/* line 12, ../_sass/custom/_typography.scss */
+/* line 10, ../_sass/custom/_typography.scss */
+.white {
+  color: white;
+}
+
+/* line 16, ../_sass/custom/_typography.scss */
 .inner .article .heading_one {
   font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
   font-size: 48px;
   line-height: 48px;
   color: #2c3d4f;
 }
-/* line 17, ../_sass/custom/_typography.scss */
+/* line 21, ../_sass/custom/_typography.scss */
 .inner .article .message {
   font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
   font-size: 22px;
@@ -7962,7 +7967,18 @@ body {
   color: #2c3d4f;
 }
 
-/* line 28, ../_sass/custom/_typography.scss */
+/* line 30, ../_sass/custom/_typography.scss */
+.list {
+  font-size: 12px;
+  padding: 0;
+  list-style: none;
+}
+/* line 36, ../_sass/custom/_typography.scss */
+.list .list_item > a {
+  text-decoration: underline;
+}
+
+/* line 43, ../_sass/custom/_typography.scss */
 .h1, .heading_one, h1, h2,
 .heading_two, h3,
 .heading_three, h4,
@@ -7976,55 +7992,55 @@ body {
   margin: 1.25em 0 0.625em;
 }
 
-/* line 40, ../_sass/custom/_typography.scss */
+/* line 55, ../_sass/custom/_typography.scss */
 h2,
 .heading_two {
   font-size: 1.25em;
 }
 
-/* line 46, ../_sass/custom/_typography.scss */
+/* line 61, ../_sass/custom/_typography.scss */
 h3,
 .heading_three,
 .contacts_wrap .contacts_section .heading_one {
   font-size: 1.125em;
 }
 
-/* line 52, ../_sass/custom/_typography.scss */
+/* line 67, ../_sass/custom/_typography.scss */
 h4,
 .heading_four {
   font-size: 1em;
 }
 
-/* line 58, ../_sass/custom/_typography.scss */
+/* line 73, ../_sass/custom/_typography.scss */
 h5,
 .heading_five {
   font-size: 0.875em;
 }
 
-/* line 64, ../_sass/custom/_typography.scss */
+/* line 79, ../_sass/custom/_typography.scss */
 h6,
 .heading_six {
   font-size: 0.8125em;
   font-weight: 700;
 }
 
-/* line 70, ../_sass/custom/_typography.scss */
+/* line 85, ../_sass/custom/_typography.scss */
 .table {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 12px;
   border: none;
   width: 100%;
 }
-/* line 74, ../_sass/custom/_typography.scss */
+/* line 89, ../_sass/custom/_typography.scss */
 .table .tr {
   background: none;
 }
-/* line 77, ../_sass/custom/_typography.scss */
+/* line 92, ../_sass/custom/_typography.scss */
 .table .th {
   font-weight: 700;
   text-align: left;
 }
-/* line 82, ../_sass/custom/_typography.scss */
+/* line 97, ../_sass/custom/_typography.scss */
 .table .th,
 .table .td {
   border-bottom: 1px solid #f3f3f3;
@@ -8033,12 +8049,12 @@ h6,
   padding-bottom: 10px;
   vertical-align: top;
 }
-/* line 89, ../_sass/custom/_typography.scss */
+/* line 104, ../_sass/custom/_typography.scss */
 .table .td {
   padding-right: 10px;
 }
 
-/* line 94, ../_sass/custom/_typography.scss */
+/* line 109, ../_sass/custom/_typography.scss */
 .notice {
   font-size: 13px;
   color: #666f80;
@@ -8047,12 +8063,12 @@ h6,
   border-radius: 5px;
 }
 
-/* line 102, ../_sass/custom/_typography.scss */
+/* line 117, ../_sass/custom/_typography.scss */
 code {
   font-weight: 400;
 }
 
-/* line 106, ../_sass/custom/_typography.scss */
+/* line 121, ../_sass/custom/_typography.scss */
 .highlight {
   padding: 20px;
   margin-bottom: 1.25em;

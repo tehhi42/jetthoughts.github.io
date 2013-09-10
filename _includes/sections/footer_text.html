@@ -1,10 +1,12 @@
 <section class="some_text_section">
   <header class="s_header">
-    <h1 class="heading_one">Some Text</h1>
+    <h1 class="heading_one">Something More</h1>
   </header>
-  <p class="message">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto assumenda beatae doloribus esse est
-    inventore iusto omnis reprehenderit voluptates. Aliquam doloremque eaque nihil quidem repellat saepe totam
-    voluptate, voluptatibus!
-  </p>
+  <ul class="list">
+    {% for node in site.pages %}
+    <li class="list_item">
+      <a class="white" href="{{ node.url }}">{{ node.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </section>

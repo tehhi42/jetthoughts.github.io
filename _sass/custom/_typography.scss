@@ -7,6 +7,10 @@
   line-height: 24px;
 }
 
+.white {
+  color: $white;
+}
+
 .inner {
   .article {
     .heading_one {
@@ -23,6 +27,17 @@
   }
 }
 
+.list {
+  @extend .basic_text;
+  font-size: 12px;
+  padding: 0;
+  list-style: none;
+  .list_item {
+    >a {
+      text-decoration: underline;
+    }
+  }
+}
 // Headings
 
 .h1 {
