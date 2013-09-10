@@ -4177,7 +4177,7 @@ label.error {
 /* line 67, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #111111;
+  background: #1b2b38;
 }
 /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -4196,10 +4196,10 @@ label.error {
 /* line 83, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 110px;
+  line-height: 110px;
   position: relative;
-  background: #111111;
+  background: #1b2b38;
   margin-bottom: 1.875em;
 }
 /* line 92, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -4233,13 +4233,13 @@ label.error {
 }
 /* line 112, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar .name {
-  height: 45px;
+  height: 110px;
   margin: 0;
   font-size: 16;
 }
 /* line 117, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
-  line-height: 45px;
+  line-height: 110px;
   font-size: 1.0625em;
   margin: 0;
 }
@@ -4249,7 +4249,7 @@ label.error {
   color: white;
   width: 50%;
   display: block;
-  padding: 0 15px;
+  padding: 0 36.66667px;
 }
 /* line 132, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
@@ -4265,13 +4265,13 @@ label.error {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 15px;
-  height: 45px;
-  line-height: 45px;
+  padding: 0 36.66667px;
+  height: 110px;
+  line-height: 110px;
 }
 /* line 150, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon {
-  right: 15px;
+  right: 36.66667px;
   top: 50%;
   margin-top: -16px;
   padding-left: 40px;
@@ -4302,7 +4302,7 @@ label.error {
 }
 /* line 189, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #111111;
+  background: #1b2b38;
 }
 /* line 192, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -4335,8 +4335,8 @@ label.error {
 /* line 227, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-bottom: solid 1px #2b2b2b;
-  border-top: solid 1px black;
+  border-bottom: solid 1px #2c455a;
+  border-top: solid 1px #0a1116;
   clear: both;
   height: 1px;
   width: 100%;
@@ -4347,7 +4347,7 @@ label.error {
   width: 100%;
   color: white;
   padding: 12px 0 12px 0;
-  padding-left: 15px;
+  padding-left: 36.66667px;
   font-size: 0.8125em;
   font-weight: bold;
   background: #222222;
@@ -4387,17 +4387,17 @@ label.error {
 }
 /* line 275, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.hover > a {
-  background: #090909;
+  background: #16232e;
   color: white;
 }
 /* line 281, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #090909;
+  background: #16232e;
   color: white;
 }
 /* line 288, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 15px;
+  padding: 36.66667px;
 }
 /* line 291, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -4412,7 +4412,7 @@ label.error {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
   border-left-style: solid;
-  margin-right: 15px;
+  margin-right: 36.66667px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -4442,7 +4442,7 @@ label.error {
 /* line 324, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 15px;
+  padding: 8px 36.66667px;
 }
 /* line 327, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -4455,12 +4455,12 @@ label.error {
 /* line 333, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a {
   color: white;
-  line-height: 22.5px;
+  line-height: 55px;
   display: block;
 }
 /* line 341, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 15px 2px;
+  padding: 8px 36.66667px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #555555;
@@ -4482,7 +4482,7 @@ label.error {
 @media only screen and (min-width: 58.75em) {
   /* line 362, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #111111;
+    background: #1b2b38;
     *zoom: 1;
     overflow: visible;
   }
@@ -4521,7 +4521,7 @@ label.error {
   }
   /* line 382, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #111111;
+    background: #1b2b38;
   }
 
   /* line 385, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -4554,9 +4554,9 @@ label.error {
   }
   /* line 407, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button) {
-    padding: 0 15px;
-    line-height: 45px;
-    background: #111111;
+    padding: 0 36.66667px;
+    line-height: 110px;
+    background: #1b2b38;
   }
   /* line 411, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button).hover {
@@ -4564,7 +4564,7 @@ label.error {
   }
   /* line 416, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 35px !important;
+    padding-right: 56.66667px !important;
   }
   /* line 419, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
@@ -4576,7 +4576,7 @@ label.error {
     border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 22.5px;
+    top: 55px;
   }
   /* line 426, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -4609,13 +4609,13 @@ label.error {
     color: white;
     line-height: 1;
     white-space: nowrap;
-    padding: 7px 15px;
-    background: #1e1e1e;
+    padding: 7px 36.66667px;
+    background: #233849;
   }
   /* line 464, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
     white-space: nowrap;
-    background: #1e1e1e;
+    background: #233849;
   }
   /* line 470, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li .dropdown {
@@ -4626,17 +4626,17 @@ label.error {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #2b2b2b;
-    border-left: solid 1px black;
+    border-right: solid 1px #2c455a;
+    border-left: solid 1px #0a1116;
     clear: none;
-    height: 45px;
+    height: 110px;
     width: 0px;
   }
   /* line 488, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #111111;
-    padding: 0 15px;
-    height: 45px;
+    background: #1b2b38;
+    padding: 0 36.66667px;
+    height: 110px;
   }
   /* line 496, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section ul.right li .dropdown {
@@ -4650,12 +4650,12 @@ label.error {
 
   /* line 510, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #090909;
+    background: #16232e;
     color: white;
   }
   /* line 516, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #090909;
+    background: #16232e;
     color: white;
   }
   /* line 524, ../../../../.rvm/gems/ruby-1.9.3-p448@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -9321,17 +9321,17 @@ code {
   margin-left: -24px;
 }
 
-/* line 3, ../_sass/parts/_nav.scss */
+/* line 1, ../_sass/parts/_nav.scss */
 .top_menu_wrap {
   height: 110px;
   background: #1b2b38;
 }
-/* line 6, ../_sass/parts/_nav.scss */
+/* line 4, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu {
   height: 110px;
   margin-bottom: 0;
 }
-/* line 10, ../_sass/parts/_nav.scss */
+/* line 8, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9341,7 +9341,7 @@ code {
   *display: inline;
   height: 110px;
 }
-/* line 13, ../_sass/parts/_nav.scss */
+/* line 11, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link {
   text-transform: uppercase;
   color: white;
@@ -9351,12 +9351,22 @@ code {
   padding: 0 20px;
   vertical-align: middle;
 }
-/* line 22, ../_sass/parts/_nav.scss */
+/* line 20, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link:hover, .top_menu_wrap .menu_item .menu_link.active {
   background: #ff8448;
 }
 
-/* line 28, ../_sass/parts/_nav.scss */
+/* line 29, ../_sass/parts/_nav.scss */
+.expanded .submenu {
+  position: relative;
+  z-index: 999;
+}
+/* line 32, ../_sass/parts/_nav.scss */
+.expanded .submenu .menu_item {
+  width: 100%;
+}
+
+/* line 38, ../_sass/parts/_nav.scss */
 .logo {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 30px;
@@ -9369,6 +9379,7 @@ code {
   top: 0;
   bottom: 0;
   vertical-align: middle;
+  margin-left: 10px;
 }
 
 /* line 8, ../_sass/parts/_sliders.scss */
@@ -9376,11 +9387,23 @@ code {
   background: #2f87b9 url("../images/pat_blueprint.png") repeat;
 }
 /* line 10, ../_sass/parts/_sliders.scss */
+.slider_section .orbit-timer {
+  top: auto;
+  bottom: 67px;
+  right: 121px;
+  height: 1px;
+  width: 768px;
+}
+/* line 16, ../_sass/parts/_sliders.scss */
+.slider_section .orbit-timer .orbit-progress {
+  background: #2dcc70;
+}
+/* line 20, ../_sass/parts/_sliders.scss */
 .slider_section .s_header {
   margin-top: 50px;
   margin-bottom: 70px;
 }
-/* line 14, ../_sass/parts/_sliders.scss */
+/* line 24, ../_sass/parts/_sliders.scss */
 .slider_section .heading_one {
   text-align: center;
   font-family: "Proxima Nova", "ProximaNova", "Montserrat", sans-serif;
@@ -9390,7 +9413,7 @@ code {
   margin: 0;
   text-shadow: 0 1px 9px rgba(0, 0, 0, 0.6);
 }
-/* line 23, ../_sass/parts/_sliders.scss */
+/* line 33, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-container,
 .slider_section .slider_wrap {
   position: relative;
@@ -9399,11 +9422,11 @@ code {
   background: url("../images/laptop.png") no-repeat 50%;
   margin: 0 auto;
 }
-/* line 30, ../_sass/parts/_sliders.scss */
+/* line 40, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-slide-number {
   display: none;
 }
-/* line 33, ../_sass/parts/_sliders.scss */
+/* line 43, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-bullets {
   width: 770px;
   margin: 0;
@@ -9414,7 +9437,7 @@ code {
   text-align: center;
   z-index: 9;
 }
-/* line 42, ../_sass/parts/_sliders.scss */
+/* line 52, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-bullets > li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9430,22 +9453,22 @@ code {
   height: 9px;
   border-radius: 5px;
 }
-/* line 51, ../_sass/parts/_sliders.scss */
+/* line 61, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-bullets > li.active {
   background: #d6d6d6;
 }
-/* line 63, ../_sass/parts/_sliders.scss */
+/* line 73, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-prev,
 .slider_section .orbit-next {
   width: 22px;
   height: 33px;
 }
-/* line 66, ../_sass/parts/_sliders.scss */
+/* line 76, ../_sass/parts/_sliders.scss */
 .slider_section .orbit-prev > span,
 .slider_section .orbit-next > span {
   display: none;
 }
-/* line 70, ../_sass/parts/_sliders.scss */
+/* line 80, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list {
   width: 770px;
   height: 480px;
@@ -9454,13 +9477,13 @@ code {
   top: 34px;
   left: 120.5px;
 }
-/* line 77, ../_sass/parts/_sliders.scss */
+/* line 87, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list .slider_item {
   display: block;
   width: inherit;
   height: inherit;
 }
-/* line 82, ../_sass/parts/_sliders.scss */
+/* line 92, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list .orbit-caption {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 1.25em;
@@ -9476,28 +9499,28 @@ code {
   border-radius: 5px;
   text-shadow: 0 1px 0 black;
 }
-/* line 95, ../_sass/parts/_sliders.scss */
+/* line 105, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list .orbit-caption .heading_three, .slider_section .slider_list .orbit-caption .contacts_wrap .contacts_section .heading_one, .contacts_wrap .contacts_section .slider_section .slider_list .orbit-caption .heading_one {
   color: white;
 }
-/* line 98, ../_sass/parts/_sliders.scss */
+/* line 108, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list .orbit-caption > .caption_p {
   font-size: inherit;
   line-height: inherit;
   padding: 10px;
   margin: 0;
 }
-/* line 104, ../_sass/parts/_sliders.scss */
+/* line 114, ../_sass/parts/_sliders.scss */
 .slider_section .slider_list .orbit-caption a {
   color: #2dcc70;
   text-decoration: underline;
 }
-/* line 110, ../_sass/parts/_sliders.scss */
+/* line 120, ../_sass/parts/_sliders.scss */
 .slider_section .slide_img {
   position: relative;
   z-index: 8;
 }
-/* line 114, ../_sass/parts/_sliders.scss */
+/* line 124, ../_sass/parts/_sliders.scss */
 .slider_section .screen_overlay {
   background: url("../images/screen_glare.png") no-repeat;
   width: 311px;
@@ -9507,12 +9530,12 @@ code {
   right: 94px;
   z-index: 9;
 }
-/* line 123, ../_sass/parts/_sliders.scss */
+/* line 133, ../_sass/parts/_sliders.scss */
 .slider_section .s_footer {
   padding-top: 2.25em;
   margin-top: 1.25em;
 }
-/* line 127, ../_sass/parts/_sliders.scss */
+/* line 137, ../_sass/parts/_sliders.scss */
 .slider_section .s_footer .message {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 1.125em;
@@ -9520,22 +9543,22 @@ code {
   color: white;
 }
 
-/* line 135, ../_sass/parts/_sliders.scss */
+/* line 145, ../_sass/parts/_sliders.scss */
 .mid_slider_section {
   padding-top: 40px;
   padding-bottom: 40px;
   background: #2f87b9 url("../images/pat_blueprint_light.png") repeat;
 }
-/* line 139, ../_sass/parts/_sliders.scss */
+/* line 149, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-container {
   text-align: center;
   background: none;
 }
-/* line 143, ../_sass/parts/_sliders.scss */
+/* line 153, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets {
   text-align: center;
 }
-/* line 145, ../_sass/parts/_sliders.scss */
+/* line 155, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets > li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9551,36 +9574,36 @@ code {
   border: none;
   border-radius: 6px;
 }
-/* line 154, ../_sass/parts/_sliders.scss */
+/* line 164, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets > li.active {
   background: white;
 }
-/* line 159, ../_sass/parts/_sliders.scss */
+/* line 169, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-slide-number {
   display: none;
 }
-/* line 169, ../_sass/parts/_sliders.scss */
+/* line 179, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-prev,
 .mid_slider_section .orbit-next {
   width: 14px;
   height: 21px;
 }
-/* line 172, ../_sass/parts/_sliders.scss */
+/* line 182, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-prev > span,
 .mid_slider_section .orbit-next > span {
   display: none;
 }
-/* line 176, ../_sass/parts/_sliders.scss */
+/* line 186, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item {
   padding: 0 100px;
   color: white;
   text-align: center;
 }
-/* line 180, ../_sass/parts/_sliders.scss */
+/* line 190, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item .heading_one {
   color: white;
 }
-/* line 183, ../_sass/parts/_sliders.scss */
+/* line 193, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item .icon_circle {
   margin: 0 auto;
 }

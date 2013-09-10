@@ -1,5 +1,3 @@
-$nav_height: 110px;
-
 .top_menu_wrap {
   height: $nav_height;
   background: $deep_blue;
@@ -24,7 +22,19 @@ $nav_height: 110px;
       }
     }
   }
+
 }
+
+.expanded {
+  .submenu {
+    position: relative;
+    z-index: 999;
+    .menu_item {
+      width: 100%;
+    }
+  }
+}
+
 .logo {
   @include verb(30px);
   color: #fff !important;
@@ -33,5 +43,6 @@ $nav_height: 110px;
   height: $nav_height;
   @include stretch-y;
   vertical-align: middle;
+  margin-left: 10px;
 }
 

@@ -7,6 +7,16 @@ $slider_laptop_overlay_width: 311px;
 $slider_laptop_overlay_height: 483px;
 .slider_section {
   background: $blue url("../images/pat_blueprint.png") repeat;
+  .orbit-timer {
+    top:auto;
+    bottom: 67px;
+    right: ceil(($slider_laptop_width - $slider_laptop_inner_width)/2);
+    height: 1px;
+    width: $slider_laptop_inner_width - 2;
+    .orbit-progress {
+      background: $modern_green;
+    }
+  }
   .s_header {
     margin-top: 50px;
     margin-bottom: 70px;

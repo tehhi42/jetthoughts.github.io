@@ -1,16 +1,40 @@
-<nav class="top_menu_wrap">
+<div class="top_menu_wrap">
+
+
   <div class="container">
-    <div class="row">
-      <div class="large-3 columns">
-        <a href="/" class="logo">JetThoughts</a>
-      </div>
-      <div class="large-9 columns">
-        <ul class="menu"
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include pages_list %}
+    <nav class="top-bar row">
+      <ul class="title-area">
+        <li class="name">
+          <a href="/" class="logo">JetThoughts</a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href=""><span></span></a></li>
+      </ul>
+
+
+      <section class="top-bar-section">
+        <ul class="submenu right"
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include pages_list %}
         ></ul>
-      </div>
-    </div>
+      </section>
+    </nav>
   </div>
-</nav>
+</div>
+
+<!--<nav class="top_menu_wrap">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="large-3 columns">-->
+<!--<a href="/" class="logo">JetThoughts</a>-->
+<!--<span class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></span>-->
+<!--</div>-->
+
+<!--<div class="large-9 columns">-->
+<!--<section class="top-bar-section">-->
+<!---->
+<!--</section>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</nav>-->
