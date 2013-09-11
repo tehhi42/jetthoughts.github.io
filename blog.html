@@ -49,11 +49,11 @@ menu_position: 4
               <a href="{{ post.url }}" class="continue_link link_underline">Continue reading</a>
               <div class="clear"></div>
               <div class="share left">
-                <a class="share_link" href="#comments"><span class="comments_num">1</span>&nbsp;<i class="icons-comment share_link"></i></a>
+                <a class="share_link" href="{{ post.url }}#disqus_thread"><span class="comments_num"></span></a>&nbsp;<i class="icons-comment share_link"></i>
                 &nbsp;|&nbsp;
-                <a class="icons-linkedin share_link" href="#in">in</a>
-                <a class="icons-twitter_small share_link" href="#tw">tw</a>
-                <a class="icons-facebook_small share_link" href="#fb">fb</a>
+                <a class="icons-linkedin share_link" href="https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}" onclick="window.open('https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}','linkedin-share-dialog','width=626,height=436');return false;">in</a>
+                <a class="icons-twitter_small share_link" href="https://twitter.com/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&via=mc_mart" target="_blank" onclick="window.open('https://twitter.com/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&via=mc_mart','twitter-share-dialog','width=626,height=436');return false;">tw</a>
+                <a class="icons-facebook_small share_link" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}','facebook-share-dialog','width=626,height=436');return false;">fb</a>
               </div>
             </footer>
           </div>
@@ -87,3 +87,15 @@ menu_position: 4
   </div>
 </section>
 
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'jetthoughts'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
