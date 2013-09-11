@@ -52,6 +52,7 @@ menu_position: 4
                 <a class="share_link" href="{{ post.url }}#disqus_thread"><span class="comments_num"></span></a>&nbsp;<i class="icons-comment share_link"></i>
                 &nbsp;|&nbsp;
                 <a class="icons-linkedin share_link" href="https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}" onclick="window.open('https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}','linkedin-share-dialog','width=626,height=436');return false;">in</a>
+                <!-- TODO: Add twitter account for via attribute -->
                 <a class="icons-twitter_small share_link" href="https://twitter.com/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&via=mc_mart" target="_blank" onclick="window.open('https://twitter.com/share?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&via=mc_mart','twitter-share-dialog','width=626,height=436');return false;">tw</a>
                 <a class="icons-facebook_small share_link" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}','facebook-share-dialog','width=626,height=436');return false;">fb</a>
               </div>

@@ -5,6 +5,7 @@ $slider_laptop_inner_height: 480px;
 $slider_laptop_caption_width: 720px;
 $slider_laptop_overlay_width: 311px;
 $slider_laptop_overlay_height: 483px;
+$slider_caption_top: 330px;
 .slider_section {
   background: $blue url("../images/pat_blueprint.png") repeat;
   .orbit-timer {
@@ -36,6 +37,13 @@ $slider_laptop_overlay_height: 483px;
     height: $slider_laptop_height;
     background: url("../images/laptop.png") no-repeat 50%;
     margin: 0 auto;
+  }
+  .slider_wrap {
+    &:hover {
+      .orbit-caption {
+        opacity: 1;
+      }
+    }
   }
   .orbit-slide-number {
     display: none;
@@ -96,12 +104,14 @@ $slider_laptop_overlay_height: 483px;
       padding: 0;
       width: $slider_laptop_caption_width;
       position: absolute;
-      bottom: 40px;
+      top: $slider_caption_top;
+      bottom: auto;
       left: ($slider_laptop_inner_width - $slider_laptop_caption_width)/2;
       z-index: 10;
       background: transparentize($black, 0.5);
       border-radius: 5px;
       text-shadow: 0 1px 0 $black;
+      opacity: 0.1;
       .heading_three {
         color: $white;
       }
@@ -146,6 +156,9 @@ $slider_laptop_overlay_height: 483px;
   padding-top: 40px;
   padding-bottom: 40px;
   background: $blue url("../images/pat_blueprint_light.png") repeat;
+  .orbit-timer {
+    display: none;
+  }
   .orbit-container {
     text-align: center;
     background: none;

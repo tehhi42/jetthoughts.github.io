@@ -4,7 +4,7 @@
       @include proxima(36px);
     }
     .message {
-      padding: 0 160px;
+      //padding: 0 160px;
     }
   }
   .mid_slider_section {
@@ -99,7 +99,7 @@ $job_section_inner_padding_left: 38px;
 
 .similar_projects {
   background: $explicit_gray;
-  padding: 20px 0 35px;
+  padding: 20px 0 20px;
   .heading_five {
     @include myriad(18px);
     font-weight: 400;
@@ -111,11 +111,13 @@ $job_section_inner_padding_left: 38px;
   .list {
     text-align: center;
     margin-bottom: 0;
+    margin-left: -12px;
+    margin-right: -12px;
     .item {
       @include inline-block(middle);
       width: $similar_project_thumb_size;
       height: $similar_project_thumb_size;
-      margin: 0 24px;
+      margin: 0 24px 15px;
       .thumb {
         display: block;
         background: $modern_green;

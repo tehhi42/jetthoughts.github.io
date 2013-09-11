@@ -96,6 +96,7 @@ $portfolio_item_height: 282px;
     color: $light_brown;
   }
   .portfolio_box {
+    overflow: hidden;
     @extend .box;
   }
   .slider_section {
@@ -146,20 +147,17 @@ $portfolio_item_height: 282px;
     }
   }
 }
+
 .related_projects {
   @extend .similar_projects;
   .heading_five {
     padding: 0;
   }
   .list {
+    margin-left: -1em;
+    margin-right: -1em;
     .item {
       margin: 0 2em 3em;
-      &.first {
-        margin-left: 0;
-      }
-      &.last {
-        margin-right: 0;
-      }
     }
   }
 }
