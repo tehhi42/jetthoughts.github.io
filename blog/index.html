@@ -43,7 +43,11 @@ menu_position: 4
             {% endif %}
 
             <p class="description">
-              {{ post.content | truncatewords:50 | strip_html }}
+              {% if post.summary %}
+                {{ post.summary }}
+              {% else %}
+                {{ post.content | truncatewords:50 | strip_html }}
+              {% endif %}
             </p>
 
             <footer class="b_footer">
@@ -72,7 +76,8 @@ menu_position: 4
 
   <!--TODO: Pagination below didn't work properly. Need to fix it up.-->
   {% include paginator.html %}
-  
+
+  <!--
   <div class="pagination_wrap">
     <div class="row">
       <ul class="pagination">
@@ -88,6 +93,7 @@ menu_position: 4
       </ul>
     </div>
   </div>
+  -->
 </section>
 
 <script type="text/javascript">
