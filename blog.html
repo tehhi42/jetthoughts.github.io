@@ -29,7 +29,8 @@ menu_position: 4
               <a href="/team.html" class="author link_underline">Anonymous</a> posted it
               {% endif %}
               <!--TODO: Need to add category link-->
-              in {% for cat in post.categories %}
+              {% for cat in post.categories %}
+              in 
               <a href="#cat_link" class="category link_underline">{{ cat }}</a>&nbsp;
               {% endfor %}
             </div>
