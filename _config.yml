@@ -6,7 +6,7 @@ redcarpet:
 pygments: true
 safe: true
 lsi: false
-paginate: 10
+paginate: 1
 paginate_path: "blog/page:num"
 
 asset_pipeline:
