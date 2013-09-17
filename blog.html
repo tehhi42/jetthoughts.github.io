@@ -43,7 +43,7 @@ menu_position: 4
             {% endif %}
 
             <p class="description">
-              {{ post.description }}
+              {{ post.content | truncatewords:50 | strip_html }}
             </p>
 
             <footer class="b_footer">
