@@ -17,14 +17,14 @@ __2)__ Choose 'Service receives' to "no input" in "any application"
 __3)__ Add action "Run AppleScript" with content:
 
 
-```
+{% highlight ruby linenos=table %}
 on run {input, parameters}
   tell application "System Events"
     keystroke (short date string of (current date))
   end tell
   return input
 end run
-```
+{% endhighlight %}
 
 __4)__ Save the service
 

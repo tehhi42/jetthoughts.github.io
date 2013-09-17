@@ -11,15 +11,15 @@ Today, I spent a time to install gem *geoip_city*. So what did I do:
 
 * Get latest version of GeoIP C Api from <http://geolite.maxmind.com/download/geoip/api/c/>
 
-```
+{% highlight bash linenos=table %}
 wget http://geolite.maxmind.com/download/geoip/api/c/GeoIP-1.4.6.tar.gz
 tar zxf GeoIP-1.4.6.tar.gz
 cd GeoIP-1.4.6
-```
+{% endhighlight %}
 
 * Read file *README.OSX*. Found simple instructions to compile this lib.
 
-```
+{% highlight bash linenos=table %}
 export GEOIP_ARCH='-arch i386 -arch x86_64 -arch ppc -arch ppc64'
 export MACOSX_DEPLOYMENT_TARGET=10.4
 export LDFLAGS=$GEOIP_ARCH
@@ -27,7 +27,7 @@ export CFLAGS="-mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.4u.s
 ./configure --disable-dependency-tracking
 perl -i.bak -pe'/^archive_cmds=/ and !/\bGEOIP_ARCH\b/ and s/-dynamiclib\b/-dynamiclib \\\$(GEOIP_ARCH)/' ./libtool
 make
-```
+{% endhighlight %}
 
 * When run all this stuff, I did not get a success result, I still have a error when install gem.
 
@@ -38,23 +38,27 @@ make
 * So change line in readme file
 before
 
-```export CFLAGS="-mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.4u.sdk $GEOIP_ARCH"```
+{% highlight bash linenos=table %}
+export CFLAGS="-mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.4u.sdk $GEOIP_ARCH"
+{% endhighlight %}
 
 to
 
-```export CFLAGS="-mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.6.sdk $GEOIP_ARCH"```
+{% highlight bash linenos=table %}
+export CFLAGS="-mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.6.sdk $GEOIP_ARCH"
+{% endhighlight %}
 
 * and execute all steps from README file.
 
 * but found a problem in step configure:
 
-```
+{% highlight bash linenos=table %}
 % ./configure --disable-dependency-tracking
 checking for gcc... gcc
 checking for C compiler default output file name...
 configure: error: C compiler cannot create executables
 See `config.log' for more details.
-```
+{% endhighlight %}
 
 * I choose another SDK and set to "MacOSX10.5.sdk"
 
@@ -64,7 +68,7 @@ See `config.log' for more details.
 
 if you have troubles to install gem and still see next message:
 
-```
+{% highlight bash linenos=table %}
 checking for GeoIP_record_by_ipnum() in -lGeoIP... no
 you must have geoip c library installed!
 *** extconf.rb failed ***
@@ -92,7 +96,7 @@ Provided configuration options:
   --without-geoip-lib=${geoip-dir}/lib
   --with-GeoIPlib
   --without-GeoIPlib
-```
+{% endhighlight %}
 
 So you should add include /usr/local/lib to DYNLD_LIBRARY_PATH. Or do next:
 in step of configuration do  `./configure --disable-dependency-tracking  --prefix=/opt/GeoIP`

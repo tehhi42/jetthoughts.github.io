@@ -7905,14 +7905,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 }
 
 /* line 37, ../_sass/_basic.scss */
-.smooth_shadow, .box, .highlight, .career .job_section, .portfolio .portfolio_box, .contacts_wrap, .offer_section .panel, .offer_section .offer_block, .team_member {
+.smooth_shadow, .box, .highlighttable, .career .job_section, .portfolio .portfolio_box, .contacts_wrap, .offer_section .panel, .offer_section .offer_block, .team_member {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
 }
 
 /* line 41, ../_sass/_basic.scss */
-.box, .highlight, .career .job_section, .portfolio .portfolio_box, .contacts_wrap {
+.box, .highlighttable, .career .job_section, .portfolio .portfolio_box, .contacts_wrap {
   background: white;
   border-radius: 9px;
 }
@@ -8069,9 +8069,20 @@ code {
 }
 
 /* line 121, ../_sass/custom/_typography.scss */
-.highlight {
-  padding: 20px;
-  margin-bottom: 1.25em;
+.highlighttable {
+  display: block;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+/* line 127, ../_sass/custom/_typography.scss */
+.highlighttable pre {
+  white-space: pre;
+}
+/* line 130, ../_sass/custom/_typography.scss */
+.highlighttable .linenodiv {
+  font-size: 11px;
+  color: #ebebeb;
 }
 
 /* line 1, ../_sass/custom/_ui.scss */

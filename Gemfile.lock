@@ -34,6 +34,8 @@ GEM
     erubis (2.7.0)
     execjs (2.0.1)
     fast-stemmer (1.0.2)
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
     font-awesome-sass-rails (3.0.2.2)
       railties (>= 3.1.1)
       sass-rails (>= 3.1.1)
@@ -86,6 +88,7 @@ GEM
     rake (10.1.0)
     rdiscount (1.6.8)
     redcarpet (2.2.2)
+    rmagick (2.13.2)
     safe_yaml (0.7.1)
     sass (3.2.10)
     sass-rails (4.0.0)
@@ -117,9 +120,11 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   compass (>= 0.12)
+  fileutils
   font-awesome-sass-rails (~> 3.0.2.2)
   github-pages
   jekyll-asset-pipeline
+  liquid
   oily_png
   pygments.rb
   rake

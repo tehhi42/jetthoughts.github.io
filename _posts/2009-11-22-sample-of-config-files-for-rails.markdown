@@ -10,17 +10,17 @@ Sometime we run same application in different platforms: Ruby and JRuby or Windo
 Example of my config file for Rails to run instance with **ruby** or **jruby**.
 Setting gems for different platforms **config/environment.rb**:
 
-```ruby
+{% highlight ruby linenos=table %}
 if PLATFORM == 'java'
     config.gem 'rmagick4j', :lib =&gt; 'RMagick'
 else
     config.gem "sqlite3-ruby", :lib =&gt; "sqlite3"
     config.gem 'rmagick', :lib =&gt; 'RMagick'
-```
+{% endhighlight %}
 
 **config/database.yml**:
 
-```yaml
+{% highlight yaml linenos=table %}
 common: &default_settings
   host: localhost
   #adapter: <%= PLATFORM == 'java' ? 'jdbcpostgresql' : 'postgresql' %>
@@ -36,4 +36,4 @@ production:
 test:
   <<: *default_settings
   database: YOUR_DATABASENAME_TEST
-```
+{% endhighlight %}

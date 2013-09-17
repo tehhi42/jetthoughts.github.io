@@ -13,19 +13,19 @@ Change name and email in mercurial repository.
 #### Solution: 
 Use the extension [ConvertExtension](http://mercurial.selenic.com/wiki/ConvertExtension). Install this extension and configure your __.hgrc__ to enable the extension by adding following lines:
 
-```ruby
+{% highlight ruby linenos=table %}
   [extensions]
   hgext.convert=
-```
+{% endhighlight %}
 
 We create a file __authors__:
 
-```ruby
+{% highlight ruby linenos=table %}
   old_email@example.com=New Name <new_email@gmail.com>
-```
+{% endhighlight %}
 
 Then run command to convert old project with old names and emails to new repo with new names:
 
-```ruby
+{% highlight ruby linenos=table %}
   hg convert project project_new -A authors
-```
+{% endhighlight %}

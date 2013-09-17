@@ -118,8 +118,21 @@ code {
   font-weight: 400;
 }
 
-.highlight {
-  padding: 20px;
-  margin-bottom: 1.25em;
+.highlighttable {
+  display: block;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-bottom: 10px;
   @extend .box;
+  pre {
+    white-space: pre;
+  }
+  .linenodiv {
+    font-size: 11px;
+    color: $explicit_gray;
+  }
 }
+//.highlight {
+//  padding: 20px;
+//  margin-bottom: 1.25em;
+//}

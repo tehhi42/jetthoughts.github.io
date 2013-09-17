@@ -9,6 +9,6 @@ category: tech
 
 Run in the terminal:
 
-```
+{% highlight bash linenos=table %}
 sudo gem install nokogiri -- --with-xml2-include=/usr/include/libxml2 --with-xml2-lib=/usr/lib --with-xslt-dir=/usr
-```
+{% endhighlight %}

@@ -44,11 +44,11 @@ ssl_certificate_key    /etc/ssl/private/domain.com.key;
 
 Вот думаю отлично. Потом нашел форум, где обсуждали подубную ситуацию. И парень предложил проверить ключ и полученный сертификат. Сказал что поля Modulus тоже совпадать
 
-```
+{% highlight bash linenos=table %}
 # openssl x509 -noout -text -in domain_com.crs
-```
+{% endhighlight %}
 
-```
+{% highlight bash linenos=table %}
 RSA Public Key: (1024 bit)
 Modulus (1024 bit):
   00:bb:e1:e7:7a:63:b8:eb:14:e4:44:93:11:1e:25:
@@ -60,13 +60,13 @@ Modulus (1024 bit):
   eb:46:04:25:3a:43:be:3c:73:57:04:8b:f0:f2:45:
   ad:4c:5c:f5:38:fb:66:bc:7f:b0:30:5e:ab:7d:73:
   af:1d:2c:a6:0f:01:5d:25:d9
-```
+{% endhighlight %}
 
-```
+{% highlight bash linenos=table %}
 # openssl x509 -noout -text -in /opt/nginx/cert/domain_com.crt
-```
+{% endhighlight %}
 
-```
+{% highlight bash linenos=table %}
 RSA Public Key: (2048 bit)
 Modulus (2048 bit):
   00:b7:89:02:04:4e:4c:9b:cd:29:be:e9:3e:fa:74:
@@ -87,7 +87,7 @@ Modulus (2048 bit):
   71:e7:b8:79:6b:d0:c6:cd:88:0c:cf:d5:c4:67:0f:
   da:47:ad:6e:c1:72:5e:f2:30:64:2f:14:7c:4d:d5:
   5c:5d
-```
+{% endhighlight %}
 
 Увидел тот факт что они разные. И что провайдер мне подписал ключ 2048 битным шифром. А у меня по умолчанию 1024. Я решил переделать ключ, но только 2048 бит установить.
 

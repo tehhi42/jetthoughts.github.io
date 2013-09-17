@@ -9,10 +9,11 @@ source "https://rubygems.org"
 #  gem 'haml', '>= 3.1'
 #  gem 'rubypants'
 #  gem 'stringex'
-#  gem 'liquid'
 #end
 
+gem 'liquid'
 gem 'pygments.rb'
+gem 'fileutils'
 gem 'redcarpet'
 gem 'github-pages'
 gem 'font-awesome-sass-rails', '~> 3.0.2.2'

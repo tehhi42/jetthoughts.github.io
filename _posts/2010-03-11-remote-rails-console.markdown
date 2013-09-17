@@ -9,7 +9,7 @@ category: tech
 
 Many times we want execute some commands in remote servers. We login to server, change directory, run script/console. Thanks to Capistrano we could only add next snippet to *config/deploy.rb* of our rails app:
 
-```ruby
+{% highlight ruby linenos=table %}
 desc "remotely console"
 task :console, :roles => :app do
   input = ''
@@ -19,6 +19,6 @@ task :console, :roles => :app do
     channel.send_data(input = $stdin.gets) if data =~ /^(>|\?)>/
   end
 end
-```
+{% endhighlight %}
 
 And then when we need remote console, just run: `cap console`

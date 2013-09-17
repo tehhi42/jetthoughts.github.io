@@ -9,17 +9,17 @@ category: tech
 
 I always had troubles, when test new feature. I forgot to change branch in capistrano config. So I found one solution wich help me:
 
-```ruby
+{% highlight ruby linenos=table %}
 set :branch, `hg branch`.chop || "default"
-```
+{% endhighlight %}
 
 or for git:
 
-```ruby
+{% highlight ruby linenos=table %}
 set :branch, `git branch | grep '*' | sed 's/^[^a-zA-Z]*//'`.strip || "master"
-```
+{% endhighlight %}
 
-```ruby
+{% highlight ruby linenos=table %}
 set :branch do
   default_branch = `git branch | grep '*' | sed 's/^[^a-zA-Z]*//'`.strip
   default_tag    = `git tag | tail -n 1`.strip
@@ -27,6 +27,6 @@ set :branch do
   tag_or_branch = default_tag if tag_or_branch.empty?
   tag_or_branch
 end unless fetch(:branch, false)
-```
+{% endhighlight %}
 
 Thats all.

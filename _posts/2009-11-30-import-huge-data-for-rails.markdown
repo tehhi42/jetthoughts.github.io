@@ -9,7 +9,7 @@ category: tech
 
 I wrote simple rake task for dump data from DB to CSV file:
 
-```ruby
+{% highlight ruby linenos=table %}
 namespace :db do
   desc 'Create CSV fixtures from data'
   task :extract_to_csv => :environment do
@@ -27,12 +27,12 @@ namespace :db do
     end
   end
 end
-```
+{% endhighlight %}
 
 And import for Postgresql:
 
-```
+{% highlight bash linenos=table %}
 copy import_products from '/home/miry/import_products.csv'
   with csv header NULL AS '' QUOTE  AS  '"';
-```
+{% endhighlight %}
 

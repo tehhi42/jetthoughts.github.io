@@ -10,13 +10,13 @@ category: tech
 After setup rails 3.1 + Rspec + FactoryGirl, all factories are generated to __test/factories__ instead __spec/factories__.
 Solution is to add to your __application.rb__:
 
-```ruby
+{% highlight ruby linenos=table %}
 g.fixture_replacement :factory_girl, :dir => 'spec/factories'
-```
+{% endhighlight %}
 
 So we have:
 
-```ruby
+{% highlight ruby linenos=table %}
 config.generators do |g|
   g.template_engine :haml
   g.test_framework :rspec, :fixture_replacement => :factory_girl, :views => false, :helper => false
@@ -24,4 +24,4 @@ config.generators do |g|
   g.helper_specs false
   g.fixture_replacement :factory_girl, :dir => 'spec/factories'
 end
-```
+{% endhighlight %}
