@@ -4,6 +4,7 @@ title: Free cache RAM for Linux OS
 date: 13-02-2010
 author: Michael Nikitochkin
 tags: linux,ram
+category: tech
 ---
 
 For do some performance tests you want to free cache RAM example test your web server or DB.

@@ -4,6 +4,7 @@ title: Show time string in different locale in Rails
 author: Michael Nikitochkin
 date: 2010-01-03
 tags: ruby,i18n,rails
+category: tech
 ---
 
 

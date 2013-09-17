@@ -4,6 +4,7 @@ author: Michael Nikitochkin
 title: Multiple Likes for one page
 date: 28-11-2012
 tags: facebook,like,button,thumbnail,image,mutliple,rails,route,meta
+category: tech
 ---
 
 In many projects we use Facebook Like button to share the link.
@@ -20,28 +21,28 @@ To add a simple button we need include the [JavaScript SDK](https://developers.f
 on your page once, ideally right after the opening `<body>` tag:
 
 ```html
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 ```
 
 And in a place where you want to appear the button:
 
 ```html
-    <div class="fb-like" data-href="<replace_with_your_path>" data-send="false" data-width="450" data-show-faces="false"></div>
+<div class="fb-like" data-href="<replace_with_your_path>" data-send="false" data-width="450" data-show-faces="false"></div>
 ```
 
 Example you want share a product, so you should put like this:
 
 
 ```ruby
-    <%= image_tag(@product.image_url) %>
-    <div class="fb-like" data-href="<%= product_url(@product) %>" data-send="false" data-width="450" data-show-faces="false"></div>
+<%= image_tag(@product.image_url) %>
+<div class="fb-like" data-href="<%= product_url(@product) %>" data-send="false" data-width="450" data-show-faces="false"></div>
 ```
 
 Don't forget to provide the full url, not only the path.
@@ -68,19 +69,19 @@ We need to add the [Open Graph tag](https://developers.facebook.com/docs/referen
 In `app/views/application.html.erb` add this line before close tag `</head>`:
 
 ```ruby
-    <head>
-      ...
-      <%= yield :head %>
-    </head>
+<head>
+  ...
+  <%= yield :head %>
+</head>
 ```
 
 and this to our view `app/views/products/show.html.erb`:
 
 ```ruby
-    <% content_for :head do %>
-      <meta property="og:title" content="<%= @product.title %>"/>
-      <meta property="og:image" content="<%= @product.image_url %>" />
-    <% end %>
+<% content_for :head do %>
+  <meta property="og:title" content="<%= @product.title %>"/>
+  <meta property="og:image" content="<%= @product.image_url %>" />
+<% end %>
 ```
 
 I use [CarrierWave](https://github.com/jnicklas/carrierwave) for attachment images.
@@ -89,10 +90,10 @@ This issue can be resolved by adding the `config.action_controller.asset_host = 
 And use method `image_path` to return image with assets host. After our view would be:
 
 ```ruby
-    <% content_for :head do %>
-      <meta property="og:title" content="<%= @product.title %>"/>
-      <meta property="og:image" content="<%= image_path @product.image_url %>" />
-    <% end %>
+<% content_for :head do %>
+  <meta property="og:title" content="<%= @product.title %>"/>
+  <meta property="og:image" content="<%= image_path @product.image_url %>" />
+<% end %>
 ```
 
 Checking our url in the [Facebook Debugger](https://developers.facebook.com/tools/debug/og/object?q=http%3A%2F%2Ffacebook-multiple-like.herokuapp.com)
@@ -106,14 +107,14 @@ But what if you want to share the `products#index` page instead of `products#sho
 We would meet with next problem we have same url, but we want to use images from the products. `app/views/products/index.html.erb`:
 
 ```ruby
-     <ul>
-       <% products.all.each do |product| %>
-         <li>
-           <%= image_tag(product.image_url) if product.image? %>
-           <div class="fb-like" data-href="<%= products_url %>" data-send="false" data-width="450" data-show-faces="false"></div>
-         </li>
-       <% end %>
-     </ul>
+ <ul>
+   <% products.all.each do |product| %>
+     <li>
+       <%= image_tag(product.image_url) if product.image? %>
+       <div class="fb-like" data-href="<%= products_url %>" data-send="false" data-width="450" data-show-faces="false"></div>
+     </li>
+   <% end %>
+ </ul>
 ```
 
 There are several methods to show different image and title for like button feature.
@@ -123,30 +124,30 @@ First method is to add some extra quaery string to page url for like button.
 We just need to replace in generation button snippet url from `products_url` to `products_url(featured_id: product.id)` in `app/views/products/index.html.erb`:
 
 ```ruby
-    <ul>
-      <% products.all.each do |product| %>
-        <li>
-          <%= image_tag(product.image_url) if product.image? %>
-          <div class="fb-like" data-href="<%= products_url(featured_id: product.id) %>" data-send="false" data-width="450" data-show-faces="false"></div>
-        </li>
-      <% end %>
-    </ul>
+<ul>
+  <% products.all.each do |product| %>
+    <li>
+      <%= image_tag(product.image_url) if product.image? %>
+      <div class="fb-like" data-href="<%= products_url(featured_id: product.id) %>" data-send="false" data-width="450" data-show-faces="false"></div>
+    </li>
+  <% end %>
+</ul>
 ```
 
 After this we add to our controller `app/controllers/products_controller.rb` to get the featured product by param `featured_id`:
 
 ```ruby
-    @featured_product = Product.find(params[:featured_id]) if params[:featured_id]
+@featured_product = Product.find(params[:featured_id]) if params[:featured_id]
 ```
 
 and we update the view:
 
 ```ruby
-    <% content_for :head do %>
-      <% product = @featured_product ? @featured_product : @products.first %>
-      <meta property="og:title" content="<%= product.title %>"/>
-      <meta property="og:image" content="<%= image_path product.image_url %>" />
-    <% end %>
+<% content_for :head do %>
+  <% product = @featured_product ? @featured_product : @products.first %>
+  <meta property="og:title" content="<%= product.title %>"/>
+  <meta property="og:image" content="<%= image_path product.image_url %>" />
+<% end %>
 ```
 
 Thats all. Now you can check this with debugger:
@@ -158,7 +159,7 @@ Thats all. Now you can check this with debugger:
 Another solution is add a custom url to same action with param `:featured_id`:
 
 ```ruby
-     match '/products/:featured_id' => 'products#index', as: :featured_product
+ match '/products/:featured_id' => 'products#index', as: :featured_product
 ```
 
 Or you can use example `show` action but render `index` template.

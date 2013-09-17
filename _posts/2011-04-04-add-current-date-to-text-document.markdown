@@ -4,6 +4,7 @@ title: Add current date to text document
 date: 2011-04-04
 author: Michael Nikitochkin
 tags: mac,applescript
+category: tech
 ---
 
 Often we need to add current date to text document.  For Mac users we have awesome tools as Automator and  AppleScript.
@@ -17,12 +18,12 @@ __3)__ Add action "Run AppleScript" with content:
 
 
 ```
-    on run {input, parameters}
-      tell application "System Events"
-        keystroke (short date string of (current date))
-      end tell
-      return input
-    end run
+on run {input, parameters}
+  tell application "System Events"
+    keystroke (short date string of (current date))
+  end tell
+  return input
+end run
 ```
 
 __4)__ Save the service

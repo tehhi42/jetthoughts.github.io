@@ -36,7 +36,9 @@ $footer-height: 438px;
 .recent_posts_section {
   .post_heading {
     @include myriad(16px);
+    line-height: 150%;
     color: $white;
+    display: block;
     &:hover {
       color: $orange;
     }

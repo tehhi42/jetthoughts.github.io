@@ -4,6 +4,7 @@ title: OpenSSL with Nginx and untrusted CA
 author: Michael Nikitochkin
 date: 2009-10-23
 tags: linux,nginx,ssl,certificate
+category: tech
 ---
 
 <p>
@@ -22,7 +23,7 @@ Generating RSA private key, 2048 bit long modulus
 </p><pre># cat domain.com.csr</pre><p>
 После, сервис выслал письмо активации админу домена на мыло admin@domain.com, и после активации сертификата он выслал мне на почту архив с описанием:
 </p>
-<pre>    
+<pre>
     * Root CA Certificate - AddTrustExternalCARoot.crt
     * Intermediate CA Certificate - UTNAddTrustSGCCA.crt
     * Intermediate CA Certificate - ComodoUTNSGCCA.crt
@@ -48,17 +49,17 @@ ssl_certificate_key    /etc/ssl/private/domain.com.key;
 ```
 
 ```
-            RSA Public Key: (1024 bit)
-                Modulus (1024 bit):
-                    00:bb:e1:e7:7a:63:b8:eb:14:e4:44:93:11:1e:25:
-                    e4:52:07:5c:d1:33:5d:e2:84:88:4c:24:3a:bb:61:
-                    32:35:fe:51:02:73:fb:2e:09:86:9c:54:3f:dc:e0:
-                    11:d1:b7:4c:4f:a8:f9:fa:ab:e4:a7:a1:22:f5:43:
-                    b3:b6:a9:f4:84:4a:89:33:63:d3:3b:e5:9f:11:65:
-                    31:0a:84:0b:6e:b3:62:75:42:40:ac:17:cc:3e:9b:
-                    eb:46:04:25:3a:43:be:3c:73:57:04:8b:f0:f2:45:
-                    ad:4c:5c:f5:38:fb:66:bc:7f:b0:30:5e:ab:7d:73:
-                    af:1d:2c:a6:0f:01:5d:25:d9
+RSA Public Key: (1024 bit)
+Modulus (1024 bit):
+  00:bb:e1:e7:7a:63:b8:eb:14:e4:44:93:11:1e:25:
+  e4:52:07:5c:d1:33:5d:e2:84:88:4c:24:3a:bb:61:
+  32:35:fe:51:02:73:fb:2e:09:86:9c:54:3f:dc:e0:
+  11:d1:b7:4c:4f:a8:f9:fa:ab:e4:a7:a1:22:f5:43:
+  b3:b6:a9:f4:84:4a:89:33:63:d3:3b:e5:9f:11:65:
+  31:0a:84:0b:6e:b3:62:75:42:40:ac:17:cc:3e:9b:
+  eb:46:04:25:3a:43:be:3c:73:57:04:8b:f0:f2:45:
+  ad:4c:5c:f5:38:fb:66:bc:7f:b0:30:5e:ab:7d:73:
+  af:1d:2c:a6:0f:01:5d:25:d9
 ```
 
 ```
@@ -66,26 +67,26 @@ ssl_certificate_key    /etc/ssl/private/domain.com.key;
 ```
 
 ```
-            RSA Public Key: (2048 bit)
-                Modulus (2048 bit):
-                    00:b7:89:02:04:4e:4c:9b:cd:29:be:e9:3e:fa:74:
-                    44:6b:8e:bd:58:91:68:82:cb:3c:06:c9:2a:fe:19:
-                    95:b1:21:29:a0:94:94:5b:58:30:bb:bd:5b:d5:ca:
-                    79:4c:c2:d0:65:1e:d8:e8:2e:91:c6:5d:c0:55:49:
-                    d1:9d:a7:ec:38:d9:be:db:21:1a:59:b3:56:d7:6f:
-                    94:18:ec:65:38:35:82:9d:c5:80:f5:48:07:77:fc:
-                    07:4f:50:8e:df:a3:bf:07:49:2b:9a:91:be:c8:a5:
-                    b4:9e:1e:aa:b1:6d:c8:aa:ea:64:a3:da:13:27:7d:
-                    80:92:0e:41:de:3a:54:95:d4:75:24:2a:17:35:27:
-                    e2:00:10:d2:c0:22:24:e9:32:84:49:d4:eb:ba:f0:
-                    e3:de:ee:0d:90:e6:23:62:aa:51:6c:57:3f:46:00:
-                    5d:3c:35:64:24:f5:ab:ea:f7:21:22:91:46:48:e5:
-                    af:35:ea:03:bd:3b:fb:80:d7:38:cd:46:16:9a:34:
-                    ee:f4:96:24:2c:37:dc:27:87:3f:c2:b9:f9:d0:66:
-                    eb:90:c9:19:6b:87:c3:f7:f1:d0:c2:c6:68:a8:5a:
-                    71:e7:b8:79:6b:d0:c6:cd:88:0c:cf:d5:c4:67:0f:
-                    da:47:ad:6e:c1:72:5e:f2:30:64:2f:14:7c:4d:d5:
-                    5c:5d
+RSA Public Key: (2048 bit)
+Modulus (2048 bit):
+  00:b7:89:02:04:4e:4c:9b:cd:29:be:e9:3e:fa:74:
+  44:6b:8e:bd:58:91:68:82:cb:3c:06:c9:2a:fe:19:
+  95:b1:21:29:a0:94:94:5b:58:30:bb:bd:5b:d5:ca:
+  79:4c:c2:d0:65:1e:d8:e8:2e:91:c6:5d:c0:55:49:
+  d1:9d:a7:ec:38:d9:be:db:21:1a:59:b3:56:d7:6f:
+  94:18:ec:65:38:35:82:9d:c5:80:f5:48:07:77:fc:
+  07:4f:50:8e:df:a3:bf:07:49:2b:9a:91:be:c8:a5:
+  b4:9e:1e:aa:b1:6d:c8:aa:ea:64:a3:da:13:27:7d:
+  80:92:0e:41:de:3a:54:95:d4:75:24:2a:17:35:27:
+  e2:00:10:d2:c0:22:24:e9:32:84:49:d4:eb:ba:f0:
+  e3:de:ee:0d:90:e6:23:62:aa:51:6c:57:3f:46:00:
+  5d:3c:35:64:24:f5:ab:ea:f7:21:22:91:46:48:e5:
+  af:35:ea:03:bd:3b:fb:80:d7:38:cd:46:16:9a:34:
+  ee:f4:96:24:2c:37:dc:27:87:3f:c2:b9:f9:d0:66:
+  eb:90:c9:19:6b:87:c3:f7:f1:d0:c2:c6:68:a8:5a:
+  71:e7:b8:79:6b:d0:c6:cd:88:0c:cf:d5:c4:67:0f:
+  da:47:ad:6e:c1:72:5e:f2:30:64:2f:14:7c:4d:d5:
+  5c:5d
 ```
 
 Увидел тот факт что они разные. И что провайдер мне подписал ключ 2048 битным шифром. А у меня по умолчанию 1024. Я решил переделать ключ, но только 2048 бит установить.

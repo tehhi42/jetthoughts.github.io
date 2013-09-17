@@ -4,6 +4,7 @@ title: Postgresql Insert not valid unicode values
 date: 16-12-2009
 author: Michael Nikitochkin
 tags: rails,postgresql,ruby
+category: tech
 ---
 
 I have an error when try insert to DB charcters not valid for Postgres in Rails application:

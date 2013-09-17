@@ -4,6 +4,7 @@ title: Installing Pg gem on Mac OS
 date: 26-09-2010
 author: Michael Nikitochkin
 tags: pg,postgresql,rails
+category: tech
 ---
 
 I have Mac OS Snow Leopard which has arch x86_64. But when I tried install postgres gem for this arch I had errors, such as:

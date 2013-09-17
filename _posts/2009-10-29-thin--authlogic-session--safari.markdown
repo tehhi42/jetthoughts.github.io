@@ -4,6 +4,7 @@ title: Thin + Authlogic Session + Safari
 author: Michael Nikitochkin
 date: 2009-10-29
 tags: linux,thin,authlogic
+category: tech
 ---
 
 Вчера потратил уйму времени из-за того что  под Сафари не разлогинится. Попробылва под фариком то все ок.
