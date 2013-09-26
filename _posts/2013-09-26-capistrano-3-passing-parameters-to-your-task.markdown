@@ -32,3 +32,5 @@ DEBUG [397d776e] Command: ( RAILS_ENV=staging rake db:migrate )
 ```
 
 I used the quotes, because for `zsh` the brackets are used for some shell features.
+
+Some more information with good examples of passing parameters to rake task [here](http://viget.com/extend/protip-passing-parameters-to-your-rake-tasks)
