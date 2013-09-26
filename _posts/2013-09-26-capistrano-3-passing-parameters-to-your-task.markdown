@@ -7,9 +7,9 @@ tags: ruby capistrano deploy config rakefile
 category: Tech
 ---
 
-The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake). A little example:
+The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake).
 
-Lets create task to run any specific rake task with options:
+A little example, lets create a task to run any specific rake task with options:
 
 {% highlight ruby linenos=table %}
 namespace :rake do
