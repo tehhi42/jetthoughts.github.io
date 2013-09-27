@@ -12,7 +12,7 @@ The new way of passing parameters in Capistrano v3 is use same solution as Rake 
 A little example, lets create a task to run any specific rake task with options:
 
 {% highlight ruby linenos=table %}
-namespace :rake do
+namespace :task do
   desc 'Execute the specific rake task'
   task :invoke, :command do |task, args|
     on roles(:app) do
@@ -25,7 +25,7 @@ end
 and now we can run `rake db:migrate` on remote hosts:
 
 ```
-$ cap staging "rake:invoke[db:migrate]"
+$ cap staging "task:invoke[db:migrate]"
 INFO [397d776e] Running rake db:migrate on 8.8.8.8
 DEBUG [397d776e] Command: ( RAILS_ENV=staging rake db:migrate )
 ...
