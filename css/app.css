@@ -7612,29 +7612,42 @@ code {
   padding-top: 70px;
   padding-bottom: 15px;
 }
+/* line 6, ../_sass/pages/_team.scss */
+.team_wrap > .row > .columns, .partners_section .team_wrap > .partners > .columns {
+  float: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-right: -3px;
+}
 
-/* line 9, ../_sass/pages/_team.scss */
+/* line 16, ../_sass/pages/_team.scss */
 .team_member {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 40px;
-  height: 270px;
+  min-height: 270px;
   background: white;
   border-radius: 9px;
 }
-/* line 16, ../_sass/pages/_team.scss */
+/* line 23, ../_sass/pages/_team.scss */
 .team_member .ava_wrap {
-  height: 270px;
   padding: 25px;
   position: relative;
 }
-/* line 21, ../_sass/pages/_team.scss */
+/* line 27, ../_sass/pages/_team.scss */
 .team_member .ava {
   display: block;
   width: 126px;
   border-radius: 63px;
+  -webkit-box-shadow: 0 0 1px rgba(47, 135, 185, 0.8);
+  -moz-box-shadow: 0 0 1px rgba(47, 135, 185, 0.8);
+  box-shadow: 0 0 1px rgba(47, 135, 185, 0.8);
 }
-/* line 26, ../_sass/pages/_team.scss */
+/* line 33, ../_sass/pages/_team.scss */
 .team_member .position {
   font-family: "Lato", sans-serif;
   font-size: 0.95em;
@@ -7642,21 +7655,20 @@ code {
   vertical-align: middle;
   color: white;
   text-align: center;
-  background: #ff8448;
+  float: left;
   display: block;
   height: 40px;
-  position: absolute;
-  position: absolute;
-  left: 25px;
-  right: 25px;
-  bottom: 25px;
+  padding: 0 15px;
+  background: #ff8448;
+  margin-bottom: 25px;
+  margin-left: 25px;
   border-radius: 5px;
 }
-/* line 40, ../_sass/pages/_team.scss */
+/* line 48, ../_sass/pages/_team.scss */
 .team_member .bio_wrap {
   padding: 25px;
 }
-/* line 42, ../_sass/pages/_team.scss */
+/* line 50, ../_sass/pages/_team.scss */
 .team_member .bio_wrap .name {
   font-family: "Lato", sans-serif;
   font-size: 1.75em;
@@ -7664,7 +7676,7 @@ code {
   line-height: 24px;
   color: #94846e;
 }
-/* line 48, ../_sass/pages/_team.scss */
+/* line 56, ../_sass/pages/_team.scss */
 .team_member .bio_wrap .bio {
   font-family: "Lato", sans-serif;
   font-size: 0.85em;
