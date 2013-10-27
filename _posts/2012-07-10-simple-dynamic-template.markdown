@@ -2,6 +2,9 @@
 layout: post
 date: 10-07-2012
 title: Simple dynamic template
+author: Michael Nikitochkin
+tags: ruby,strings,metaprogramming
+category: Tech
 ---
 
 Sometime we need to define a dynamic template before defining variables used in the template.
