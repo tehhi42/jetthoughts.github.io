@@ -1,7 +1,9 @@
 $casual_screen: emCalc(1040);
+$nav_breakpoint: emCalc(970);
 
 $below_casual: "only screen and (max-width:"#{$casual_screen}")";
 $casual: "only screen and (min-width:"#{$casual_screen}")";
+$below_nav: "only screen and (max-width:"#{$nav_breakpoint}")";
 
 @media #{$below_casual} {
   .slider_section {
@@ -49,5 +51,16 @@ $casual: "only screen and (min-width:"#{$casual_screen}")";
   .orbit-caption {
     top: $slider_caption_top;
     left: ($slider_laptop_inner_width - $slider_laptop_caption_width)/2;
+  }
+}
+
+
+@media #{$below_nav} {
+  .top_menu_wrap {
+    .menu_item {
+      .menu_link {
+        font-size: 0.85em;
+      }
+    }
   }
 }

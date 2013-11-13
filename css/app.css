@@ -8386,12 +8386,12 @@ code {
   height: 110px;
   background: #1b2b38;
 }
-/* line 5, ../_sass/parts/_nav.scss */
+/* line 4, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu {
   height: 110px;
   margin-bottom: 0;
 }
-/* line 9, ../_sass/parts/_nav.scss */
+/* line 8, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8401,7 +8401,7 @@ code {
   *display: inline;
   height: 110px;
 }
-/* line 12, ../_sass/parts/_nav.scss */
+/* line 11, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link {
   font-size: 0.94em;
   font-weight: 500;
@@ -8413,22 +8413,22 @@ code {
   padding: 0 20px;
   vertical-align: middle;
 }
-/* line 23, ../_sass/parts/_nav.scss */
+/* line 22, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link:hover, .top_menu_wrap .menu_item .menu_link.active {
   background: #ff8448;
 }
 
-/* line 32, ../_sass/parts/_nav.scss */
+/* line 31, ../_sass/parts/_nav.scss */
 .expanded .submenu {
   position: relative;
   z-index: 999;
 }
-/* line 35, ../_sass/parts/_nav.scss */
+/* line 34, ../_sass/parts/_nav.scss */
 .expanded .submenu .menu_item {
   width: 100%;
 }
 
-/* line 41, ../_sass/parts/_nav.scss */
+/* line 40, ../_sass/parts/_nav.scss */
 .logo {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 30px;
@@ -8841,23 +8841,23 @@ code {
 }
 
 @media only screen and (max-width: 65em) {
-  /* line 8, ../_sass/_responsive.scss */
+  /* line 10, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     width: 100%;
     position: relative;
     left: auto;
   }
-  /* line 13, ../_sass/_responsive.scss */
+  /* line 15, ../_sass/_responsive.scss */
   .slider_section .orbit-timer {
     display: none;
   }
-  /* line 17, ../_sass/_responsive.scss */
+  /* line 19, ../_sass/_responsive.scss */
   .slider_section .slider_wrap,
   .slider_section .orbit-container {
     background: none;
     width: auto;
   }
-  /* line 21, ../_sass/_responsive.scss */
+  /* line 23, ../_sass/_responsive.scss */
   .slider_section .slider_list {
     width: 100%;
     height: 100%;
@@ -8866,31 +8866,37 @@ code {
     left: auto;
     margin: 0 auto;
   }
-  /* line 28, ../_sass/_responsive.scss */
+  /* line 30, ../_sass/_responsive.scss */
   .slider_section .slider_list .slide_img {
     width: 100%;
     height: auto;
   }
-  /* line 32, ../_sass/_responsive.scss */
+  /* line 34, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption {
     bottom: 70px;
     top: auto;
     left: 5%;
     width: 90%;
   }
-  /* line 37, ../_sass/_responsive.scss */
+  /* line 39, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption .caption_p {
     font-size: 0.75em;
   }
-  /* line 42, ../_sass/_responsive.scss */
+  /* line 44, ../_sass/_responsive.scss */
   .slider_section .screen_overlay {
     display: none;
   }
 }
 @media only screen and (min-width: 65em) {
-  /* line 49, ../_sass/_responsive.scss */
+  /* line 51, ../_sass/_responsive.scss */
   .orbit-caption {
     top: 330px;
     left: 25px;
+  }
+}
+@media only screen and (max-width: 60.625em) {
+  /* line 61, ../_sass/_responsive.scss */
+  .top_menu_wrap .menu_item .menu_link {
+    font-size: 0.85em;
   }
 }
