@@ -1,5 +1,13 @@
 $button_min_width: 190px;
 
+.link {
+  border-bottom: 1px solid transparent;
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+}
+
 .link_underline {
   text-decoration: underline;
   &:hover {
@@ -16,6 +24,19 @@ $button_min_width: 190px;
   padding-bottom: 0.7em;
   min-width: $button_min_width;
   @include box-shadow(0 4px 0 $orange_shadow);
+  &:hover {
+    background: $orange_shadow;
+  }
+}
+
+.button_super {
+  font-size: 1.778em;
+  font-weight: 700;
+  background: $orange;
+  border-radius: 13px;
+  padding-left: 4em;
+  padding-right: 4em;
+  @include box-shadow(0 9px 0 $orange_shadow);
   &:hover {
     background: $orange_shadow;
   }
