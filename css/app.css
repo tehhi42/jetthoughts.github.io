@@ -7831,22 +7831,22 @@ code {
   color: #2dcc70;
 }
 
-/* line 83, ../_sass/pages/_career.scss */
+/* line 82, ../_sass/pages/_career.scss */
 .section_details {
   display: none;
 }
 
-/* line 88, ../_sass/pages/_career.scss */
+/* line 87, ../_sass/pages/_career.scss */
 .active .section_details {
   display: block;
 }
 
-/* line 93, ../_sass/pages/_career.scss */
+/* line 92, ../_sass/pages/_career.scss */
 .detailed_inner {
   padding-left: 38px;
   padding-right: 38px;
 }
-/* line 96, ../_sass/pages/_career.scss */
+/* line 95, ../_sass/pages/_career.scss */
 .detailed_inner .heading_two {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -7854,23 +7854,23 @@ code {
   color: #2dcc70;
   text-align: left;
 }
-/* line 102, ../_sass/pages/_career.scss */
+/* line 101, ../_sass/pages/_career.scss */
 .detailed_inner .paragraph {
   font-family: "Lato", sans-serif;
   font-size: 0.8em;
 }
 
-/* line 107, ../_sass/pages/_career.scss */
+/* line 106, ../_sass/pages/_career.scss */
 .job_summary {
   min-height: 71px;
 }
 
-/* line 111, ../_sass/pages/_career.scss */
+/* line 110, ../_sass/pages/_career.scss */
 .similar_projects, .related_projects {
   background: #ebebeb;
   padding: 20px 0 20px;
 }
-/* line 114, ../_sass/pages/_career.scss */
+/* line 113, ../_sass/pages/_career.scss */
 .similar_projects .heading_five, .related_projects .heading_five {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -7880,14 +7880,14 @@ code {
   padding-right: 40px;
   margin-top: 0;
 }
-/* line 122, ../_sass/pages/_career.scss */
+/* line 121, ../_sass/pages/_career.scss */
 .similar_projects .list, .related_projects .list {
   text-align: center;
   margin-bottom: 0;
   margin-left: -10px;
   margin-right: -10px;
 }
-/* line 127, ../_sass/pages/_career.scss */
+/* line 126, ../_sass/pages/_career.scss */
 .similar_projects .list .item, .related_projects .list .item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7899,7 +7899,7 @@ code {
   height: 190px;
   margin: 0 10px 15px;
 }
-/* line 132, ../_sass/pages/_career.scss */
+/* line 131, ../_sass/pages/_career.scss */
 .similar_projects .list .item .thumb, .related_projects .list .item .thumb {
   display: block;
   background: #2dcc70;
@@ -7908,11 +7908,11 @@ code {
   height: 190px;
 }
 
-/* line 143, ../_sass/pages/_career.scss */
+/* line 142, ../_sass/pages/_career.scss */
 .application_form {
   padding: 20px 20px 20px 50px;
 }
-/* line 145, ../_sass/pages/_career.scss */
+/* line 144, ../_sass/pages/_career.scss */
 .application_form .heading_two {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 30px;
@@ -7921,7 +7921,7 @@ code {
   text-align: left;
   color: #2dcc70;
 }
-/* line 151, ../_sass/pages/_career.scss */
+/* line 150, ../_sass/pages/_career.scss */
 .application_form .button, .application_form .portfolio_sort .sorter, .portfolio_sort .application_form .sorter {
   margin-bottom: 0;
 }

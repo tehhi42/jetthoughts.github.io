@@ -79,7 +79,6 @@ $job_section_inner_padding_left: 38px;
   }
 }
 
-
 .section_details {
   display: none;
 }
@@ -151,9 +150,4 @@ $job_section_inner_padding_left: 38px;
   .button {
     margin-bottom: 0;
   }
-}
-
-.section_wrap {
-  //@include section-container($section-type:accordion);
-  //& > section { @include section($section-type:accordion, $title-selector:".section_heading", $content-selector:".section_details"); }
 }
