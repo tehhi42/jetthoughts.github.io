@@ -8,6 +8,9 @@ $slider_laptop_overlay_height: 483px;
 $slider_caption_top: 330px;
 .slider_section {
   background: $blue url("../images/pat_blueprint.png") repeat;
+  .dark_bg {
+    background: transparentize($black, 0.4);
+  }
   .orbit-timer {
     top:auto;
     bottom: 67px;
