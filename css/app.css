@@ -1104,6 +1104,751 @@ select {
     float: right !important;
   }
 }
+/* Grid HTML Classes */
+/* line 127, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+.row, .partners_section .partners {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  width: 100%;
+  *zoom: 1;
+}
+/* line 121, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row:before, .partners_section .partners:before, .row:after, .partners_section .partners:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row:after, .partners_section .partners:after {
+  clear: both;
+}
+/* line 132, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+.row.collapse .column, .partners_section .collapse.partners .column,
+.row.collapse .columns,
+.partners_section .collapse.partners .columns {
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+/* line 135, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+.row .row, .partners_section .partners .row, .row .partners_section .partners, .partners_section .row .partners, .partners_section .partners .partners {
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  max-width: none;
+  width: auto;
+  *zoom: 1;
+}
+/* line 121, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row .row:before, .partners_section .partners .row:before, .row .partners_section .partners:before, .partners_section .row .partners:before, .partners_section .partners .partners:before, .row .row:after, .partners_section .partners .row:after, .row .partners_section .partners:after, .partners_section .row .partners:after, .partners_section .partners .partners:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row .row:after, .partners_section .partners .row:after, .row .partners_section .partners:after, .partners_section .row .partners:after, .partners_section .partners .partners:after {
+  clear: both;
+}
+/* line 136, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+.row .row.collapse, .partners_section .partners .row.collapse, .row .partners_section .collapse.partners, .partners_section .row .collapse.partners, .partners_section .partners .collapse.partners {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+  width: auto;
+  *zoom: 1;
+}
+/* line 121, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row .row.collapse:before, .partners_section .partners .row.collapse:before, .row .partners_section .collapse.partners:before, .partners_section .row .collapse.partners:before, .partners_section .partners .collapse.partners:before, .row .row.collapse:after, .partners_section .partners .row.collapse:after, .row .partners_section .collapse.partners:after, .partners_section .row .collapse.partners:after, .partners_section .partners .collapse.partners:after {
+  content: " ";
+  display: table;
+}
+/* line 122, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
+.row .row.collapse:after, .partners_section .partners .row.collapse:after, .row .partners_section .collapse.partners:after, .partners_section .row .collapse.partners:after, .partners_section .partners .collapse.partners:after {
+  clear: both;
+}
+
+/* line 141, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+.column,
+.columns {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+@media only screen {
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-1 {
+    width: 8.33333%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-2 {
+    width: 16.66667%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-3 {
+    width: 25%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-4 {
+    width: 33.33333%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-5 {
+    width: 41.66667%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-6 {
+    width: 50%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-7 {
+    width: 58.33333%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-8 {
+    width: 66.66667%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-9 {
+    width: 75%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-10 {
+    width: 83.33333%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-11 {
+    width: 91.66667%;
+  }
+
+  /* line 146, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-12 {
+    width: 100%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 150, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .small-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 153, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: right;
+  }
+
+  /* line 154, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  [class*="column"] + [class*="column"].end {
+    float: left;
+  }
+
+  /* line 157, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .column.small-centered,
+  .columns.small-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-1 {
+    width: 8.33333%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-2 {
+    width: 16.66667%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-3 {
+    width: 25%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-5 {
+    width: 41.66667%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-6 {
+    width: 50%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-7 {
+    width: 58.33333%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-8 {
+    width: 66.66667%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-9 {
+    width: 75%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-10 {
+    width: 83.33333%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-11 {
+    width: 91.66667%;
+  }
+
+  /* line 163, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-12 {
+    width: 100%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 167, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-1 {
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-1 {
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-2 {
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-2 {
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-3 {
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-3 {
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-4 {
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-4 {
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-5 {
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-5 {
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-6 {
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-6 {
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-7 {
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-7 {
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-8 {
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-8 {
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-9 {
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-9 {
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-10 {
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-10 {
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 171, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-push-11 {
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 172, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .medium-pull-11 {
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 176, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .column.medium-centered,
+  .columns.medium-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+
+  /* line 179, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .column.medium-uncentered,
+  .columns.medium-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-1 {
+    width: 8.33333%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-2 {
+    width: 16.66667%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-3 {
+    width: 25%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-4 {
+    width: 33.33333%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-5 {
+    width: 41.66667%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-6 {
+    width: 50%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-7 {
+    width: 58.33333%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-8, .button_large {
+    width: 66.66667%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-9 {
+    width: 75%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-10 {
+    width: 83.33333%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-11 {
+    width: 91.66667%;
+  }
+
+  /* line 190, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-12 {
+    width: 100%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 194, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-1 {
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-1 {
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-2 {
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-2 {
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-3 {
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-3 {
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-4 {
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-4 {
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-5 {
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-5 {
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-6 {
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-6 {
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-7 {
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-7 {
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-8 {
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-8 {
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-9 {
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-9 {
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-10 {
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-10 {
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 198, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-push-11 {
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 199, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .large-pull-11 {
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 203, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+
+  /* line 206, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid-5.scss */
+  .column.large-uncentered,
+  .columns.large-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left !important;
+  }
+}
 /* Foundation Visibility HTML Classes */
 /* line 11, ../../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/zurb-foundation-4.3.1/scss/foundation/components/_visibility.scss */
 .show-for-small,
@@ -7162,32 +7907,33 @@ code {
   background: #102f44;
 }
 
-/* line 91, ../_sass/custom/_ui.scss */
+/* line 92, ../_sass/custom/_ui.scss */
 .icon_circle {
-  width: 122px;
-  height: 122px;
+  text-align: center;
   line-height: 122px;
   vertical-align: middle;
-  text-align: center;
+  width: 122px;
+  height: 122px;
+  overflow: hidden;
   border: 1px solid white;
   border-radius: 61px;
 }
-/* line 99, ../_sass/custom/_ui.scss */
+/* line 101, ../_sass/custom/_ui.scss */
 .icon_circle.green {
   background: #2dcc70;
 }
-/* line 102, ../_sass/custom/_ui.scss */
+/* line 104, ../_sass/custom/_ui.scss */
 .icon_circle.mid {
   width: 94px;
   height: 94px;
   line-height: 94px;
   border-radius: 47px;
 }
-/* line 107, ../_sass/custom/_ui.scss */
+/* line 109, ../_sass/custom/_ui.scss */
 .icon_circle.mid > [class*="icon"] {
   line-height: 94px;
 }
-/* line 111, ../_sass/custom/_ui.scss */
+/* line 113, ../_sass/custom/_ui.scss */
 .icon_circle > [class*="icon"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7199,14 +7945,14 @@ code {
   vertical-align: middle;
 }
 
-/* line 118, ../_sass/custom/_ui.scss */
+/* line 120, ../_sass/custom/_ui.scss */
 .pagination {
   text-align: center;
   margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
 }
-/* line 123, ../_sass/custom/_ui.scss */
+/* line 125, ../_sass/custom/_ui.scss */
 .pagination .page_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7216,12 +7962,12 @@ code {
   *display: inline;
   margin: 0 2px;
 }
-/* line 127, ../_sass/custom/_ui.scss */
+/* line 129, ../_sass/custom/_ui.scss */
 .pagination .page_item.active .page_link {
   background: #68de99;
   border-top: 3px solid #71bf91;
 }
-/* line 132, ../_sass/custom/_ui.scss */
+/* line 134, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link {
   font-family: "Myriad Pro", "MyriadPro", "PT Sans", sans-serif;
   font-size: 16px;
@@ -7235,7 +7981,7 @@ code {
   border-radius: 5px;
   border-top: 3px solid #717b8e;
 }
-/* line 143, ../_sass/custom/_ui.scss */
+/* line 145, ../_sass/custom/_ui.scss */
 .pagination .page_item .page_link:hover {
   background: #ff8448;
   border-top: 3px solid #e67740;
@@ -7943,7 +8689,7 @@ code {
 
 /* line 133, ../_sass/pages/_career.scss */
 .application_form {
-  padding: 20px 20px 20px 50px;
+  padding: 20px 20px 0 50px;
 }
 /* line 135, ../_sass/pages/_career.scss */
 .application_form .heading_two {
@@ -7955,7 +8701,7 @@ code {
   color: #2dcc70;
 }
 /* line 141, ../_sass/pages/_career.scss */
-.application_form .button, .application_form .portfolio_sort .sorter, .portfolio_sort .application_form .sorter {
+.application_form form {
   margin-bottom: 0;
 }
 
@@ -8386,12 +9132,12 @@ code {
   height: 110px;
   background: #1b2b38;
 }
-/* line 5, ../_sass/parts/_nav.scss */
+/* line 4, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu {
   height: 110px;
   margin-bottom: 0;
 }
-/* line 9, ../_sass/parts/_nav.scss */
+/* line 8, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8401,7 +9147,7 @@ code {
   *display: inline;
   height: 110px;
 }
-/* line 12, ../_sass/parts/_nav.scss */
+/* line 11, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link {
   font-size: 0.94em;
   font-weight: 500;
@@ -8413,26 +9159,26 @@ code {
   padding: 0 20px;
   vertical-align: middle;
 }
-/* line 23, ../_sass/parts/_nav.scss */
+/* line 22, ../_sass/parts/_nav.scss */
 .top_menu_wrap .menu_item .menu_link:hover, .top_menu_wrap .menu_item .menu_link.active {
   background: #ff8448;
 }
 
-/* line 32, ../_sass/parts/_nav.scss */
+/* line 31, ../_sass/parts/_nav.scss */
 .expanded .submenu {
   position: relative;
   z-index: 999;
 }
-/* line 35, ../_sass/parts/_nav.scss */
+/* line 34, ../_sass/parts/_nav.scss */
 .expanded .submenu .menu_item {
   width: 100%;
 }
 
-/* line 41, ../_sass/parts/_nav.scss */
+/* line 40, ../_sass/parts/_nav.scss */
 .logo {
-  font-family: 'verb_extraboldregular', sans-serif;
+  font-family: "verb_extraboldregular", sans-serif;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: normal;
   color: #fff !important;
   line-height: 110px;
   display: block;
@@ -8442,6 +9188,10 @@ code {
   bottom: 0;
   vertical-align: middle;
   margin-left: 10px;
+}
+/* line 51, ../_sass/parts/_nav.scss */
+.logo strong {
+  font-weight: 900;
 }
 
 /* line 9, ../_sass/parts/_sliders.scss */
@@ -8841,23 +9591,23 @@ code {
 }
 
 @media only screen and (max-width: 65em) {
-  /* line 8, ../_sass/_responsive.scss */
+  /* line 14, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     width: 100%;
     position: relative;
     left: auto;
   }
-  /* line 13, ../_sass/_responsive.scss */
+  /* line 19, ../_sass/_responsive.scss */
   .slider_section .orbit-timer {
     display: none;
   }
-  /* line 17, ../_sass/_responsive.scss */
+  /* line 23, ../_sass/_responsive.scss */
   .slider_section .slider_wrap,
   .slider_section .orbit-container {
     background: none;
     width: auto;
   }
-  /* line 21, ../_sass/_responsive.scss */
+  /* line 27, ../_sass/_responsive.scss */
   .slider_section .slider_list {
     width: 100%;
     height: 100%;
@@ -8866,31 +9616,67 @@ code {
     left: auto;
     margin: 0 auto;
   }
-  /* line 28, ../_sass/_responsive.scss */
+  /* line 34, ../_sass/_responsive.scss */
   .slider_section .slider_list .slide_img {
     width: 100%;
     height: auto;
   }
-  /* line 32, ../_sass/_responsive.scss */
+  /* line 38, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption {
     bottom: 70px;
     top: auto;
     left: 5%;
     width: 90%;
   }
-  /* line 37, ../_sass/_responsive.scss */
+  /* line 43, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption .caption_p {
     font-size: 0.75em;
   }
-  /* line 42, ../_sass/_responsive.scss */
+  /* line 48, ../_sass/_responsive.scss */
   .slider_section .screen_overlay {
     display: none;
   }
 }
 @media only screen and (min-width: 65em) {
-  /* line 49, ../_sass/_responsive.scss */
+  /* line 55, ../_sass/_responsive.scss */
   .orbit-caption {
     top: 330px;
     left: 25px;
+  }
+}
+@media only screen and (max-width: 60.625em) {
+  /* line 63, ../_sass/_responsive.scss */
+  .top_menu_wrap .logo {
+    margin-left: 40px;
+  }
+  /* line 67, ../_sass/_responsive.scss */
+  .top_menu_wrap .menu_item .menu_link {
+    font-size: 0.85em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 75, ../_sass/_responsive.scss */
+  .job_summary {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  /* line 82, ../_sass/_responsive.scss */
+  .job_section .icon_circle {
+    margin-left: -22px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    border-radius: 32px;
+  }
+  /* line 88, ../_sass/_responsive.scss */
+  .job_section .icon_circle > [class*="icon"] {
+    line-height: 64px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  /* line 96, ../_sass/_responsive.scss */
+  .logo {
+    margin-left: 20px;
   }
 }
