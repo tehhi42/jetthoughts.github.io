@@ -7781,29 +7781,23 @@ code {
 }
 
 /* line 3, ../_sass/pages/_career.scss */
-.career .header .heading_one {
-  font-family: "Lato", sans-serif;
-  font-size: 1.65em;
-  font-weight: 900;
-}
-/* line 12, ../_sass/pages/_career.scss */
 .career .mid_slider_section .heading_one {
   font-size: 1.65em;
 }
-/* line 16, ../_sass/pages/_career.scss */
+/* line 7, ../_sass/pages/_career.scss */
 .career .job_section {
   overflow: hidden;
 }
-/* line 19, ../_sass/pages/_career.scss */
+/* line 10, ../_sass/pages/_career.scss */
 .career .job_section .header {
   padding: 0;
 }
 
-/* line 25, ../_sass/pages/_career.scss */
+/* line 16, ../_sass/pages/_career.scss */
 .job_application {
   padding: 60px 0 46px;
 }
-/* line 27, ../_sass/pages/_career.scss */
+/* line 18, ../_sass/pages/_career.scss */
 .job_application .heading_two {
   font-family: "Lato", sans-serif;
   font-size: 2.25em;
@@ -7811,12 +7805,12 @@ code {
   text-align: center;
   color: #2c3d4f;
 }
-/* line 33, ../_sass/pages/_career.scss */
+/* line 24, ../_sass/pages/_career.scss */
 .job_application .icon_wrap {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 37, ../_sass/pages/_career.scss */
+/* line 28, ../_sass/pages/_career.scss */
 .job_application .icon_circle {
   margin: 0 auto;
   position: relative;
@@ -7824,20 +7818,20 @@ code {
   margin-left: -37px;
 }
 
-/* line 47, ../_sass/pages/_career.scss */
+/* line 38, ../_sass/pages/_career.scss */
 .job_section {
   color: #615648;
   margin-bottom: 37px;
 }
-/* line 50, ../_sass/pages/_career.scss */
+/* line 41, ../_sass/pages/_career.scss */
 .job_section .header {
   border-bottom: 1px solid #f3f3f3;
 }
-/* line 53, ../_sass/pages/_career.scss */
+/* line 44, ../_sass/pages/_career.scss */
 .job_section .header:after {
   display: none;
 }
-/* line 56, ../_sass/pages/_career.scss */
+/* line 47, ../_sass/pages/_career.scss */
 .job_section .header .heading_one {
   font-family: "Lato", sans-serif;
   font-size: 1.15em;
@@ -7845,24 +7839,24 @@ code {
   color: #2dcc70;
   margin-top: 25px;
 }
-/* line 62, ../_sass/pages/_career.scss */
+/* line 53, ../_sass/pages/_career.scss */
 .job_section .header .description {
   font-family: "Lato", sans-serif;
   font-size: 0.8em;
   color: #615648;
   padding-right: 20px;
 }
-/* line 68, ../_sass/pages/_career.scss */
+/* line 59, ../_sass/pages/_career.scss */
 .job_section .detailed {
   overflow: hidden;
   *zoom: 1;
   padding-top: 30px;
 }
-/* line 71, ../_sass/pages/_career.scss */
+/* line 62, ../_sass/pages/_career.scss */
 .job_section .detailed .col {
   float: left;
 }
-/* line 74, ../_sass/pages/_career.scss */
+/* line 65, ../_sass/pages/_career.scss */
 .job_section .detailed .heading_three, .job_section .detailed .contacts_wrap .contacts_section .heading_one, .contacts_wrap .contacts_section .job_section .detailed .heading_one {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -7870,22 +7864,22 @@ code {
   color: #2dcc70;
 }
 
-/* line 82, ../_sass/pages/_career.scss */
+/* line 73, ../_sass/pages/_career.scss */
 .section_details {
   display: none;
 }
 
-/* line 87, ../_sass/pages/_career.scss */
+/* line 78, ../_sass/pages/_career.scss */
 .active .section_details {
   display: block;
 }
 
-/* line 92, ../_sass/pages/_career.scss */
+/* line 83, ../_sass/pages/_career.scss */
 .detailed_inner {
   padding-left: 38px;
   padding-right: 38px;
 }
-/* line 95, ../_sass/pages/_career.scss */
+/* line 86, ../_sass/pages/_career.scss */
 .detailed_inner .heading_two {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -7893,23 +7887,23 @@ code {
   color: #2dcc70;
   text-align: left;
 }
-/* line 101, ../_sass/pages/_career.scss */
+/* line 92, ../_sass/pages/_career.scss */
 .detailed_inner .paragraph {
   font-family: "Lato", sans-serif;
   font-size: 0.8em;
 }
 
-/* line 106, ../_sass/pages/_career.scss */
+/* line 97, ../_sass/pages/_career.scss */
 .job_summary {
   min-height: 71px;
 }
 
-/* line 110, ../_sass/pages/_career.scss */
+/* line 101, ../_sass/pages/_career.scss */
 .similar_projects, .related_projects {
   background: #ebebeb;
   padding: 20px 0 20px;
 }
-/* line 113, ../_sass/pages/_career.scss */
+/* line 104, ../_sass/pages/_career.scss */
 .similar_projects .heading_five, .related_projects .heading_five {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -7919,14 +7913,14 @@ code {
   padding-right: 40px;
   margin-top: 0;
 }
-/* line 121, ../_sass/pages/_career.scss */
+/* line 112, ../_sass/pages/_career.scss */
 .similar_projects .list, .related_projects .list {
   text-align: center;
   margin-bottom: 0;
   margin-left: -10px;
   margin-right: -10px;
 }
-/* line 126, ../_sass/pages/_career.scss */
+/* line 117, ../_sass/pages/_career.scss */
 .similar_projects .list .item, .related_projects .list .item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7938,7 +7932,7 @@ code {
   height: 190px;
   margin: 0 10px 15px;
 }
-/* line 131, ../_sass/pages/_career.scss */
+/* line 122, ../_sass/pages/_career.scss */
 .similar_projects .list .item .thumb, .related_projects .list .item .thumb {
   display: block;
   background: #2dcc70;
@@ -7947,11 +7941,11 @@ code {
   height: 190px;
 }
 
-/* line 142, ../_sass/pages/_career.scss */
+/* line 133, ../_sass/pages/_career.scss */
 .application_form {
   padding: 20px 20px 20px 50px;
 }
-/* line 144, ../_sass/pages/_career.scss */
+/* line 135, ../_sass/pages/_career.scss */
 .application_form .heading_two {
   font-family: 'verb_extraboldregular', sans-serif;
   font-size: 30px;
@@ -7960,7 +7954,7 @@ code {
   text-align: left;
   color: #2dcc70;
 }
-/* line 150, ../_sass/pages/_career.scss */
+/* line 141, ../_sass/pages/_career.scss */
 .application_form .button, .application_form .portfolio_sort .sorter, .portfolio_sort .application_form .sorter {
   margin-bottom: 0;
 }
@@ -8618,26 +8612,26 @@ code {
   color: white;
 }
 
-/* line 157, ../_sass/parts/_sliders.scss */
+/* line 159, ../_sass/parts/_sliders.scss */
 .mid_slider_section {
   padding-top: 40px;
   padding-bottom: 40px;
   background: #2f87b9 url("../images/pat_blueprint_light.png") repeat;
 }
-/* line 161, ../_sass/parts/_sliders.scss */
+/* line 163, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-timer {
   display: none;
 }
-/* line 164, ../_sass/parts/_sliders.scss */
+/* line 166, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-container {
   text-align: center;
   background: none;
 }
-/* line 168, ../_sass/parts/_sliders.scss */
+/* line 170, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets {
   text-align: center;
 }
-/* line 170, ../_sass/parts/_sliders.scss */
+/* line 172, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets > li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -8653,37 +8647,39 @@ code {
   border: none;
   border-radius: 6px;
 }
-/* line 179, ../_sass/parts/_sliders.scss */
+/* line 181, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-bullets > li.active {
   background: white;
 }
-/* line 184, ../_sass/parts/_sliders.scss */
+/* line 186, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-slide-number {
   display: none;
 }
-/* line 194, ../_sass/parts/_sliders.scss */
+/* line 196, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-prev,
 .mid_slider_section .orbit-next {
   width: 14px;
   height: 21px;
 }
-/* line 197, ../_sass/parts/_sliders.scss */
+/* line 199, ../_sass/parts/_sliders.scss */
 .mid_slider_section .orbit-prev > span,
 .mid_slider_section .orbit-next > span {
   display: none;
 }
-/* line 201, ../_sass/parts/_sliders.scss */
+/* line 203, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item {
-  padding: 0 100px;
   color: white;
   text-align: center;
+  height: 300px;
+  padding: 0 100px;
+  overflow: hidden;
 }
-/* line 205, ../_sass/parts/_sliders.scss */
+/* line 209, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item .heading_one {
   color: white;
   font-weight: 400;
 }
-/* line 209, ../_sass/parts/_sliders.scss */
+/* line 213, ../_sass/parts/_sliders.scss */
 .mid_slider_section .slide_item .icon_circle {
   margin: 0 auto;
 }
