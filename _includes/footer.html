@@ -31,10 +31,12 @@
 </footer>
 
 <script type="text/javascript" src="/js/foundation/foundation.js"></script>
+<script type="text/javascript" src="/js/foundation/foundation.section.js"></script>
 <script type="text/javascript" src="/js/foundation/foundation.topbar.js"></script>
 <script type="text/javascript" src="/js/foundation/foundation.orbit.js"></script>
 <script type="text/javascript">
-  $(document).foundation(
-  );
+  $(document).foundation({
+    deep_linking: false
+  });
 </script>
 {% include analytics.html %}

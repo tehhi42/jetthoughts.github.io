@@ -61,6 +61,7 @@ $job_section_inner_padding_left: 38px;
     }
     .description {
       @include lato(0.8em);
+      color: $text_brown;
       padding-right: 20px;
     }
   }
@@ -78,6 +79,16 @@ $job_section_inner_padding_left: 38px;
   }
 }
 
+.section_details {
+  display: none;
+}
+
+.active {
+  .section_details {
+    display: block;
+  }
+}
+
 .detailed_inner {
   padding-left: $job_section_inner_padding_left;
   padding-right: $job_section_inner_padding_left;
@@ -91,7 +102,6 @@ $job_section_inner_padding_left: 38px;
     @include lato(0.8em);
   }
 }
-
 
 .job_summary {
   min-height: 71px;
