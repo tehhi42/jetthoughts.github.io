@@ -55,6 +55,9 @@
       text-align: left;
       vertical-align: text-top;
       margin-top: 0;
+      a {
+        color: $dark_blue;
+      }
     }
   }
   .post_meta {
