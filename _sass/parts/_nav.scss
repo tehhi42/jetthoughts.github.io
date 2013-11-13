@@ -1,5 +1,4 @@
 .top_menu_wrap {
-  //font-size: 1.111em;
   height: $nav_height;
   background: $deep_blue;
   .menu {
@@ -39,7 +38,9 @@
 }
 
 .logo {
-  @include verb(30px);
+  font-family: $verb;
+  font-size: 30px;
+  font-weight: normal;
   color: #fff !important;
   line-height: $nav_height;
   display: block;
@@ -47,5 +48,8 @@
   @include stretch-y;
   vertical-align: middle;
   margin-left: 10px;
+  strong {
+    font-weight: 900;
+  }
 }
 
