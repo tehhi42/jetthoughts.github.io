@@ -2,6 +2,13 @@
   @extend .blueprint_pat;
   padding-top: 70px;
   padding-bottom: 15px;
+  >.row {
+    >.columns {
+      float: none;
+      @include inline-block(top);
+      margin-right: -3px;
+    }
+  }
 }
 $team_card_inner_pad: 25px;
 $team_card_height: 270px;
@@ -9,12 +16,11 @@ $ava_diameter: 126px;
 .team_member {
   @include clearfix;
   margin-bottom: 40px;
-  height: $team_card_height;
+  min-height: $team_card_height;
   background: $white;
   border-radius: $mid_radius;
   @extend .smooth_shadow;
   .ava_wrap {
-    height: $team_card_height;
     padding: $team_card_inner_pad;
     position: relative;
   }
@@ -22,6 +28,7 @@ $ava_diameter: 126px;
     display: block;
     width: $ava_diameter;
     border-radius: $ava_diameter/2;
+    @include box-shadow(0 0 1px transparentize($blue,0.2));
   }
   .position {
     @include lato(0.95em);
@@ -29,12 +36,13 @@ $ava_diameter: 126px;
     vertical-align: middle;
     color: $white;
     text-align: center;
-    background: $orange;
+    float: left;
     display: block;
     height: 40px;
-    position: absolute;
-    @include stretch-x($team_card_inner_pad,$team_card_inner_pad);
-    bottom: $team_card_inner_pad;
+    padding: 0 15px;
+    background: $orange;
+    margin-bottom: $team_card_inner_pad;
+    margin-left: $team_card_inner_pad;
     border-radius: $radius;
   }
   .bio_wrap {
