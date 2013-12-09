@@ -85,8 +85,24 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
       height: $circle_small_icon_diameter;
       line-height: $circle_small_icon_diameter;
       border-radius: ceil($circle_small_icon_diameter/2);
-      >[class*="icon"] {
+      > [class*="icon"] {
         line-height: $circle_small_icon_diameter;
+      }
+    }
+  }
+  .mid_slider_section {
+    .slide_item {
+      height: auto;
+      padding: 0;
+    }
+  }
+  .offer_section {
+    .offer_block {
+      min-height: inherit;
+      padding-bottom: 1px;
+      margin-bottom: 20px;
+      .description {
+        font-size: .75em;
       }
     }
   }
