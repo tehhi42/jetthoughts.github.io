@@ -9590,7 +9590,7 @@ code {
   background-color: #efefe7;
 }
 
-@media only screen and (max-width: 65em) {
+@media only screen and (max-width: 768px) {
   /* line 14, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     width: 100%;
@@ -9654,10 +9654,10 @@ code {
     font-size: 0.85em;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   /* line 75, ../_sass/_responsive.scss */
-  .job_summary {
-    padding: 0 20px;
+  .logo {
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 1280px) {
@@ -9680,20 +9680,96 @@ code {
     padding: 0;
   }
 
-  /* line 100, ../_sass/_responsive.scss */
+  /* line 101, ../_sass/_responsive.scss */
+  .offer_section .panel .button, .offer_section .panel .portfolio_sort .sorter, .portfolio_sort .offer_section .panel .sorter {
+    min-width: inherit;
+  }
+  /* line 105, ../_sass/_responsive.scss */
   .offer_section .offer_block {
     min-height: inherit;
     padding-bottom: 1px;
     margin-bottom: 20px;
   }
-  /* line 104, ../_sass/_responsive.scss */
+  /* line 109, ../_sass/_responsive.scss */
   .offer_section .offer_block .description {
     font-size: .75em;
   }
+
+  /* line 115, ../_sass/_responsive.scss */
+  .slider_section .orbit-bullets {
+    width: 100%;
+    position: relative;
+    left: auto;
+  }
+  /* line 120, ../_sass/_responsive.scss */
+  .slider_section .orbit-timer {
+    top: auto;
+    bottom: 49px;
+    right: 90px;
+    height: 1px;
+    width: 569px;
+  }
+  /* line 127, ../_sass/_responsive.scss */
+  .slider_section .orbit-bullets {
+    bottom: 10px;
+  }
+  /* line 131, ../_sass/_responsive.scss */
+  .slider_section .slider_wrap,
+  .slider_section .orbit-container {
+    width: 748px;
+    height: 430px;
+    background-size: 748px;
+  }
+  /* line 136, ../_sass/_responsive.scss */
+  .slider_section .slider_list {
+    width: 570px;
+    height: 356px;
+    position: relative;
+    top: 26px;
+    left: auto;
+    margin: 0 auto;
+  }
+  /* line 143, ../_sass/_responsive.scss */
+  .slider_section .slider_list .slide_img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 147, ../_sass/_responsive.scss */
+  .slider_section .slider_list .orbit-caption {
+    bottom: 40px;
+    top: auto;
+    left: 5%;
+    width: 90%;
+  }
+  /* line 152, ../_sass/_responsive.scss */
+  .slider_section .slider_list .orbit-caption .caption_p {
+    font-size: 0.75em;
+  }
+  /* line 157, ../_sass/_responsive.scss */
+  .slider_section .screen_overlay {
+    width: 230px;
+    height: 400px;
+    right: 70px;
+    background-size: 230px;
+  }
 }
-@media only screen and (max-width: 1440px) {
-  /* line 112, ../_sass/_responsive.scss */
-  .logo {
-    margin-left: 20px;
+@media only screen and (max-width: 768px) {
+  /* line 167, ../_sass/_responsive.scss */
+  .job_summary {
+    padding: 0 20px;
+  }
+
+  /* line 172, ../_sass/_responsive.scss */
+  .slider_section .slider_wrap,
+  .slider_section .orbit-container {
+    width: auto;
+  }
+  /* line 175, ../_sass/_responsive.scss */
+  .slider_section .orbit-timer {
+    display: none;
+  }
+  /* line 178, ../_sass/_responsive.scss */
+  .slider_section .slider_list {
+    width: auto;
   }
 }

@@ -9,7 +9,7 @@ $below_small: "only screen and (max-width:"#{$small-screen}")";
 $below_medium: "only screen and (max-width:"#{$medium-screen}")";
 $below_large: "only screen and (max-width:"#{$large-screen}")";
 
-@media #{$below_casual} {
+@media #{$below_small} {
   .slider_section {
     .orbit-bullets {
       width: 100%;
@@ -71,9 +71,9 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
   }
 }
 
-@media #{$below_small} {
-  .job_summary {
-    padding: 0 20px;
+@media #{$below_large} {
+  .logo {
+    margin-left: 20px;
   }
 }
 
@@ -97,6 +97,11 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
     }
   }
   .offer_section {
+    .panel {
+      .button {
+        min-width: inherit;
+      }
+    }
     .offer_block {
       min-height: inherit;
       padding-bottom: 1px;
@@ -106,10 +111,72 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
       }
     }
   }
+  .slider_section {
+    .orbit-bullets {
+      width: 100%;
+      position: relative;
+      left: auto;
+    }
+    .orbit-timer {
+      top: auto;
+      bottom: 49px;
+      right: 90px;
+      height: 1px;
+      width: 569px;
+    }
+    .orbit-bullets {
+      bottom: 10px;
+    }
+    .slider_wrap,
+    .orbit-container {
+      width: $small-screen - 20;
+      height: 430px;
+      background-size: $small-screen - 20;
+    }
+    .slider_list {
+      width: 570px;
+      height: 356px;
+      position: relative;
+      top: 26px;
+      left: auto;
+      margin: 0 auto;
+      .slide_img {
+        width: 100%;
+        height: auto;
+      }
+      .orbit-caption {
+        bottom: 40px;
+        top: auto;
+        left: 5%;
+        width: 90%;
+        .caption_p {
+          font-size: emCalc(12px);
+        }
+      }
+    }
+    .screen_overlay {
+      width: 230px;
+      height: 400px;
+      right: 70px;
+      background-size: 230px;
+    }
+  }
 }
 
-@media #{$below_large} {
-  .logo {
-    margin-left: 20px;
+@media #{$below_small} {
+  .job_summary {
+    padding: 0 20px;
+  }
+  .slider_section {
+    .slider_wrap,
+    .orbit-container {
+      width: auto;
+    }
+    .orbit-timer {
+      display: none;
+    }
+    .slider_list {
+      width: auto;
+    }
   }
 }
