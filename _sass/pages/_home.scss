@@ -7,7 +7,7 @@ $offer_block_min_height: 500px;
     margin-top: 60px;
     margin-bottom: 55px;
     .heading_one {
-      font-size: 2.250em;
+      font-size: 38px;
       font-weight: 900;
       color: $dark_blue;
       text-align: center;
@@ -15,23 +15,23 @@ $offer_block_min_height: 500px;
     }
   }
   .message {
-    font-size: 1.278em;
+    font-size: 23px;
     color: $dark_blue;
     margin-bottom: 40px;
   }
   .panel {
     border-radius: $radius;
-    margin: 0 emCalc(15) emCalc(20);
+    margin: 0 15px 20px;
     @extend .smooth_shadow;
     .heading_two {
-      @include lato(1.65em);
+      font-size: 33px;
       font-weight: 900;
       color: $modern_green;
       margin-top: 0;
       margin-bottom: 10px;
     }
     .message {
-      @include lato(0.8em);
+      font-size: 15px;
       color: $text_brown;
       margin: 0;
     }
@@ -63,24 +63,24 @@ $offer_block_min_height: 500px;
       text-align: left;
     }
     .subheading {
-      @include lato(0.9em);
+      font-size: 19px;
     }
     .heading_three {
-      @include lato(1.45em);
+      font-size: 30px;
+      font-weight: 400;
       line-height: 0.9em;
       color: $white;
-      font-weight: 400;
       white-space: nowrap;
       margin-top: 10px;
       margin-bottom: 0;
     }
     .description {
-      @include lato(0.9em);
+      font-size: 20px;
       color: $text_brown;
-      padding: 0 emCalc(20) 0;
-      margin: emCalc(10) 0;
+      padding: 0 20px 0;
+      margin: 10px 0;
       &:last-child {
-        margin-bottom: emCalc(20);
+        margin-bottom: 20px;
       }
     }
   }
@@ -99,7 +99,7 @@ $offer_block_min_height: 500px;
     .partner {
       @include inline-block(bottom);
       line-height: 60px;
-      margin: 0 0.75em;
+      margin: 0 15px;
       .partners-logo_paypal {
         margin-bottom: -8px;
       }

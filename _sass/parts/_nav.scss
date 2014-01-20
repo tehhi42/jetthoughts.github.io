@@ -9,18 +9,18 @@
     @include inline-block;
     height: $nav_height;
     .menu_link {
-      font-size: 0.94em;
+      font-size: 15px !important;
       font-weight: 500;
       text-transform: uppercase;
       color: $white;
       height: $nav_height;
       line-height: $nav_height;
       display: block;
-      padding: 0 20px;
+      padding: 0 20px !important;
       vertical-align: middle;
       &:hover,
       &.active {
-        background: $orange;
+        background: $orange !important;
       }
     }
   }
