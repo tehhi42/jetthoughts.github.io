@@ -12,12 +12,16 @@ $slider_caption_top: 330px;
     background: transparentize($black, 0.4);
   }
   .orbit-timer {
-    top:auto;
+    top: auto;
     bottom: 67px;
     right: ceil(($slider_laptop_width - $slider_laptop_inner_width)/2);
     height: 1px;
     width: $slider_laptop_inner_width - 2;
+    overflow: hidden;
     .orbit-progress {
+      left: 0;
+      top: 0;
+      height: 1px;
       background: $modern_green;
     }
   }
@@ -60,7 +64,7 @@ $slider_caption_top: 330px;
     top: auto;
     text-align: center;
     z-index: 9;
-    >li {
+    > li {
       @include inline-block;
       float: none;
       background: $light_gray_2;
@@ -84,7 +88,10 @@ $slider_caption_top: 330px;
   .orbit-next {
     width: 22px;
     height: 33px;
-    >span {
+    &:hover {
+      background-color: transparent;
+    }
+    > span {
       display: none;
     }
   }
@@ -118,7 +125,7 @@ $slider_caption_top: 330px;
       .heading_three {
         color: $white;
       }
-      >.caption_p {
+      > .caption_p {
         font-size: inherit;
         line-height: inherit;
         padding: 10px;
@@ -154,7 +161,6 @@ $slider_caption_top: 330px;
   }
 }
 
-
 $mid_slider_item_height: 300px;
 .mid_slider_section {
   padding-top: 40px;
@@ -169,7 +175,7 @@ $mid_slider_item_height: 300px;
   }
   .orbit-bullets {
     text-align: center;
-    >li {
+    > li {
       @include inline-block(middle);
       float: none;
       width: 12px;
@@ -196,7 +202,10 @@ $mid_slider_item_height: 300px;
   .orbit-next {
     width: 14px;
     height: 21px;
-    >span {
+    &:hover {
+      background-color: transparent;
+    }
+    > span {
       display: none;
     }
   }

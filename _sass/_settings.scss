@@ -15,6 +15,7 @@ $base-font-size: 100%;
 // If you want your base font-size to be a different size and not have it effect grid size too,
 // set the value of $em-base to $base-font-size ($em-base: $base-font-size;)
 $em-base: 16 !default;
+$rem-base: 14px;
 
 // It strips the unit of measure and returns it
 @function strip-unit($num) {

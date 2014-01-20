@@ -1,6 +1,6 @@
 body {
   @include lato(1.111em);
-  font-weight: 300;
+  font-weight: normal;
   word-spacing: 0.1em;
 }
 
@@ -19,12 +19,12 @@ $lato: "Lato",sans-serif;
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
 }
 
 b {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 strong {

@@ -1,5 +1,8 @@
 $casual_screen: emCalc(1040);
 $nav_breakpoint: emCalc(970);
+$small-screen: 768px;
+$medium-screen: 1280px;
+$large-screen: 1440px;
 
 $below_casual: "only screen and (max-width:"#{$casual_screen}")";
 $casual: "only screen and (min-width:"#{$casual_screen}")";
