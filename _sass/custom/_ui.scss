@@ -29,7 +29,7 @@ $button_min_width: 190px;
 }
 
 .button_super {
-  font-size: 1.778em;
+  font-size: 32px;
   font-weight: 700;
   background: $orange;
   border-radius: 13px;
@@ -85,7 +85,7 @@ $button_min_width: 190px;
   @extend .large-8;
 }
 
-$circle_icon_diameter: 122px;
+$circle_icon_diameter: 102px;
 $circle_mid_icon_diameter: 94px;
 $circle_small_icon_diameter: 64px;
 .icon_circle {
