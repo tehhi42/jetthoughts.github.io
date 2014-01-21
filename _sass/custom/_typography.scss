@@ -48,18 +48,17 @@ strong {
   }
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .list {
   font-size: 12px;
   padding: 0;
   list-style: none;
-  .list_item {
-    >a {
-      text-decoration: underline;
-    }
-  }
 }
 // Headings
-
 .h1 {
   @include lato(2.5em);
   line-height: 1em;

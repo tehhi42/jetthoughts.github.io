@@ -8282,14 +8282,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   background-position: 0 -72px;
 }
 
-/* line 250, icons/*.png */
-.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-comment, .icons-facebook, .icons-facebook_large, .icons-facebook_small, .icons-gears, .icons-head_brain, .icons-linkedin, .icons-linkedin_large, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-twitter_large, .icons-twitter_small, .icons-warn, .validation_input .validate_text.error:after, .icons-webapp {
-  background: url('../images/icons-s89b2dd74ca.png') no-repeat;
+/* line 282, icons/*.png */
+.icons-sprite, .icons-binder, .icons-brain, .icons-cocktail, .icons-comment, .icons-facebook, .icons-facebook_large, .icons-facebook_small, .icons-gears, .icons-github, .icons-head_brain, .icons-linkedin-small, .icons-linkedin, .icons-linkedin_large, .icons-location, .icons-mail, .icons-mic, .icons-mobile, .icons-moneybag, .icons-phone, .icons-photo, .icons-scales, .icons-tools, .icons-twitter, .icons-twitter_large, .icons-twitter_small, .icons-warn, .validation_input .validate_text.error:after, .icons-webapp {
+  background: url('../images/icons-s76fab176ab.png') no-repeat;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-binder {
-  background-position: 0 -1671px;
+  background-position: 0 -1903px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -8299,125 +8299,143 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cocktail {
-  background-position: 0 -1145px;
+  background-position: 0 -1377px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-comment {
-  background-position: 0 -594px;
+  background-position: 0 -826px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook {
-  background-position: 0 -1903px;
+  background-position: 0 -2135px;
 }
 /* line 43, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook:hover, .icons-facebook.facebook_hover, .icons-facebook.facebook-hover {
-  background-position: 0 -1961px;
+  background-position: 0 -2193px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook_large {
-  background-position: 0 -649px;
+  background-position: 0 -881px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-facebook_small {
-  background-position: 0 -538px;
+  background-position: 0 -770px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-gears {
-  background-position: 0 -736px;
+  background-position: 0 -968px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-head_brain {
-  background-position: 0 -817px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-linkedin {
-  background-position: 0 -903px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-linkedin_large {
-  background-position: 0 -451px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-location {
-  background-position: 0 -1505px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-mail {
-  background-position: 0 -1851px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-mic {
-  background-position: 0 -1045px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-mobile {
-  background-position: 0 -1231px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-moneybag {
-  background-position: 0 -955px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-phone {
-  background-position: 0 -1560px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-photo {
-  background-position: 0 -1331px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-scales {
-  background-position: 0 -259px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-tools {
-  background-position: 0 -360px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-twitter {
-  background-position: 0 -1735px;
+.icons-github {
+  background-position: 0 -176px;
 }
 /* line 43, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-twitter:hover, .icons-twitter.twitter_hover, .icons-twitter.twitter-hover {
-  background-position: 0 -1793px;
-}
-
-/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-twitter_large {
+.icons-github:hover, .icons-github.github_hover, .icons-github.github-hover {
   background-position: 0 -118px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-head_brain {
+  background-position: 0 -1049px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedin-small {
+  background-position: 0 -292px;
+}
+/* line 43, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedin-small:hover, .icons-linkedin-small.linkedin-small_hover, .icons-linkedin-small.linkedin-small-hover {
+  background-position: 0 -234px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedin {
+  background-position: 0 -1135px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-linkedin_large {
+  background-position: 0 -683px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-location {
+  background-position: 0 -1737px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mail {
+  background-position: 0 -2083px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mic {
+  background-position: 0 -1277px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mobile {
+  background-position: 0 -1463px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-moneybag {
+  background-position: 0 -1187px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-phone {
+  background-position: 0 -1792px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-photo {
+  background-position: 0 -1563px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-scales {
+  background-position: 0 -491px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tools {
+  background-position: 0 -592px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-twitter {
+  background-position: 0 -1967px;
+}
+/* line 43, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-twitter:hover, .icons-twitter.twitter_hover, .icons-twitter.twitter-hover {
+  background-position: 0 -2025px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-twitter_large {
+  background-position: 0 -350px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-twitter_small {
-  background-position: 0 -205px;
+  background-position: 0 -437px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-warn, .validation_input .validate_text.error:after {
-  background-position: 0 -1616px;
+  background-position: 0 -1848px;
 }
 
 /* line 60, ../../../.rvm/gems/ruby-2.0.0-p247@jetthoughts-site/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-webapp {
-  background-position: 0 -1405px;
+  background-position: 0 -1637px;
 }
 
 /* line 98, ui/*.png */
@@ -8568,17 +8586,19 @@ strong {
 }
 
 /* line 51, ../_sass/custom/_typography.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 56, ../_sass/custom/_typography.scss */
 .list {
   font-size: 12px;
   padding: 0;
   list-style: none;
 }
-/* line 56, ../_sass/custom/_typography.scss */
-.list .list_item > a {
-  text-decoration: underline;
-}
 
-/* line 63, ../_sass/custom/_typography.scss */
+/* line 62, ../_sass/custom/_typography.scss */
 .h1, .heading_one, h1, h2,
 .heading_two, h3,
 .heading_three,
@@ -8593,53 +8613,53 @@ strong {
   margin: 14px 0 10px;
 }
 
-/* line 75, ../_sass/custom/_typography.scss */
+/* line 74, ../_sass/custom/_typography.scss */
 h2,
 .heading_two {
   font-size: 2.3em;
 }
 
-/* line 81, ../_sass/custom/_typography.scss */
+/* line 80, ../_sass/custom/_typography.scss */
 h3,
 .heading_three,
 .contacts_wrap .contacts_section .heading_one {
   font-size: 1.45em;
 }
 
-/* line 87, ../_sass/custom/_typography.scss */
+/* line 86, ../_sass/custom/_typography.scss */
 h4,
 .heading_four {
   font-size: 16px;
 }
 
-/* line 93, ../_sass/custom/_typography.scss */
+/* line 92, ../_sass/custom/_typography.scss */
 h5,
 .heading_five {
   font-size: 14px;
 }
 
-/* line 99, ../_sass/custom/_typography.scss */
+/* line 98, ../_sass/custom/_typography.scss */
 h6,
 .heading_six {
   font-size: 13px;
   font-weight: 700;
 }
 
-/* line 105, ../_sass/custom/_typography.scss */
+/* line 104, ../_sass/custom/_typography.scss */
 .table {
   border: none;
   width: 100%;
 }
-/* line 108, ../_sass/custom/_typography.scss */
+/* line 107, ../_sass/custom/_typography.scss */
 .table .tr {
   background: none;
 }
-/* line 111, ../_sass/custom/_typography.scss */
+/* line 110, ../_sass/custom/_typography.scss */
 .table .th {
   font-weight: 700;
   text-align: left;
 }
-/* line 116, ../_sass/custom/_typography.scss */
+/* line 115, ../_sass/custom/_typography.scss */
 .table .th,
 .table .td {
   font-size: 0.75em;
@@ -8649,12 +8669,12 @@ h6,
   padding-bottom: 10px;
   vertical-align: top;
 }
-/* line 124, ../_sass/custom/_typography.scss */
+/* line 123, ../_sass/custom/_typography.scss */
 .table .td {
   padding-right: 10px;
 }
 
-/* line 129, ../_sass/custom/_typography.scss */
+/* line 128, ../_sass/custom/_typography.scss */
 .notice {
   font-size: 0.75em;
   color: #666f80;
@@ -8663,23 +8683,23 @@ h6,
   border-radius: 5px;
 }
 
-/* line 137, ../_sass/custom/_typography.scss */
+/* line 136, ../_sass/custom/_typography.scss */
 code {
   font-weight: 400;
 }
 
-/* line 141, ../_sass/custom/_typography.scss */
+/* line 140, ../_sass/custom/_typography.scss */
 .highlighttable {
   display: block;
   overflow-y: hidden;
   overflow-x: auto;
   padding-bottom: 10px;
 }
-/* line 147, ../_sass/custom/_typography.scss */
+/* line 146, ../_sass/custom/_typography.scss */
 .highlighttable pre {
   white-space: pre;
 }
-/* line 150, ../_sass/custom/_typography.scss */
+/* line 149, ../_sass/custom/_typography.scss */
 .highlighttable .linenodiv {
   font-size: 11px;
   color: #ebebeb;
@@ -9010,27 +9030,39 @@ code {
 }
 
 /* line 106, ../_sass/custom/_icons.scss */
+.icons-github {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 111, ../_sass/custom/_icons.scss */
 .icons-comment {
   width: 16px;
   height: 15px;
 }
 
-/* line 111, ../_sass/custom/_icons.scss */
+/* line 116, ../_sass/custom/_icons.scss */
 .icons-facebook_large {
   width: 47px;
   height: 47px;
 }
 
-/* line 116, ../_sass/custom/_icons.scss */
+/* line 121, ../_sass/custom/_icons.scss */
 .icons-twitter_large {
   width: 47px;
   height: 47px;
 }
 
-/* line 121, ../_sass/custom/_icons.scss */
+/* line 126, ../_sass/custom/_icons.scss */
 .icons-linkedin_large {
   width: 47px;
   height: 47px;
+}
+
+/* line 131, ../_sass/custom/_icons.scss */
+.icons-linkedin-small {
+  width: 18px;
+  height: 18px;
 }
 
 /* line 1, ../_sass/custom/_forms.scss */
@@ -9135,12 +9167,12 @@ code {
 .offer_section .message {
   font-size: 23px;
   color: #2c3d4f;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 /* line 22, ../_sass/pages/_home.scss */
 .offer_section .panel {
   border-radius: 5px;
-  margin: 0 15px 20px;
+  margin: 30px 15px 20px;
 }
 /* line 26, ../_sass/pages/_home.scss */
 .offer_section .panel .heading_two {
@@ -10186,7 +10218,7 @@ code {
 .slider_section .heading_one {
   text-align: center;
   font-size: 38px;
-  font-weight: 300;
+  font-weight: normal;
   color: #ebebeb;
   margin: 0;
   text-shadow: 0 1px 9px rgba(0, 0, 0, 0.6);
@@ -10429,15 +10461,12 @@ code {
 }
 /* line 19, ../_sass/parts/_footer.scss */
 .footer .logo_wrap .copyright {
-  font-family: "Lato", sans-serif;
-  font-size: 0.75em;
+  font-size: 13px;
   color: #c4c4c4;
 }
 /* line 25, ../_sass/parts/_footer.scss */
 .footer .s_header .heading_one {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
+  font-size: 20px;
   text-align: center;
   color: white;
   margin: 20px 0;
@@ -10445,60 +10474,66 @@ code {
   border-bottom: 1px solid white;
 }
 
-/* line 38, ../_sass/parts/_footer.scss */
+/* line 36, ../_sass/parts/_footer.scss */
+.foo_link {
+  color: white;
+  text-decoration: none;
+}
+/* line 39, ../_sass/parts/_footer.scss */
+.foo_link:hover {
+  color: #ff8448;
+}
+
+/* line 45, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_heading {
-  font-family: "Lato", sans-serif;
-  font-size: 0.85em;
+  font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   color: white;
   display: block;
 }
-/* line 44, ../_sass/parts/_footer.scss */
+/* line 51, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_heading:hover {
   color: #ff8448;
 }
-/* line 48, ../_sass/parts/_footer.scss */
+/* line 55, ../_sass/parts/_footer.scss */
 .recent_posts_section p {
-  font-family: "Lato", sans-serif;
-  font-size: 0.75em;
+  font-size: 13px;
   margin-bottom: 0;
 }
-/* line 52, ../_sass/parts/_footer.scss */
+/* line 59, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_date {
-  font-family: "Lato", sans-serif;
-  font-size: 0.6em;
+  font-size: 12px;
   color: #c4c4c4;
   display: block;
 }
-/* line 57, ../_sass/parts/_footer.scss */
+/* line 64, ../_sass/parts/_footer.scss */
 .recent_posts_section .posts_list {
   list-style: none;
 }
-/* line 60, ../_sass/parts/_footer.scss */
+/* line 67, ../_sass/parts/_footer.scss */
 .recent_posts_section .post_item {
   margin-bottom: 10px;
 }
 
-/* line 66, ../_sass/parts/_footer.scss */
+/* line 73, ../_sass/parts/_footer.scss */
 .some_text_section .message {
-  font-family: "Lato", sans-serif;
-  font-size: 0.75em;
+  font-size: 13px;
 }
 
-/* line 73, ../_sass/parts/_footer.scss */
+/* line 80, ../_sass/parts/_footer.scss */
 .contacts_section .address_item {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 77, ../_sass/parts/_footer.scss */
+/* line 84, ../_sass/parts/_footer.scss */
 .contacts_section .address_wrap {
   font-family: "Lato", sans-serif;
   font-size: 0.75em;
   line-height: 20px;
   padding-left: 60px;
 }
-/* line 82, ../_sass/parts/_footer.scss */
+/* line 89, ../_sass/parts/_footer.scss */
 .contacts_section .icon_wrap {
   text-align: center;
   position: absolute;
@@ -10506,7 +10541,7 @@ code {
   top: 0;
   width: 60px;
 }
-/* line 88, ../_sass/parts/_footer.scss */
+/* line 95, ../_sass/parts/_footer.scss */
 .contacts_section .icon_wrap > [class^="icons"] {
   display: -moz-inline-stack;
   display: inline-block;
@@ -10515,20 +10550,20 @@ code {
   zoom: 1;
   *display: inline;
 }
-/* line 93, ../_sass/parts/_footer.scss */
+/* line 100, ../_sass/parts/_footer.scss */
 .contacts_section .link {
   color: white;
 }
-/* line 96, ../_sass/parts/_footer.scss */
+/* line 103, ../_sass/parts/_footer.scss */
 .contacts_section .tel_link {
   color: white;
 }
 
-/* line 102, ../_sass/parts/_footer.scss */
+/* line 109, ../_sass/parts/_footer.scss */
 .social_wrap .hr {
   position: relative;
 }
-/* line 104, ../_sass/parts/_footer.scss */
+/* line 111, ../_sass/parts/_footer.scss */
 .social_wrap .hr:after {
   content: ' ';
   display: block;
@@ -10539,13 +10574,12 @@ code {
   top: -4px;
   background: #ebebeb;
 }
-/* line 115, ../_sass/parts/_footer.scss */
+/* line 122, ../_sass/parts/_footer.scss */
 .social_wrap .social_label {
-  font-family: "Lato", sans-serif;
-  font-size: 1.05em;
-  margin-right: 55px;
+  font-size: 21px;
+  margin-right: 10px;
 }
-/* line 119, ../_sass/parts/_footer.scss */
+/* line 126, ../_sass/parts/_footer.scss */
 .social_wrap .social_icon {
   display: -moz-inline-stack;
   display: inline-block;
@@ -10558,7 +10592,7 @@ code {
   height: 18px;
   background-color: #102f44;
 }
-/* line 125, ../_sass/parts/_footer.scss */
+/* line 132, ../_sass/parts/_footer.scss */
 .social_wrap .social_icon:hover {
   background-color: #efefe7;
 }

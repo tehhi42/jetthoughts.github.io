@@ -1,12 +1,12 @@
 <section class="some_text_section">
   <header class="s_header">
-    <h1 class="heading_one">Something More</h1>
+    <h1 class="heading_one">Sitemap</h1>
   </header>
   <ul class="list">
     {% for node in site.pages %}
     {% unless node.url contains 'page' %}
     <li class="list_item">
-      <a class="white" href="{{ node.url }}">{{ node.title }}</a>
+      <a class="foo_link" href="{{ node.url }}">{{ node.title }}</a>
     </li>
     {% endunless %}
     {% endfor %}

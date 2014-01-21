@@ -103,6 +103,11 @@
   height: icons-sprite-height(linkedin);
 }
 
+.icons-github {
+  width: icons-sprite-width(github);
+  height: icons-sprite-height(github);
+}
+
 .icons-comment {
   width: icons-sprite-width(comment);
   height: icons-sprite-height(comment);
@@ -121,4 +126,9 @@
 .icons-linkedin_large {
   width: icons-sprite-width(linkedin_large);
   height: icons-sprite-height(linkedin_large);
+}
+
+.icons-linkedin-small {
+  width: icons-sprite-width(linkedin-small);
+  height: icons-sprite-height(linkedin-small);
 }
