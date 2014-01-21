@@ -16,13 +16,12 @@ $button_min_width: 190px;
 }
 
 .button {
-  @include lato(1.05em);
-  font-weight: 400;
-  background: $orange;
+  font-size: 21px;
   border: none;
-  border-radius: 3px;
-  padding-bottom: 0.7em;
+  padding: 12px 20px;
   min-width: $button_min_width;
+  background: $orange;
+  border-radius: 3px;
   @include box-shadow(0 4px 0 $orange_shadow);
   &:hover {
     background: $orange_shadow;

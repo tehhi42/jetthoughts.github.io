@@ -53,3 +53,70 @@
   }
 }
 
+.menu_button {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  display: none;
+}
+.menu_button_wrap {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.fake_menu {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: $white;
+  position: absolute;
+  &:before,
+  &:after {
+    content: '';
+    display: inherit;
+    width: inherit;
+    height: inherit;
+    position: inherit;
+    top: 8px;
+    background: inherit;
+  }
+  &:after {
+    top: 16px;
+  }
+}
+
+.fake_submenu {
+  @extend .fake_menu;
+  background-color: $orange;
+  top: 4px;
+  left: -20px;
+  @include transition(600ms all ease);
+}
+
+.move-left {
+  .fake_submenu {
+    left: 18px;
+    @include transition(600ms all ease);
+  }
+}
+
+.aside_menu {
+  list-style: none;
+  padding: 40px 0 0;
+  margin: 0;
+  .menu_link {
+    color: $white;
+    display: block;
+    padding: 10px 20px;
+    &:hover {
+      background: $orange;
+    }
+  }
+}
+
+.right-off-canvas-menu {
+  background: $deep_blue;
+}

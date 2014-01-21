@@ -29,6 +29,9 @@
 
   <link href="/css/app.css" media="screen, projector, print" rel="stylesheet" type="text/css"/>
   <link href="/css/syntax.css" media="screen, projector, print" rel="stylesheet" type="text/css"/>
+  {% if page.categories == 404 %}
+  <link href="/css/404.css" media="screen, projector, print" rel="stylesheet" type="text/css"/>
+  {% endif %}
 
 
   <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -43,7 +46,7 @@
         <!-- Off Canvas Menu -->
         <aside class="right-off-canvas-menu">
             <!-- whatever you want goes here -->
-            <ul class=""
+            <ul class="aside_menu"
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include pages_list %}

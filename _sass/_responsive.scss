@@ -72,11 +72,12 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
     .toggle-topbar {
       display: block !important;
     }
-//    .menu_item {
-//      .menu_link {
-//        font-size: 12px !important;
-//      }
-//    }
+    .menu_button {
+      display: block;
+    }
+  }
+  .title-area {
+    width: 100%;
   }
 }
 
