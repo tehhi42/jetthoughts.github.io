@@ -91,8 +91,8 @@ $offer_block_min_height: 500px;
   background: $light_gray;
   @include box-shadow(0 -1px 7px transparentize($black, 0.9));
   position: relative;
-  padding-top: 14px;
-  padding-bottom: 50px;
+  padding-top: 24px;
+  padding-bottom: 30px;
   z-index: 10;
   .partners {
     @extend .row;
