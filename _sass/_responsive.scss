@@ -75,6 +75,9 @@ $below_large: "only screen and (max-width:"#{$large-screen}")";
     }
     .menu_button {
       display: block;
+      &.hide {
+        display: none;
+      }
     }
   }
   .title-area {

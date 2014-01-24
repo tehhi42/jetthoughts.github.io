@@ -1,6 +1,6 @@
-$partners-spacing:40px;
-@import "partners/*.png";
-@include all-partners-sprites;
+$tech-spacing: 40px;
+@import "tech/*.png";
+@include all-tech-sprites;
 
 $icons-spacing: 40px;
 @import "icons/*.png";
@@ -9,3 +9,45 @@ $icons-spacing: 40px;
 $ui-spacing: 20px;
 @import "ui/*.png";
 @include all-ui-sprites;
+
+//width: icons-sprite-width(facebook_small);
+
+.tech-ruby {
+  width: tech-sprite-width(ruby);
+  height: tech-sprite-height(ruby);
+}
+
+.tech-rails {
+  width: tech-sprite-width(rails);
+  height: tech-sprite-height(rails);
+}
+
+.tech-coffeescript {
+  width: tech-sprite-width(coffeescript);
+  height: tech-sprite-height(coffeescript);
+}
+
+.tech-jquery {
+  width: tech-sprite-width(jquery);
+  height: tech-sprite-height(jquery);
+}
+
+.tech-mongodb {
+  width: tech-sprite-width(mongodb);
+  height: tech-sprite-height(mongodb);
+}
+
+.tech-html5 {
+  width: tech-sprite-width(html5);
+  height: tech-sprite-height(html5);
+}
+
+.tech-sass {
+  width: tech-sprite-width(sass);
+  height: tech-sprite-height(sass);
+}
+
+.tech-responsive {
+  width: tech-sprite-width(responsive);
+  height: tech-sprite-height(responsive);
+}
