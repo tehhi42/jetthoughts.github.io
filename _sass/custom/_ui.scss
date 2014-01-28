@@ -30,7 +30,7 @@ $button_min_width: 190px;
 
 .button_super {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 700 !important;
   background: $orange;
   border-radius: 13px;
   padding-left: 4em;

@@ -1,14 +1,15 @@
 body {
   @include lato(1.111em);
-  font-weight: normal;
+  font-weight: 400;
   word-spacing: 0.1em;
+  -webkit-font-smoothing:antialiased
 }
 
 $verb: 'verb_extraboldregular', sans-serif;
-$lato: "Lato",sans-serif;
+$lato: Lato;
 .basic_text {
   font: {
-    family: "Lato",sans-serif;
+    family: Lato;
     size: 16px;
     weight: normal;
   }
