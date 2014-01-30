@@ -116,3 +116,49 @@ $offer_block_min_height: 500px;
     }
   }
 }
+
+$catch_section_min_height: 450px;
+.catch_section {
+  background: $blue url("../images/pat_blueprint.png") repeat;
+  .dark_bg {
+    background: transparentize($black, 0.4);
+  }
+  .s_footer {
+    padding-top: 36px;
+    padding-bottom: 26px;
+    margin-top: 20px;
+    @extend .dark_bg;
+    .message {
+      font-size: 23px;
+      color: $white;
+    }
+  }
+  .map_message {
+    position: absolute;
+    top: 0;
+  }
+  .big_heading {
+    font-size: 90px;
+    font-weight: 900;
+    color: $dark_blue;
+    margin-bottom: 60px;
+  }
+  .sub_heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: $dark_blue;
+    margin-bottom: 30px;
+  }
+  .message {
+    font-size: 30px;
+    line-height: 48px;
+    color: $white;
+  }
+  .map_wrap {
+    line-height: $catch_section_min_height;
+    min-height: $catch_section_min_height;
+    position: relative;
+    text-shadow: 0 3px 0 transparentize($dark_blue,0.75);
+  }
+}
+
