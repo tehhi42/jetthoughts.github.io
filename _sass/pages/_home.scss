@@ -119,6 +119,7 @@ $offer_block_min_height: 500px;
 
 $catch_section_min_height: 450px;
 .catch_section {
+  padding-top: 60px;
   background: $blue url("../images/pat_blueprint.png") repeat;
   .dark_bg {
     background: transparentize($black, 0.4);
@@ -155,6 +156,7 @@ $catch_section_min_height: 450px;
     color: $white;
   }
   .map_wrap {
+    padding-bottom: 30px;
     line-height: $catch_section_min_height;
     min-height: $catch_section_min_height;
     position: relative;
