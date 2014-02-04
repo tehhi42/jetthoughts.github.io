@@ -11,6 +11,7 @@ source "https://rubygems.org"
 #  gem 'stringex'
 #end
 
+gem 'jekyll', '>= 1.4.3'
 gem 'liquid'
 gem 'pygments.rb'
 gem 'fileutils'

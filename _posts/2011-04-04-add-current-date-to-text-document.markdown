@@ -3,6 +3,7 @@ layout: post
 title: Add current date to text document
 date: 2011-04-04
 author: Michael Nikitochkin
+authors_git: miry
 tags: mac,applescript
 category: tech
 ---

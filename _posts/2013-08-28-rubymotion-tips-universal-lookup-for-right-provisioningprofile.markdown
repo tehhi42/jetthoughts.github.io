@@ -3,6 +3,7 @@ layout: post
 date: 28-08-2013
 title: "RubyMotion Tips: Universal lookup for right ProvisioningProfile"
 author: Michael Nikitochkin
+authors_git: miry
 tags: ruby motion config rakefile
 category: tech
 ---

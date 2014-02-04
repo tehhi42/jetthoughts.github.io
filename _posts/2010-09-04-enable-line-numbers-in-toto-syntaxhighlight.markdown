@@ -2,6 +2,7 @@
 layout: post
 title: Enable line numbers in Toto syntaxhighlight
 author: Michael Nikitochkin
+authors_git: miry
 date: 04-09-2010
 tags: ruby,toto
 category: tech

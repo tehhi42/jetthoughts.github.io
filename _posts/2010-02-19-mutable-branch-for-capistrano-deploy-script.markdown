@@ -3,6 +3,7 @@ layout: post
 title: Mutable branch for capistrano deploy script
 date: 19-02-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: capistrano,ruby
 category: tech
 ---

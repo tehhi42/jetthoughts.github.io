@@ -3,6 +3,7 @@ layout: post
 title: Convert BPlist to XML
 date: 14-02-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: macos,plist,xml,bplist
 category: tech
 ---

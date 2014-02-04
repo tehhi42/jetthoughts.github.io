@@ -2,6 +2,7 @@
 layout: post
 title: Remove first lines from stream
 author: Michael Nikitochkin
+authors_git: miry
 date: 04-09-2010
 tags: linux,sed
 category: tech

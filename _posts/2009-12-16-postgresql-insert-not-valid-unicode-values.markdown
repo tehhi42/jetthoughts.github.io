@@ -3,6 +3,7 @@ layout: post
 title: Postgresql Insert not valid unicode values
 date: 16-12-2009
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails,postgresql,ruby
 category: tech
 ---

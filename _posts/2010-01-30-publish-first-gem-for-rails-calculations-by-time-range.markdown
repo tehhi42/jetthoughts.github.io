@@ -3,6 +3,7 @@ layout: post
 title: Publish first gem for Rails Calculations By time Range
 date: 30-01-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails
 category: tech
 ---

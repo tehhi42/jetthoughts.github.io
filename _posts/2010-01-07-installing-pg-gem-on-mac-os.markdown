@@ -3,6 +3,7 @@ layout: post
 title: Installing Pg gem on Mac OS
 date: 26-09-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: pg,postgresql,rails
 category: tech
 ---

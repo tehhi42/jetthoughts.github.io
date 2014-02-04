@@ -3,6 +3,7 @@ layout: post
 title: Change Factory Girl directory path for Rails 3 generator
 date: 24-09-2011
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails,rspec
 category: tech
 ---

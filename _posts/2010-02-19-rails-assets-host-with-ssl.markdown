@@ -3,6 +3,7 @@ layout: post
 title: Rails assets host with ssl
 date: 19-02-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails,assets
 category: tech
 ---

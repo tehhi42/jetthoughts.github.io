@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Michael Nikitochkin
+authors_git: miry
 title: Netcat with SSH port forwarding
 date: 30-10-2012
 ---

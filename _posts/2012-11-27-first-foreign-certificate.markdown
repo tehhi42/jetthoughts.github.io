@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Michael Nikitochkin
+authors_git: miry
 title: First Foreign Certificate
 date: 27-11-2012
 ---

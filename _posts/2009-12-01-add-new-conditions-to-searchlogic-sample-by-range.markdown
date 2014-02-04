@@ -3,6 +3,7 @@ layout: post
 title: Add new conditions to Searchlogic sample by Range
 date: 1-12-2009
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails,searchlogic
 category: tech
 ---

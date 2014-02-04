@@ -3,6 +3,7 @@ layout: post
 title: Jruby and Spork
 date: 13-04-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: jruby,spork
 category: tech
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Change size of images shell script
 date: 17-05-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: shell,imagemagick
 category: tech
 ---

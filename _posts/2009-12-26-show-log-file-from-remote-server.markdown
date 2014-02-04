@@ -3,6 +3,7 @@ layout: post
 title: Show log file from remote server
 date: 26-12-2009
 author: Michael Nikitochkin
+authors_git: miry
 tags: rails,capistrano,ruby
 category: tech
 ---

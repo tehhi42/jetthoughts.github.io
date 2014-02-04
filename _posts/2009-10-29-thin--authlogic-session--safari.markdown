@@ -2,6 +2,7 @@
 layout: post
 title: Thin + Authlogic Session + Safari
 author: Michael Nikitochkin
+authors_git: miry
 date: 2009-10-29
 tags: linux,thin,authlogic
 category: tech

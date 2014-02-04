@@ -35,15 +35,27 @@ layout: default
           {{ content }}
 
           <footer class="b_footer">
-
-            <div class="clear"></div>
             <div class="share right">
               <a class="icons-linkedin_large share_link" href="https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" onclick="window.open('https://www.linkedin.com/cws/share?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}','linkedin-share-dialog','width=626,height=436');return false;">in</a>
               <a class="icons-twitter_large share_link" href="https://twitter.com/share?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&via=jetthoughts" target="_blank" onclick="window.open('https://twitter.com/share?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&via=jetthoughts','twitter-share-dialog','width=626,height=436');return false;">tw</a>
               <a class="icons-facebook_large share_link" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}','facebook-share-dialog','width=626,height=436');return false;">fb</a>
             </div>
-            <div class="clear"></div>
           </footer>
+        </div>
+
+
+        <div class="author_wrap">
+          <div class="author">
+            <img class="ava" src="/{{ site.data.team.[page.authors_git].ava }}" alt="{{ site.data.team.[page.authors_git].name }}" />
+            <span class="author_name">{{ site.data.team.[page.authors_git].name }}</span>
+
+            <div class="social_wrap">
+              {% if site.data.team.[page.authors_git].twitter %}
+              <a class="social_link" href="https://twitter.com/{{ site.data.team.[page.authors_git].twitter }}"><span class="symbol">twi:</span>&nbsp;<span class="social_name">{{ site.data.team.[page.authors_git].twitter }}</span></a>
+              {% endif %}
+              <a class="social_link" href="https://github.com/{{ page.authors_git }}"><span class="symbol">git:</span>&nbsp;<span class="social_name">{{ page.authors_git }}</span></a>
+            </div>
+          </div>
         </div>
 
 
@@ -72,7 +84,7 @@ layout: default
           })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-          Disqus.</a></noscript>
+                                                                                                 Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
       </div>

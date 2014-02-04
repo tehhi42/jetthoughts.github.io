@@ -2,6 +2,7 @@
 layout: post
 title: Sample of config files for Rails
 author: Michael Nikitochkin
+authors_git: miry
 date: 2009-11-22
 tags: rails,config,jruby
 category: tech

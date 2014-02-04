@@ -3,6 +3,7 @@ layout: post
 title: Install Nokogiri on Mac OS
 date: 01-07-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: nokogiri,macos
 category: tech
 ---

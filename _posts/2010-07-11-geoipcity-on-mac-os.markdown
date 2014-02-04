@@ -3,6 +3,7 @@ layout: post
 title: Geoip_city on Mac OS
 date: 11-07-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: geoip,ruby,gem
 category: tech
 ---

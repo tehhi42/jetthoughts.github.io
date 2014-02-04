@@ -3,6 +3,7 @@ layout: post
 date: 10-07-2012
 title: Simple dynamic template
 author: Michael Nikitochkin
+authors_git: miry
 tags: ruby,strings,metaprogramming
 category: Tech
 ---

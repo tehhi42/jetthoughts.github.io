@@ -2,6 +2,7 @@
 layout: post
 title: Convert authors names in Mercurial
 author: Michael Nikitochkin
+authors_git: miry
 date: 2009-10-3
 tags: mercurial,hg
 category: tech

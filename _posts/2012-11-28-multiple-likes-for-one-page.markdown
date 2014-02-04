@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Michael Nikitochkin
+authors_git: miry
 title: Multiple Likes for one page
 date: 28-11-2012
 tags: facebook,like,button,thumbnail,image,mutliple,rails,route,meta

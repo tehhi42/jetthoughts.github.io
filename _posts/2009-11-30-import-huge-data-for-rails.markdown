@@ -3,6 +3,7 @@ layout: post
 title: Import huge data for Rails
 date: 30-11-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: rake,rails,csv
 category: tech
 ---

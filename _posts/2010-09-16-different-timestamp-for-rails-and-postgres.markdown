@@ -3,6 +3,7 @@ layout: post
 title: Different timestamp for Rails and Postgres
 date: 16-09-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: time,spec,db,postgres
 category: tech
 ---

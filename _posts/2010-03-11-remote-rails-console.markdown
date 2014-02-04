@@ -3,6 +3,7 @@ layout: post
 title: Remote Rails Console
 date: 1-03-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: capistrano,git,mercurial
 category: tech
 ---

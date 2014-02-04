@@ -2,6 +2,7 @@
 layout: post
 title: OpenSSL with Nginx and untrusted CA
 author: Michael Nikitochkin
+authors_git: miry
 date: 2009-10-23
 tags: linux,nginx,ssl,certificate
 category: tech

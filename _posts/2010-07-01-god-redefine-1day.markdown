@@ -3,6 +3,7 @@ layout: post
 title: GOD redefine 1.day
 date: 01-07-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: god,rails
 category: tech
 ---

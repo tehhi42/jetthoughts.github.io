@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Allow multiple access control requests for Rails
+author: Michael Nikitochkin
+authors_git: miry
 date: 22-12-2010
 ---
 

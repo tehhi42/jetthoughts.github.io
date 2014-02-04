@@ -3,6 +3,7 @@ layout: post
 title: Show not valid CSV lines with sed
 date: 21-09-2010
 author: Michael Nikitochkin
+authors_git: miry
 tags: sed,shell,csv
 category: tech
 ---
