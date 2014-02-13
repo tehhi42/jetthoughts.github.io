@@ -22,7 +22,15 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:creator" content="@jetthoughts">
+  
+  {% if page.type == "post" %}
+  <meta name="twitter:description" content="{{ page.title }}">
+  {% elsif page.description != "" %}
   <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="Agile Web Development Team">
+  {% endif %}
+
   <meta name="twitter:domain" content="www.jetthoughts.com">
   <meta name="twitter:site" content="@jetthoughts">
   <meta name="twitter:image:src" content="{{ site.url }}/images/social-logo.jpg">
