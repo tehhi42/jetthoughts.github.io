@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: JetThoughts
 url: http://www.jetthoughts.com
 markdown: redcarpet
 redcarpet:
@@ -8,6 +8,7 @@ safe: true
 lsi: false
 paginate: 25
 paginate_path: "blog/page:num"
+exclude: ["vendor"]
 
 asset_pipeline:
   bundle: true            # Default = true
