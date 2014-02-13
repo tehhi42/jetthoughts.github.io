@@ -23,8 +23,8 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:creator" content="@jetthoughts">
   
-  {% if page.type == "post" %}
-  <meta name="twitter:description" content="{{ page.title }}">
+  {% if page.summary != "" %}
+  <meta name="twitter:description" content="{{ page.summary }}">
   {% elsif page.description != "" %}
   <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
@@ -50,6 +50,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
+
 <div class="off-canvas-wrap">
     <div class="inner-wrap">
 
