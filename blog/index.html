@@ -12,7 +12,7 @@ description: "JetThoughts' Articles"
     {% for post in paginator.posts %}
     <article class="post_item">
       <div class="row">
-        <div class="columns large-1">
+        <div class="columns large-1 medium-2">
           <time class="post_date">
             <span class="month">{{ post.date | date: "%b" }}</span>
             <span class="day">{{ post.date | date: "%d" }}</span>
@@ -20,7 +20,7 @@ description: "JetThoughts' Articles"
           </time>
           <div class="post_icon icons-{{ post.categories }}"></div>
         </div>
-        <div class="columns large-11">
+        <div class="columns large-11 medium-10">
           <header class="header">
             <h1 class="heading_one"><a href="{{ post.url }}">{{ post.title }}</a></h1>
 

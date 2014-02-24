@@ -10822,38 +10822,49 @@ code {
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 17, ../_sass/_responsive.scss */
+  /* line 18, ../_sass/_responsive.scss */
+  .blog_section .post_date .month {
+    display: inline;
+  }
+  /* line 21, ../_sass/_responsive.scss */
+  .blog_section .post_date .day {
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline;
+  }
+
+  /* line 29, ../_sass/_responsive.scss */
   .map_wrap .big_heading {
     font-size: 70px;
   }
-  /* line 20, ../_sass/_responsive.scss */
+  /* line 32, ../_sass/_responsive.scss */
   .map_wrap .sub_heading {
     font-size: 22px;
     line-height: 130%;
   }
-  /* line 24, ../_sass/_responsive.scss */
+  /* line 36, ../_sass/_responsive.scss */
   .map_wrap .message {
     font-size: 20px;
     line-height: 120%;
   }
 
-  /* line 30, ../_sass/_responsive.scss */
+  /* line 42, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     width: 100%;
     position: relative;
     left: auto;
   }
-  /* line 35, ../_sass/_responsive.scss */
+  /* line 47, ../_sass/_responsive.scss */
   .slider_section .orbit-timer {
     display: none;
   }
-  /* line 39, ../_sass/_responsive.scss */
+  /* line 51, ../_sass/_responsive.scss */
   .slider_section .slider_wrap,
   .slider_section .orbit-container {
     background: none;
     width: auto;
   }
-  /* line 43, ../_sass/_responsive.scss */
+  /* line 55, ../_sass/_responsive.scss */
   .slider_section .slider_list {
     width: 100%;
     height: 100%;
@@ -10862,69 +10873,69 @@ code {
     left: auto;
     margin: 0 auto;
   }
-  /* line 50, ../_sass/_responsive.scss */
+  /* line 62, ../_sass/_responsive.scss */
   .slider_section .slider_list .slide_img {
     width: 100%;
     height: auto;
   }
-  /* line 54, ../_sass/_responsive.scss */
+  /* line 66, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption {
     bottom: 70px;
     top: auto;
     left: 5%;
     width: 90%;
   }
-  /* line 59, ../_sass/_responsive.scss */
+  /* line 71, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption .caption_p {
     font-size: 0.85714rem;
   }
-  /* line 64, ../_sass/_responsive.scss */
+  /* line 76, ../_sass/_responsive.scss */
   .slider_section .screen_overlay {
     display: none;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 71, ../_sass/_responsive.scss */
+  /* line 83, ../_sass/_responsive.scss */
   .orbit-caption {
     top: 330px;
     left: 25px;
   }
 }
 @media only screen and (max-width: 935px) {
-  /* line 80, ../_sass/_responsive.scss */
+  /* line 92, ../_sass/_responsive.scss */
   .top_menu_wrap .logo {
     margin-left: 40px;
   }
-  /* line 83, ../_sass/_responsive.scss */
+  /* line 95, ../_sass/_responsive.scss */
   .top_menu_wrap .top-bar-section {
     display: none;
   }
-  /* line 86, ../_sass/_responsive.scss */
+  /* line 98, ../_sass/_responsive.scss */
   .top_menu_wrap .toggle-topbar {
     display: block !important;
   }
-  /* line 89, ../_sass/_responsive.scss */
+  /* line 101, ../_sass/_responsive.scss */
   .top_menu_wrap .menu_button {
     display: block;
   }
-  /* line 91, ../_sass/_responsive.scss */
+  /* line 103, ../_sass/_responsive.scss */
   .top_menu_wrap .menu_button.hide {
     display: none;
   }
 
-  /* line 96, ../_sass/_responsive.scss */
+  /* line 108, ../_sass/_responsive.scss */
   .title-area {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1440px) {
-  /* line 102, ../_sass/_responsive.scss */
+  /* line 114, ../_sass/_responsive.scss */
   .logo {
     margin-left: 20px;
   }
 }
 @media only screen and (max-width: 1280px) {
-  /* line 109, ../_sass/_responsive.scss */
+  /* line 121, ../_sass/_responsive.scss */
   .job_section .icon_circle {
     margin-left: -22px;
     width: 64px;
@@ -10932,37 +10943,37 @@ code {
     line-height: 64px;
     border-radius: 32px;
   }
-  /* line 115, ../_sass/_responsive.scss */
+  /* line 127, ../_sass/_responsive.scss */
   .job_section .icon_circle > [class*="icon"] {
     line-height: 64px;
   }
 
-  /* line 121, ../_sass/_responsive.scss */
+  /* line 133, ../_sass/_responsive.scss */
   .mid_slider_section .slide_item {
     height: auto;
     padding: 0;
   }
 
-  /* line 128, ../_sass/_responsive.scss */
+  /* line 140, ../_sass/_responsive.scss */
   .offer_section .panel .button, .offer_section .panel .portfolio_sort .sorter, .portfolio_sort .offer_section .panel .sorter {
     min-width: inherit;
   }
-  /* line 132, ../_sass/_responsive.scss */
+  /* line 144, ../_sass/_responsive.scss */
   .offer_section .offer_block {
     padding-bottom: 1px;
     margin-bottom: 20px;
   }
-  /* line 135, ../_sass/_responsive.scss */
+  /* line 147, ../_sass/_responsive.scss */
   .offer_section .offer_block .heading {
     padding: 20px 15px;
   }
-  /* line 139, ../_sass/_responsive.scss */
+  /* line 151, ../_sass/_responsive.scss */
   .offer_section .icon_circle {
     line-height: 69px;
     height: 69px;
     width: 69px;
   }
-  /* line 143, ../_sass/_responsive.scss */
+  /* line 155, ../_sass/_responsive.scss */
   .offer_section .icon_circle > [class*="icon"] {
     -webkit-transform: scale(0.65, 0.65);
     -moz-transform: scale(0.65, 0.65);
@@ -10971,13 +10982,13 @@ code {
     transform: scale(0.65, 0.65);
   }
 
-  /* line 149, ../_sass/_responsive.scss */
+  /* line 161, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     width: 100%;
     position: relative;
     left: auto;
   }
-  /* line 154, ../_sass/_responsive.scss */
+  /* line 166, ../_sass/_responsive.scss */
   .slider_section .orbit-timer {
     top: auto;
     bottom: 49px;
@@ -10985,18 +10996,18 @@ code {
     height: 1px;
     width: 569px;
   }
-  /* line 161, ../_sass/_responsive.scss */
+  /* line 173, ../_sass/_responsive.scss */
   .slider_section .orbit-bullets {
     bottom: 10px;
   }
-  /* line 165, ../_sass/_responsive.scss */
+  /* line 177, ../_sass/_responsive.scss */
   .slider_section .slider_wrap,
   .slider_section .orbit-container {
     width: 748px;
     height: 430px;
     background-size: 748px;
   }
-  /* line 170, ../_sass/_responsive.scss */
+  /* line 182, ../_sass/_responsive.scss */
   .slider_section .slider_list {
     width: 570px;
     height: 356px;
@@ -11005,23 +11016,23 @@ code {
     left: auto;
     margin: 0 auto;
   }
-  /* line 177, ../_sass/_responsive.scss */
+  /* line 189, ../_sass/_responsive.scss */
   .slider_section .slider_list .slide_img {
     width: 100%;
     height: auto;
   }
-  /* line 181, ../_sass/_responsive.scss */
+  /* line 193, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption {
     bottom: 40px;
     top: auto;
     left: 5%;
     width: 90%;
   }
-  /* line 186, ../_sass/_responsive.scss */
+  /* line 198, ../_sass/_responsive.scss */
   .slider_section .slider_list .orbit-caption .caption_p {
     font-size: 0.85714rem;
   }
-  /* line 191, ../_sass/_responsive.scss */
+  /* line 203, ../_sass/_responsive.scss */
   .slider_section .screen_overlay {
     width: 230px;
     height: 400px;
@@ -11030,36 +11041,36 @@ code {
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 202, ../_sass/_responsive.scss */
+  /* line 214, ../_sass/_responsive.scss */
   .offer_section .offer_block {
     min-height: inherit;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 209, ../_sass/_responsive.scss */
+  /* line 221, ../_sass/_responsive.scss */
   .job_summary {
     padding: 0 20px;
   }
 
-  /* line 214, ../_sass/_responsive.scss */
+  /* line 226, ../_sass/_responsive.scss */
   .slider_section .slider_wrap,
   .slider_section .orbit-container {
     width: auto;
   }
-  /* line 217, ../_sass/_responsive.scss */
+  /* line 229, ../_sass/_responsive.scss */
   .slider_section .orbit-timer {
     display: none;
   }
-  /* line 220, ../_sass/_responsive.scss */
+  /* line 232, ../_sass/_responsive.scss */
   .slider_section .slider_list {
     width: auto;
   }
 
-  /* line 225, ../_sass/_responsive.scss */
+  /* line 237, ../_sass/_responsive.scss */
   .offer_section .offer_block {
     min-height: inherit;
   }
-  /* line 227, ../_sass/_responsive.scss */
+  /* line 239, ../_sass/_responsive.scss */
   .offer_section .offer_block .description {
     font-size: 15px;
   }
