@@ -7,6 +7,7 @@ authors_git: miry
 tags: ruby motion config rakefile
 category: tech
 excerpt: How to setup provisioning_profile for Rubymotion project.
+
 ---
 
 I would like to share my experience of setting up `provisioning_profile` for general Rubymotion project.
