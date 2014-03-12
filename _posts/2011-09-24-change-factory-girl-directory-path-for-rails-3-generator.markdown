@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Change Factory Girl directory path for Rails 3 generator
+title: Change Factory Girl Directory Path for Rails 3 Generator
 date: 24-09-2011
 author: Michael Nikitochkin
 authors_git: miry
 tags: rails,rspec
 category: tech
+excerpt: How to make factories generated to spec/factories.
 ---
 
-After setup rails 3.1 + Rspec + FactoryGirl, all factories are generated to __test/factories__ instead __spec/factories__.
+After Rails 3.1 + Rspec + FactoryGirl setup, all factories are generated to __test/factories__ instead of  __spec/factories__.
 Solution is to add to your __application.rb__:
 
 {% highlight ruby linenos=table %}
