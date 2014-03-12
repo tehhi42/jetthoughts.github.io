@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add current date to text document
+title: Add Current Date to Text Document
 date: 2011-04-04
 author: Michael Nikitochkin
 authors_git: miry
