@@ -6,13 +6,13 @@ author: Michael Nikitochkin
 authors_git: miry
 tags: ruby capistrano deploy config rakefile
 category: Tech
-summary: The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake).
-description: The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake).
+summary: The new way of passing parameters in Capistrano v3 is to use the same solution as Rake (in some sort Capistrano 3 is totally based on Rake).
+description: The new way of passing parameters in Capistrano v3 is to use the same solution as Rake (in some sort  Capistrano 3 is totally based on Rake).
 ---
 
 The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake).
 
-A little example, lets create a task to run any specific rake task with options:
+A little example, let us create a task to run any specific rake task with options:
 
 {% highlight ruby linenos=table %}
 namespace :task do
@@ -36,4 +36,4 @@ DEBUG [397d776e] Command: ( RAILS_ENV=staging rake db:migrate )
 
 I used the quotes, because for `zsh` the brackets are used for some shell features.
 
-Some more information with good examples of passing parameters to rake task [here](http://viget.com/extend/protip-passing-parameters-to-your-rake-tasks)
+Some more information with good examples of passing parameters to rake task can be found [here](http://viget.com/extend/protip-passing-parameters-to-your-rake-tasks)
