@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Allow multiple access control requests for Rails
+title: Allow Multiple Access Control Requests for Rails
 author: Michael Nikitochkin
 authors_git: miry
 date: 22-12-2010
+excerpt:  Do you experience a problem with sending XHR requests from different domains? A simple solution is here.
 ---
 
-If you have problem with sending XHR requests from different domains, you find trouble to get content, because
+If you have problem with sending XHR requests from different domains, it will be problematic to get content, because
 
 {% highlight bash linenos=table %}
 XMLHttpRequest cannot load http://different.domain.local:3000/visits. Origin http://localhost:3000 is not allowed by Access-Control-Allow-Origin.
@@ -31,7 +32,7 @@ end
 {% endhighlight %}
 
 
-You can look to sources of the sample Sinatra application in [GitHub](https://github.com/miry/cross-domain-sharing).
+You can look into sources of the sample Sinatra application in [GitHub](https://github.com/miry/cross-domain-sharing).
 Demo live in
 [Heroku](http://cross-domain-ajax-request.herokuapp.com/index.html).
 Or use [these smaples](https://gist.github.com/miry/5447203).
