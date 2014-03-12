@@ -45,11 +45,7 @@ description: "JetThoughts' Articles"
             {% endif %}
 
             <p class="description">
-              {% if post.summary %}
-                {{ post.summary }}
-              {% else %}
-                {{ post.content | truncatewords:50 | strip_html }}
-              {% endif %}
+                {{ post.excerpt }}
             </p>
 
             <footer class="b_footer">
