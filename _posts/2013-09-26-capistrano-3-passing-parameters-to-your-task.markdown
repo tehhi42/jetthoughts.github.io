@@ -10,7 +10,7 @@ summary: The new way of passing parameters in Capistrano v3 is to use the same s
 description: The new way of passing parameters in Capistrano v3 is to use the same solution as Rake (in some sort  Capistrano 3 is totally based on Rake).
 ---
 
-The new way of passing parameters in Capistrano v3 is use same solution as Rake (in some order capistrano 3 totally based on Rake).
+The new way of passing parameters in Capistrano v3 is to use the same solution as Rake (in some sort Capistrano 3 is  totally based on Rake).
 
 A little example, let us create a task to run any specific rake task with options:
 
