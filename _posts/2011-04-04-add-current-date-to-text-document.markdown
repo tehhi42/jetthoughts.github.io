@@ -6,9 +6,10 @@ author: Michael Nikitochkin
 authors_git: miry
 tags: mac,applescript
 category: tech
+excerpt: 5 simple steps to implement the feature.
 ---
 
-Often we need to add current date to text document.  For Mac users we have awesome tools as Automator and  AppleScript.
+Often we need to add current date to text document. For Mac users we have such awesome tools as Automator and  AppleScript.
 We need to do five simple steps:
 
 __1)__ Create a new workflow with template "Service" in Automator
